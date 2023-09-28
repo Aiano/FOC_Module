@@ -3,6 +3,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj: \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_encoder.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_setting.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_encoder.h \
+ D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_PID.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_utility.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Encoder\Inc/AS5600.h \
  D:\Projects\FOCModule\Firmware\FOCModule\Core\Inc/main.h \

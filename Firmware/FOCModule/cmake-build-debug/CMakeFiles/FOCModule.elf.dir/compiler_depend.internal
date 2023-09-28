@@ -246,6 +246,7 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_current_sense.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_setting.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h
+ D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PID.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_scope.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Encoder/Inc/AS5600.h
 
@@ -1498,6 +1499,25 @@ CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/i2c.h
  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h
 
+CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
+ D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_PID.c
+ D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PID.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/math.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/reent.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_ansi.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/newlib.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_newlib_version.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/config.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/ieeefp.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/features.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_types.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_types.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_default_types.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/lock.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/cdefs.h
+ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_ansi.h
+
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_PWM.c
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PWM.h
@@ -1547,6 +1567,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_utility.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_setting.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h
+ D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PID.h
  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/tim.h
  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h
 
@@ -1556,6 +1577,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_utility.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_setting.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h
+ D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PID.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_current_sense.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PWM.h
@@ -1604,6 +1626,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_utility.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_scope.h
+ D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PID.h
  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/math.h
  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/reent.h
  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_ansi.h
@@ -1626,6 +1649,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_current_sense.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_setting.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h
+ D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PID.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_core.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_scope.h
@@ -1682,6 +1706,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_setting.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h
+ D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PID.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_utility.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Encoder/Inc/AS5600.h
  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h
@@ -1782,6 +1807,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_setting.c
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_setting.h
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h
+ D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PID.h
 
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_utility.c

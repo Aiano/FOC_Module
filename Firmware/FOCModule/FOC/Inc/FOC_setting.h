@@ -2,6 +2,7 @@
 #define FOCMODULE_FOC_SETTINGS_H
 
 #include "FOC_encoder.h"
+#include "FOC_PID.h"
 
 /* PWM 参数 */
 extern float FOC_pwm_frequency;
@@ -24,5 +25,9 @@ extern float FOC_pole_pairs;
 /* 角度编码器 */
 extern FOC_ENCODER_TYPE FOC_encoder_type;
 extern float FOC_mechanical_angle_offset;
+
+/* PID参数 */
+extern FOC_PID_TYPE pid_current_q;
+extern FOC_PID_TYPE pid_current_d;
 
 #endif //FOCMODULE_FOC_SETTINGS_H

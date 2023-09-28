@@ -431,6 +431,9 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Encoder/Src/AS5600.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_PID.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_PWM.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>

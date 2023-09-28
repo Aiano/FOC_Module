@@ -36,6 +36,7 @@ void HAL_ADCEx_InjectedConvCpltCallback(ADC_HandleTypeDef* hadc)
     // 探测变量
 //    FOC_scope_probe(ADC_value[0], FOC_SCOPE_DAC1);
 //    FOC_scope_probe(ADC_value[2], FOC_SCOPE_DAC2);
+    FOC_current_loop(0.5f);
 
     HAL_GPIO_WritePin(ADC_INT_FLAG_GPIO_Port, ADC_INT_FLAG_Pin, GPIO_PIN_RESET);
 }
@@ -45,6 +46,7 @@ void FOC_cs_read_current(float *Ia, float *Ib, float *Ic)
 {
     static float ratio;
     ratio = FOC_sample_ref_voltage / FOC_sample_max / FOC_INA_gain / FOC_shunt_resistance;
+    FOC_sample_mid = (float)(ADC_value[0] + ADC_value[1] + ADC_value[2]) / 3;
     *Ia = ((float)ADC_value[0] - FOC_sample_mid) * ratio;
     *Ib = ((float)ADC_value[1] - FOC_sample_mid) * ratio;
     *Ic = ((float)ADC_value[2] - FOC_sample_mid) * ratio;

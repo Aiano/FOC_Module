@@ -13,6 +13,7 @@
 #include "FOC_encoder.h"
 #include "FOC_PWM.h"
 #include "FOC_scope.h"
+#include "FOC_PID.h"
 #include "main.h"
 #include "math.h"
 #include "arm_math.h"
@@ -152,9 +153,10 @@ void FOC_current_loop(float target_current) {
     static float Ia, Ib, Ic;
     static float Ialpha, Ibeta;
     static float Id, Iq;
+    static float Uq, Ud;
 
-    // 读取角度
-    FOC_encoder_compute_electrical_angle();
+//    // 读取角度
+//    FOC_encoder_compute_electrical_angle();
 
     // 读取电流
     FOC_cs_read_current(&Ia, &Ib, &Ic);
@@ -162,9 +164,11 @@ void FOC_current_loop(float target_current) {
     FOC_Park_Transform(Ialpha, Ibeta, FOC_electrical_angle, &Id, &Iq);
 
     // PID
+    Ud = FOC_PID_get_u(&pid_current_d, 0, Id);
+    Uq = FOC_PID_get_u(&pid_current_q, target_current, Iq);
 
     // SVPWM
-    FOC_SVPWM(0.5f, 0, FOC_electrical_angle);
+    FOC_SVPWM(Uq, Ud, FOC_electrical_angle);
 
     // 探测变量
     FOC_scope_probe_float(0.1f * Id + 0.5f, FOC_SCOPE_DAC1);

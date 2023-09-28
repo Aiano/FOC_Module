@@ -283,7 +283,8 @@
 				110,
 				111,
 				112,
-				113
+				113,
+				114
 			]
 		},
 		{
@@ -561,7 +562,7 @@
 				80,
 				81,
 				82,
-				114
+				115
 			]
 		},
 		{
@@ -608,7 +609,8 @@
 				110,
 				111,
 				112,
-				113
+				113,
+				114
 			]
 		},
 		{
@@ -619,8 +621,8 @@
 				23,
 				45,
 				83,
-				115,
-				116
+				116,
+				117
 			]
 		}
 	],
@@ -1194,6 +1196,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "FOC/Encoder/Src/AS5600.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FOC/Src/FOC_PID.c",
 			"sourceGroupIndex" : 1
 		},
 		{

@@ -4,6 +4,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj: \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_utility.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_setting.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_encoder.h \
+ D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_PID.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_current_sense.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_encoder.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_PWM.h \
@@ -52,6 +53,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj: \
  D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_utility.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_scope.h \
+ D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_PID.h \
  c:\tools\gcc-arm-none-eabi-10.3-2021.07\arm-none-eabi\include\math.h \
  c:\tools\gcc-arm-none-eabi-10.3-2021.07\arm-none-eabi\include\sys\reent.h \
  c:\tools\gcc-arm-none-eabi-10.3-2021.07\arm-none-eabi\include\_ansi.h \
