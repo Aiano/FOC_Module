@@ -33,10 +33,10 @@ void FOC_scope_probe_float(float variable, FOC_SCOPE_CHANNEL channel) {
     _checkRange(variable, 1.0f, 0.0f);
     switch (channel) {
         case FOC_SCOPE_DAC1:
-            HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, (uint16_t)variable * 4096);
+            HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, (uint32_t)(variable * 4096.0f));
             break;
         case FOC_SCOPE_DAC2:
-            HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, (uint16_t)variable * 4096);
+            HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, (uint32_t)(variable * 4096.0f));
             break;
         case FOC_SCOPE_UART:
             break;

@@ -9,7 +9,10 @@
 #include "FOC_core.h"
 #include "FOC_utility.h"
 #include "FOC_setting.h"
+#include "FOC_current_sense.h"
+#include "FOC_encoder.h"
 #include "FOC_PWM.h"
+#include "FOC_scope.h"
 #include "main.h"
 #include "math.h"
 #include "arm_math.h"
@@ -18,8 +21,7 @@
  * @brief 校准
  * @details 获取机械零度角等
  */
-void FOC_calibrate()
-{
+void FOC_calibrate() {
     FOC_SVPWM(0, 0.5f, 0);
     HAL_Delay(400);
     FOC_mechanical_angle_offset = FOC_encoder_read_mechanical_angle();
@@ -101,6 +103,41 @@ void FOC_SVPWM(float Uq, float Ud, float angle) {
 }
 
 /**
+ * @brief Clarke变换
+ * @param Ia
+ * @param Ib
+ * @param Ic
+ * @param Ialpha
+ * @param Ibeta
+ */
+void FOC_Clarke_Transform(float Ia, float Ib, float Ic, float *Ialpha, float *Ibeta) {
+    static float mid, a, b;
+
+    mid = (1.f / 3) * (Ia + Ib + Ic);
+    a   = Ia - mid;
+    b   = Ib - mid;
+    *Ialpha = a;
+    *Ibeta  = _1_SQRT3 * a + _2_SQRT3 * b;
+}
+
+/**
+ * @brief Park变换
+ * @param Ialpha
+ * @param Ibeta
+ * @param angle
+ * @param Id
+ * @param Iq
+ */
+void FOC_Park_Transform(float Ialpha, float Ibeta, float angle, float *Id, float *Iq) {
+    static float ct, st;
+
+    ct = arm_cos_f32(angle);
+    st = arm_sin_f32(angle);
+    *Id = Ialpha * ct + Ibeta * st;
+    *Iq = Ibeta * ct - Ialpha * st;
+}
+
+/**
  * @brief 电压环
  * @details 控制SVPWM的Uq电压
  * @param target_voltage
@@ -109,4 +146,27 @@ void FOC_voltage_loop(float target_voltage) {
     // 读取角度
     FOC_encoder_compute_electrical_angle();
     FOC_SVPWM(target_voltage, 0, FOC_electrical_angle);
+}
+
+void FOC_current_loop(float target_current) {
+    static float Ia, Ib, Ic;
+    static float Ialpha, Ibeta;
+    static float Id, Iq;
+
+    // 读取角度
+    FOC_encoder_compute_electrical_angle();
+
+    // 读取电流
+    FOC_cs_read_current(&Ia, &Ib, &Ic);
+    FOC_Clarke_Transform(Ia, Ib, Ic, &Ialpha, &Ibeta);
+    FOC_Park_Transform(Ialpha, Ibeta, FOC_electrical_angle, &Id, &Iq);
+
+    // PID
+
+    // SVPWM
+    FOC_SVPWM(0.5f, 0, FOC_electrical_angle);
+
+    // 探测变量
+    FOC_scope_probe_float(0.1f * Id + 0.5f, FOC_SCOPE_DAC1);
+    FOC_scope_probe_float(0.1f * Iq + 0.5f, FOC_SCOPE_DAC2);
 }

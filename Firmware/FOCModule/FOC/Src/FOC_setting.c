@@ -16,6 +16,11 @@ float FOC_pwm_max       = 800; // PWM最大值计数值
 /* 电流采样参数 */
 //float FOC_sample_duty_cycle = 8200;
 float FOC_sample_duty_cycle = 750;
+float FOC_sample_max = 4096;
+float FOC_sample_mid = 2048;
+float FOC_sample_ref_voltage = 3.3f;
+float FOC_INA_gain = 20;
+float FOC_shunt_resistance = 0.005f;
 
 /* 电源参数 */
 float FOC_supply_voltage = 15; // 供电电压，单位：V

@@ -108,7 +108,8 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
     while (1) {
-        FOC_voltage_loop(1.0f);
+//        FOC_voltage_loop(1.0f);
+        FOC_current_loop(0.5f);
 
         HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
         //HAL_Delay(1);
