@@ -1,0 +1,20 @@
+Change Component Designator: OldDesignator=R22 NewDesignator=R21
+Change Component Designator: OldDesignator=R23 NewDesignator=R22
+Change component parameters: Designator = "D3" ("D3"); Footprint = "SOD-323"; UniqueID = "\ZZOVDMKM" ("\ZZOVDMKM")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "肖特基二极管"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "属性"; Value = "40V/1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "联系卖家，免费查找封装"; Value = "唯一出售店铺网址https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D4" ("D4"); Footprint = "SOD-323"; UniqueID = "\FBKSUOTM" ("\FBKSUOTM")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "肖特基二极管"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "属性"; Value = "40V/1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "联系卖家，免费查找封装"; Value = "唯一出售店铺网址https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D5" ("D5"); Footprint = "SOD-323"; UniqueID = "\HSKMDGER" ("\HSKMDGER")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "肖特基二极管"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "属性"; Value = "40V/1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "联系卖家，免费查找封装"; Value = "唯一出售店铺网址https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=12V Pin=D3-1
+Added Pin To Net: NetName=NetC23_2 Pin=D3-2
+Added Pin To Net: NetName=12V Pin=D4-1
+Added Pin To Net: NetName=NetC24_2 Pin=D4-2
+Added Pin To Net: NetName=12V Pin=D5-1
+Added Pin To Net: NetName=NetC25_2 Pin=D5-2

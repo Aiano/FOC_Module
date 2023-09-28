@@ -1,0 +1,3 @@
+D:/Projects/FOCModule/Firmware/FOCModule/cmake-build-debug/CMakeFiles/FOCModule.elf.dir
+D:/Projects/FOCModule/Firmware/FOCModule/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Projects/FOCModule/Firmware/FOCModule/cmake-build-debug/CMakeFiles/rebuild_cache.dir

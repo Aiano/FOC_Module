@@ -1,0 +1,25 @@
+Removed Member From Class: ClassName=Power Member=C38
+Removed Member From Class: ClassName=Power Member=C39
+Added Member To Class: ClassName=Power Member=Component C15 10uF/100V
+Added Member To Class: ClassName=Power Member=Component C16 10uF/100V
+Added Member To Class: ClassName=Power Member=Component C17 100nF/100V
+Added Member To Class: ClassName=Power Member=Component C18 150pF/50V
+Added Member To Class: ClassName=Power Member=Component C19 2.2uF/100V
+Added Member To Class: ClassName=Power Member=Component C20 2.2uF/100V
+Added Member To Class: ClassName=Power Member=Component C21 100nF/100V
+Added Member To Class: ClassName=Power Member=Component C22 100nF/100V
+Added Member To Class: ClassName=Power Member=Component C23 22uF/16V
+Added Member To Class: ClassName=Power Member=Component C24 100pF/50V
+Added Member To Class: ClassName=Power Member=Component C25 2.2uF/100V
+Added Member To Class: ClassName=Power Member=Component C26 2.2uF/100V
+Added Member To Class: ClassName=Power Member=Component C27 100nF/100V
+Added Member To Class: ClassName=Power Member=Component C28 22uF/25V
+Added Member To Class: ClassName=Power Member=Component C29 22uF/25V
+Added Member To Class: ClassName=Power Member=Component C30 100nF/100V
+Added Member To Class: ClassName=Power Member=Component C31 1uF/10V
+Added Member To Class: ClassName=Power Member=Component C32 100nF/50V
+Added Member To Class: ClassName=Driver Member=Component C33 10uF/25V
+Added Member To Class: ClassName=Driver Member=Component C34 10uF/25V
+Added Member To Class: ClassName=Driver Member=Component C35 10uF/25V
+Added Member To Class: ClassName=Driver Member=Component C36 22uF
+Added Member To Class: ClassName=Driver Member=Component C37 100nF/50V

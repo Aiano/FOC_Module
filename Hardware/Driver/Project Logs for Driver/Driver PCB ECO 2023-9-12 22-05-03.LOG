@@ -1,0 +1,54 @@
+Removed Pin From Net: NetName=PGND Pin=U7-4
+Removed Pin From Net: NetName=PGND Pin=U8-4
+Removed Pin From Net: NetName=PGND Pin=U9-4
+Added Component: Designator=NT2(Net Tie 10mil)
+Added Component: Designator=NT3(Net Tie 10mil)
+Added Component: Designator=NT4(Net Tie 10mil)
+Added Component: Designator=NT5(Net Tie 10mil)
+Added Component: Designator=NT6(Net Tie 10mil)
+Added Component: Designator=NT7(Net Tie 10mil)
+Added Pin To Net: NetName=PGND Pin=NT5-2
+Added Pin To Net: NetName=PGND Pin=NT6-2
+Added Pin To Net: NetName=PGND Pin=NT7-2
+Added Pin To Net: NetName=IA_N Pin=NT5-1
+Added Pin To Net: NetName=IA_N Pin=U7-4
+Added Net: Name=IA_N
+Added Pin To Net: NetName=IA_P Pin=NT2-1
+Added Pin To Net: NetName=IA_P Pin=U7-3
+Added Net: Name=IA_P
+Added Pin To Net: NetName=IB_N Pin=NT6-1
+Added Pin To Net: NetName=IB_N Pin=U8-4
+Added Net: Name=IB_N
+Added Pin To Net: NetName=IB_P Pin=NT3-1
+Added Pin To Net: NetName=IB_P Pin=U8-3
+Added Net: Name=IB_P
+Added Pin To Net: NetName=IC_N Pin=NT7-1
+Added Pin To Net: NetName=IC_N Pin=U9-4
+Added Net: Name=IC_N
+Added Pin To Net: NetName=IC_P Pin=NT4-1
+Added Pin To Net: NetName=IC_P Pin=U9-3
+Added Net: Name=IC_P
+Added Pin To Net: NetName=NetNT2_2 Pin=NT2-2
+Added Pin To Net: NetName=NetNT2_2 Pin=Q5-S
+Added Pin To Net: NetName=NetNT2_2 Pin=Q5-S
+Added Pin To Net: NetName=NetNT2_2 Pin=Q5-S
+Added Pin To Net: NetName=NetNT2_2 Pin=R18-2
+Added Net: Name=NetNT2_2
+Added Pin To Net: NetName=NetNT3_2 Pin=NT3-2
+Added Pin To Net: NetName=NetNT3_2 Pin=Q6-S
+Added Pin To Net: NetName=NetNT3_2 Pin=Q6-S
+Added Pin To Net: NetName=NetNT3_2 Pin=Q6-S
+Added Pin To Net: NetName=NetNT3_2 Pin=R19-2
+Added Net: Name=NetNT3_2
+Added Pin To Net: NetName=NetNT4_2 Pin=NT4-2
+Added Pin To Net: NetName=NetNT4_2 Pin=Q7-S
+Added Pin To Net: NetName=NetNT4_2 Pin=Q7-S
+Added Pin To Net: NetName=NetNT4_2 Pin=Q7-S
+Added Pin To Net: NetName=NetNT4_2 Pin=R20-2
+Added Net: Name=NetNT4_2
+Added Member To Class: ClassName=Driver Member=Component NT2 Net Tie
+Added Member To Class: ClassName=Driver Member=Component NT3 Net Tie
+Added Member To Class: ClassName=Driver Member=Component NT4 Net Tie
+Added Member To Class: ClassName=Driver Member=Component NT5 Net Tie
+Added Member To Class: ClassName=Driver Member=Component NT6 Net Tie
+Added Member To Class: ClassName=Driver Member=Component NT7 Net Tie

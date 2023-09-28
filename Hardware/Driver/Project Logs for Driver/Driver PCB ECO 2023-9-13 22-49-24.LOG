@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=ADC_TEMP Pin=JP2-1
+Removed Pin From Net: NetName=VDDA/2 Pin=JP2-3
+Removed Pin From Net: NetName=GNDA Pin=JP2-5
+Added Pin To Net: NetName=VDDA/2 Pin=JP2-1
+Added Pin To Net: NetName=GNDA Pin=JP2-3
+Added Pin To Net: NetName=ADC_TEMP Pin=JP2-5

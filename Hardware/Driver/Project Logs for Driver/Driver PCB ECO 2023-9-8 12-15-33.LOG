@@ -1,0 +1,16 @@
+Change Component Footprint: Designator=F1 Old Footprint=FU 1812 New Footprint=FU 1808
+Add Pin To Net: Unknown Pin: Pin D3-A
+Add Pin To Net: Unknown Pin: Pin D3-K
+Add Pin To Net: Unknown Pin: Pin D4-A
+Add Pin To Net: Unknown Pin: Pin D4-K
+Add Pin To Net: Unknown Pin: Pin D5-A
+Add Pin To Net: Unknown Pin: Pin D5-K
+Added Member To Class: ClassName=Power Member=Component R8 150k
+Added Member To Class: ClassName=Power Member=Component R10 10k
+Added Member To Class: ClassName=Driver Member=Component R12 4.7R
+Added Member To Class: ClassName=Driver Member=Component R14 4.7R
+Added Member To Class: ClassName=Driver Member=Component R16 4.7R
+Added Member To Class: ClassName=Driver Member=Component R18 5m
+Added Member To Class: ClassName=Driver Member=Component R20 5m
+Added Member To Class: ClassName=Driver Member=Component R23 10k
+Added Member To Class: ClassName=Power Member=Component U2 SCT2A25

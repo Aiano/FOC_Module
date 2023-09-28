@@ -1,0 +1,12 @@
+Change Component Footprint: Designator=D2 Old Footprint=SMC New Footprint=SOD-123F
+Change Component Comment : Designator=D2 Old Comment=SS56 New Comment=DSK36
+Change component parameters: Designator = "D2" ("D2"); Footprint = "SMC"; UniqueID = "\ELAQTBJW" ("\ELAQTBJW")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "肖特基二极管"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "属性"; Value = "40V/1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "联系卖家，免费查找封装"; Value = "唯一出售店铺网址https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin D3-A
+Add Pin To Net: Unknown Pin: Pin D3-K
+Add Pin To Net: Unknown Pin: Pin D4-A
+Add Pin To Net: Unknown Pin: Pin D4-K
+Add Pin To Net: Unknown Pin: Pin D5-A
+Add Pin To Net: Unknown Pin: Pin D5-K

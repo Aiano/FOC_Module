@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=GNDA Pin=C30-1
+Removed Pin From Net: NetName=VDDA Pin=C30-2
+Removed Pin From Net: NetName=PGND Pin=NT9-2
+Removed Pin From Net: NetName=PGND Pin=R21-1
+Removed Pin From Net: NetName=GNDA Pin=U10-2
+Removed Pin From Net: NetName=GNDA Pin=U10-5
+Removed Pin From Net: NetName=VDDA Pin=U10-6
+Removed Member From Class: ClassName=Driver Member=C30
+Removed Member From Class: ClassName=Driver Member=NT8
+Removed Member From Class: ClassName=Driver Member=NT9
+Removed Member From Class: ClassName=Driver Member=R21
+Removed Member From Class: ClassName=Driver Member=U10
+Add Pin To Net: Unknown Pin: Pin D3-A
+Add Pin To Net: Unknown Pin: Pin D3-K
+Add Pin To Net: Unknown Pin: Pin D4-A
+Add Pin To Net: Unknown Pin: Pin D4-K
+Add Pin To Net: Unknown Pin: Pin D5-A
+Add Pin To Net: Unknown Pin: Pin D5-K
+Added Pin To Net: NetName=PGND Pin=JP1-20
+Added Pin To Net: NetName=PGND Pin=NT5-2
+Added Pin To Net: NetName=PGND Pin=NT6-2
+Added Pin To Net: NetName=PGND Pin=NT7-2
+Added Pin To Net: NetName=PGND Pin=R18-1
+Added Pin To Net: NetName=PGND Pin=R19-1
+Added Pin To Net: NetName=PGND Pin=R20-1
+Change Net Color : Old Net Color=RGB(188, 57, 255) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default

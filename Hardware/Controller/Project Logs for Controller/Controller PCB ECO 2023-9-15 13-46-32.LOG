@@ -1,0 +1,12 @@
+Added Component: Designator=M1(M2 Hole)
+Added Component: Designator=M2(M2 Hole)
+Added Component: Designator=M3(M2 Hole)
+Added Component: Designator=M4(M2 Hole)
+Added Pin To Net: NetName=PGND Pin=M1-1
+Added Pin To Net: NetName=PGND Pin=M2-1
+Added Pin To Net: NetName=PGND Pin=M3-1
+Added Pin To Net: NetName=PGND Pin=M4-1
+Added Member To Class: ClassName=Controller Member=Component M1 M2 Hole
+Added Member To Class: ClassName=Controller Member=Component M2 M2 Hole
+Added Member To Class: ClassName=Controller Member=Component M3 M2 Hole
+Added Member To Class: ClassName=Controller Member=Component M4 M2 Hole

@@ -1,0 +1,104 @@
+Removed Pin From Net: NetName=GNDA Pin=R10-1
+Removed Pin From Net: NetName=PGND Pin=R10-2
+Removed Pin From Net: NetName=ISUM Pin=U7-4
+Removed Pin From Net: NetName=ISUM Pin=U8-4
+Removed Pin From Net: NetName=ISUM Pin=U9-4
+Removed Pin From Net: NetName=ISUM Pin=U10-3
+Removed Pin From Net: NetName=GNDA Pin=U10-4
+Removed Member From Class: ClassName=Power Member=R12
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change Component Designator: OldDesignator=R9 NewDesignator=R8
+Change Component Designator: OldDesignator=R12 NewDesignator=R10
+Change Component Designator: OldDesignator=R13 NewDesignator=R12
+Change Component Designator: OldDesignator=R14 NewDesignator=R13
+Change Component Designator: OldDesignator=R15 NewDesignator=R14
+Change Component Designator: OldDesignator=R16 NewDesignator=R15
+Change Component Designator: OldDesignator=R17 NewDesignator=R16
+Change Component Designator: OldDesignator=R18 NewDesignator=R17
+Change Component Designator: OldDesignator=R19 NewDesignator=R18
+Change Component Designator: OldDesignator=R20 NewDesignator=R19
+Change Component Designator: OldDesignator=R21 NewDesignator=R20
+Change Component Designator: OldDesignator=R22 NewDesignator=R21
+Change Component Designator: OldDesignator=R23 NewDesignator=R22
+Change Component Designator: OldDesignator=R24 NewDesignator=R23
+Change Component Designator: OldDesignator=U2 NewDesignator=U3
+Change Component Designator: OldDesignator=U3 NewDesignator=U2
+Added Component: Designator=NT1(Net Tie 10mil)
+Added Component: Designator=NT2(Net Tie 10mil)
+Added Component: Designator=NT3(Net Tie 10mil)
+Added Component: Designator=NT4(Net Tie 10mil)
+Added Component: Designator=NT5(Net Tie 10mil)
+Added Component: Designator=NT6(Net Tie 10mil)
+Added Component: Designator=NT7(Net Tie 10mil)
+Added Component: Designator=NT8(Net Tie 10mil)
+Added Component: Designator=NT9(Net Tie 10mil)
+Add Pin To Net: Unknown Pin: Pin D3-A
+Add Pin To Net: Unknown Pin: Pin D3-K
+Add Pin To Net: Unknown Pin: Pin D4-A
+Add Pin To Net: Unknown Pin: Pin D4-K
+Add Pin To Net: Unknown Pin: Pin D5-A
+Add Pin To Net: Unknown Pin: Pin D5-K
+Added Pin To Net: NetName=PGND Pin=NT1-1
+Added Pin To Net: NetName=GNDA Pin=NT1-2
+Added Pin To Net: NetName=ISUM Pin=NT5-2
+Added Pin To Net: NetName=ISUM Pin=NT6-2
+Added Pin To Net: NetName=ISUM Pin=NT7-2
+Added Pin To Net: NetName=ISUM Pin=NT8-2
+Added Pin To Net: NetName=PGND Pin=NT9-2
+Change Net Name : Old Net Name=ISUM New Net Name=NetNT5_2
+Change Net Name : Old Net Name=NetR8_2 New Net Name=NetR9_2
+Added Pin To Net: NetName=IA_N Pin=NT5-1
+Added Pin To Net: NetName=IA_N Pin=U7-4
+Added Net: Name=IA_N
+Added Pin To Net: NetName=IA_P Pin=NT2-1
+Added Pin To Net: NetName=IA_P Pin=U7-3
+Added Net: Name=IA_P
+Added Pin To Net: NetName=IB_N Pin=NT6-1
+Added Pin To Net: NetName=IB_N Pin=U8-4
+Added Net: Name=IB_N
+Added Pin To Net: NetName=IB_P Pin=NT3-1
+Added Pin To Net: NetName=IB_P Pin=U8-3
+Added Net: Name=IB_P
+Added Pin To Net: NetName=IC_N Pin=NT7-1
+Added Pin To Net: NetName=IC_N Pin=U9-4
+Added Net: Name=IC_N
+Added Pin To Net: NetName=IC_P Pin=NT4-1
+Added Pin To Net: NetName=IC_P Pin=U9-3
+Added Net: Name=IC_P
+Added Pin To Net: NetName=ISUM_N Pin=NT9-1
+Added Pin To Net: NetName=ISUM_N Pin=U10-4
+Added Net: Name=ISUM_N
+Added Pin To Net: NetName=ISUM_P Pin=NT8-1
+Added Pin To Net: NetName=ISUM_P Pin=U10-3
+Added Net: Name=ISUM_P
+Added Pin To Net: NetName=NetNT2_2 Pin=NT2-2
+Added Pin To Net: NetName=NetNT2_2 Pin=Q5-S
+Added Pin To Net: NetName=NetNT2_2 Pin=Q5-S
+Added Pin To Net: NetName=NetNT2_2 Pin=Q5-S
+Added Pin To Net: NetName=NetNT2_2 Pin=R18-2
+Added Net: Name=NetNT2_2
+Added Pin To Net: NetName=NetNT3_2 Pin=NT3-2
+Added Pin To Net: NetName=NetNT3_2 Pin=Q6-S
+Added Pin To Net: NetName=NetNT3_2 Pin=Q6-S
+Added Pin To Net: NetName=NetNT3_2 Pin=Q6-S
+Added Pin To Net: NetName=NetNT3_2 Pin=R19-2
+Added Net: Name=NetNT3_2
+Added Pin To Net: NetName=NetNT4_2 Pin=NT4-2
+Added Pin To Net: NetName=NetNT4_2 Pin=Q7-S
+Added Pin To Net: NetName=NetNT4_2 Pin=Q7-S
+Added Pin To Net: NetName=NetNT4_2 Pin=Q7-S
+Added Pin To Net: NetName=NetNT4_2 Pin=R20-2
+Added Net: Name=NetNT4_2
+Added Differential Pair: Name=IA
+Added Differential Pair: Name=IB
+Added Differential Pair: Name=IC
+Added Differential Pair: Name=ISUM
+Added Member To Class: ClassName=Power Member=Component NT1 Net Tie
+Added Member To Class: ClassName=Driver Member=Component NT2 Net Tie
+Added Member To Class: ClassName=Driver Member=Component NT3 Net Tie
+Added Member To Class: ClassName=Driver Member=Component NT4 Net Tie
+Added Member To Class: ClassName=Driver Member=Component NT5 Net Tie
+Added Member To Class: ClassName=Driver Member=Component NT6 Net Tie
+Added Member To Class: ClassName=Driver Member=Component NT7 Net Tie
+Added Member To Class: ClassName=Driver Member=Component NT8 Net Tie
+Added Member To Class: ClassName=Driver Member=Component NT9 Net Tie

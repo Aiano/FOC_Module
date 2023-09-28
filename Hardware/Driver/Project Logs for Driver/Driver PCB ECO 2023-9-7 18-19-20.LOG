@@ -1,0 +1,19 @@
+Change Component Footprint: Designator=R24 Old Footprint=R0805-HP_L New Footprint=R0402_L
+Change Component Footprint: Designator=R1 Old Footprint=R 0805_L New Footprint=R 0402_L
+Change Component Footprint: Designator=R2 Old Footprint=R 0805_L New Footprint=R 0402_L
+Change Component Footprint: Designator=R3 Old Footprint=R 0805_L New Footprint=R 0402_L
+Change Component Footprint: Designator=R4 Old Footprint=R 0805_L New Footprint=R 0402_L
+Change Component Footprint: Designator=R5 Old Footprint=R 0805_L New Footprint=R 0402_L
+Change Component Footprint: Designator=R6 Old Footprint=R 0805_L New Footprint=R 0402_L
+Change Component Footprint: Designator=R8 Old Footprint=R 0805_L New Footprint=R 0402_L
+Change Component Footprint: Designator=R9 Old Footprint=R 0805_L New Footprint=R 0402_L
+Change Component Footprint: Designator=R10 Old Footprint=R 0805_L New Footprint=R 0402_L
+Change Component Footprint: Designator=R11 Old Footprint=R 0805_L New Footprint=R 0402_L
+Change Component Footprint: Designator=R12 Old Footprint=R 0805_L New Footprint=R 0402_L
+Change Component Footprint: Designator=R23 Old Footprint=R0805_L New Footprint=R0402_L
+Add Pin To Net: Unknown Pin: Pin D3-A
+Add Pin To Net: Unknown Pin: Pin D3-K
+Add Pin To Net: Unknown Pin: Pin D4-A
+Add Pin To Net: Unknown Pin: Pin D4-K
+Add Pin To Net: Unknown Pin: Pin D5-A
+Add Pin To Net: Unknown Pin: Pin D5-K
