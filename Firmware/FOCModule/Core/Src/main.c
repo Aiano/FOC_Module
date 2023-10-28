@@ -22,6 +22,7 @@
 #include "dac.h"
 #include "i2c.h"
 #include "tim.h"
+#include "usb_device.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -32,6 +33,7 @@
 #include "FOC_setting.h"
 #include "FOC_scope.h"
 #include "AS5600.h"
+#include "usbd_cdc_if.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -99,7 +101,10 @@ int main(void)
   MX_DAC_Init();
   MX_I2C1_Init();
   MX_TIM2_Init();
+  MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
+    CDC_printf("FOC Module: Start initializing.\n");
+
     AS5600_init();
     FOC_tim_init();
     FOC_calibrate();
@@ -107,12 +112,16 @@ int main(void)
     FOC_scope_init();
     FOC_utility_init();
     FOC_encoder_init();
+
+    CDC_printf("FOC Module: Initialization finished.\n");
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
     while (1) {
+        static uint8_t cnt = 0;
         FOC_main_loop();
+        //CDC_printf("FOC Module: Test loop count %d.\n", cnt++);
         HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
     /* USER CODE END WHILE */
 
@@ -145,7 +154,7 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.PLL.PLLM = 4;
   RCC_OscInitStruct.PLL.PLLN = 168;
   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
-  RCC_OscInitStruct.PLL.PLLQ = 4;
+  RCC_OscInitStruct.PLL.PLLQ = 7;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();

@@ -445,10 +445,38 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
 
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj -MF CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c
+
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c > CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.i
+
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.s
+
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj -MF CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c
+
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c > CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.i
+
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.s
+
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -462,7 +490,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -476,7 +504,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -490,7 +518,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -504,7 +532,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -518,7 +546,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -532,7 +560,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj -MF CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c
 
 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i: cmake_force
@@ -543,10 +571,24 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.s
 
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj -MF CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c
+
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c > CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.i
+
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c -o CMakeFiles\FOCModule.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.s
+
 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Encoder/Src/AS5600.c
 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj -MF CMakeFiles\FOCModule.elf.dir\FOC\Encoder\Src\AS5600.c.obj.d -o CMakeFiles\FOCModule.elf.dir\FOC\Encoder\Src\AS5600.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\FOC\Encoder\Src\AS5600.c
 
 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.i: cmake_force
@@ -560,7 +602,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.s: cmake_force
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_LPF.c
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj -MF CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_LPF.c.obj.d -o CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_LPF.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\FOC\Src\FOC_LPF.c
 
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.i: cmake_force
@@ -574,7 +616,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.s: cmake_force
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_PID.c
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj -MF CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_PID.c.obj.d -o CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_PID.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\FOC\Src\FOC_PID.c
 
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.i: cmake_force
@@ -588,7 +630,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.s: cmake_force
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_PWM.c
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj -MF CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_PWM.c.obj.d -o CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_PWM.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\FOC\Src\FOC_PWM.c
 
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.i: cmake_force
@@ -602,7 +644,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.s: cmake_force
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_core.c
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj -MF CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_core.c.obj.d -o CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_core.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\FOC\Src\FOC_core.c
 
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.i: cmake_force
@@ -616,7 +658,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.s: cmake_force
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_current_sense.c
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj -MF CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_current_sense.c.obj.d -o CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_current_sense.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\FOC\Src\FOC_current_sense.c
 
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.i: cmake_force
@@ -630,7 +672,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.s: cmake_force
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_encoder.c
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj -MF CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_encoder.c.obj.d -o CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_encoder.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\FOC\Src\FOC_encoder.c
 
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.i: cmake_force
@@ -644,7 +686,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.s: cmake_force
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_scope.c
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj -MF CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_scope.c.obj.d -o CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_scope.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\FOC\Src\FOC_scope.c
 
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.i: cmake_force
@@ -658,7 +700,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.s: cmake_force
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_setting.c
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj -MF CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_setting.c.obj.d -o CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_setting.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\FOC\Src\FOC_setting.c
 
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.i: cmake_force
@@ -672,7 +714,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.s: cmake_force
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_utility.c
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj -MF CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_utility.c.obj.d -o CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_utility.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\FOC\Src\FOC_utility.c
 
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.i: cmake_force
@@ -682,6 +724,118 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.i: cmake_force
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.s"
 	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\FOC\Src\FOC_utility.c -o CMakeFiles\FOCModule.elf.dir\FOC\Src\FOC_utility.c.s
+
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj -MF CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c
+
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c > CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.i
+
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c -o CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.s
+
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj -MF CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c
+
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c > CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.i
+
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c -o CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.s
+
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj -MF CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c
+
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c > CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.i
+
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c -o CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.s
+
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj -MF CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj.d -o CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c
+
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c > CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.i
+
+CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c -o CMakeFiles\FOCModule.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.s
+
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usb_device.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usb_device.c
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usb_device.c.obj"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usb_device.c.obj -MF CMakeFiles\FOCModule.elf.dir\USB_DEVICE\App\usb_device.c.obj.d -o CMakeFiles\FOCModule.elf.dir\USB_DEVICE\App\usb_device.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\USB_DEVICE\App\usb_device.c
+
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usb_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usb_device.c.i"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Projects\FOCModule\Firmware\FOCModule\USB_DEVICE\App\usb_device.c > CMakeFiles\FOCModule.elf.dir\USB_DEVICE\App\usb_device.c.i
+
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usb_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usb_device.c.s"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\USB_DEVICE\App\usb_device.c -o CMakeFiles\FOCModule.elf.dir\USB_DEVICE\App\usb_device.c.s
+
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usbd_cdc_if.c
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj -MF CMakeFiles\FOCModule.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.obj.d -o CMakeFiles\FOCModule.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\USB_DEVICE\App\usbd_cdc_if.c
+
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Projects\FOCModule\Firmware\FOCModule\USB_DEVICE\App\usbd_cdc_if.c > CMakeFiles\FOCModule.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.i
+
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\USB_DEVICE\App\usbd_cdc_if.c -o CMakeFiles\FOCModule.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.s
+
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usbd_desc.c
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.obj -MF CMakeFiles\FOCModule.elf.dir\USB_DEVICE\App\usbd_desc.c.obj.d -o CMakeFiles\FOCModule.elf.dir\USB_DEVICE\App\usbd_desc.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\USB_DEVICE\App\usbd_desc.c
+
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.i"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Projects\FOCModule\Firmware\FOCModule\USB_DEVICE\App\usbd_desc.c > CMakeFiles\FOCModule.elf.dir\USB_DEVICE\App\usbd_desc.c.i
+
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.s"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\USB_DEVICE\App\usbd_desc.c -o CMakeFiles\FOCModule.elf.dir\USB_DEVICE\App\usbd_desc.c.s
+
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/FOCModule.elf.dir/flags.make
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/Target/usbd_conf.c
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/FOCModule.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj -MF CMakeFiles\FOCModule.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj.d -o CMakeFiles\FOCModule.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj -c D:\Projects\FOCModule\Firmware\FOCModule\USB_DEVICE\Target\usbd_conf.c
+
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.i"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Projects\FOCModule\Firmware\FOCModule\USB_DEVICE\Target\usbd_conf.c > CMakeFiles\FOCModule.elf.dir\USB_DEVICE\Target\usbd_conf.c.i
+
+CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.s"
+	C:\tools\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Projects\FOCModule\Firmware\FOCModule\USB_DEVICE\Target\usbd_conf.c -o CMakeFiles\FOCModule.elf.dir\USB_DEVICE\Target\usbd_conf.c.s
 
 # Object files for target FOCModule.elf
 FOCModule_elf_OBJECTS = \
@@ -712,6 +866,8 @@ FOCModule_elf_OBJECTS = \
 "CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" \
 "CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj" \
 "CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj" \
+"CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj" \
+"CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj" \
 "CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" \
 "CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" \
 "CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" \
@@ -719,6 +875,7 @@ FOCModule_elf_OBJECTS = \
 "CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" \
+"CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj" \
 "CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj" \
 "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj" \
 "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj" \
@@ -728,7 +885,15 @@ FOCModule_elf_OBJECTS = \
 "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj" \
 "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj" \
 "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj" \
-"CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj"
+"CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj" \
+"CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj" \
+"CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj" \
+"CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj" \
+"CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj" \
+"CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usb_device.c.obj" \
+"CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj" \
+"CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.obj" \
+"CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
 
 # External object files for target FOCModule.elf
 FOCModule_elf_EXTERNAL_OBJECTS =
@@ -760,6 +925,8 @@ FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
@@ -767,6 +934,7 @@ FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
+FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
@@ -777,10 +945,19 @@ FOCModule.elf: CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
+FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+FOCModule.elf: CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+FOCModule.elf: CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usb_device.c.obj
+FOCModule.elf: CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+FOCModule.elf: CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+FOCModule.elf: CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/build.make
 FOCModule.elf: D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a
+FOCModule.elf: CMakeFiles/FOCModule.elf.dir/objects1.rsp
 FOCModule.elf: CMakeFiles/FOCModule.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking C executable FOCModule.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\FOCModule\Firmware\FOCModule\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking C executable FOCModule.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FOCModule.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/Projects/FOCModule/Firmware/FOCModule/cmake-build-debug/FOCModule.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/Projects/FOCModule/Firmware/FOCModule/cmake-build-debug/FOCModule.bin"

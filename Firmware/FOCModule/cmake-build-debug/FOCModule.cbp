@@ -36,6 +36,10 @@
 					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include"/>
 					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/ARM/DSP/Inc"/>
+					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App"/>
+					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/Target"/>
+					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
 					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc"/>
 					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Encoder/Inc"/>
 					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/BSP/Inc"/>
@@ -72,6 +76,10 @@
 					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include"/>
 					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/ARM/DSP/Inc"/>
+					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App"/>
+					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/Target"/>
+					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
 					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc"/>
 					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Encoder/Inc"/>
 					<Add directory="D:/Projects/FOCModule/Firmware/FOCModule/BSP/Inc"/>
@@ -302,6 +310,12 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
@@ -356,6 +370,9 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
@@ -407,6 +424,12 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
@@ -426,6 +449,9 @@
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Encoder/Src/AS5600.c">
@@ -464,7 +490,61 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/STM32F405RGTX_FLASH.ld">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usb_device.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usb_device.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usbd_cdc_if.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usbd_cdc_if.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usbd_desc.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usbd_desc.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/Target/usbd_conf.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/Target/usbd_conf.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/CMakeLists.txt">
