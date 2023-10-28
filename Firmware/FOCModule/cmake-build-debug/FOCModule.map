@@ -163,7 +163,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
  .bss           0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
  .text.HAL_TIM_Base_MspDeInit
-                0x00000000       0x20 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
+                0x00000000       0x34 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
  .text          0x00000000       0x14 CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
  .data          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
  .bss           0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
@@ -909,8 +909,6 @@ Discarded input sections
                 0x00000000        0x2 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_Base_DeInit
                 0x00000000       0x5e CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_Base_Start
-                0x00000000       0x7c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_Base_Stop
                 0x00000000       0x28 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_Base_Start_IT
@@ -1197,6 +1195,23 @@ Discarded input sections
                 0x00000000       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
  .text.AS5600_readTwoBytes
                 0x00000000       0x1a CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+ .text          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+ .data          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+ .text.FOC_LPF_output
+                0x00000000       0x22 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+ .debug_info    0x00000000       0xb4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+ .debug_abbrev  0x00000000       0xae CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+ .debug_loc     0x00000000       0x3e CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+ .debug_aranges
+                0x00000000       0x20 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+ .debug_ranges  0x00000000       0x10 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+ .debug_line    0x00000000       0xce CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+ .debug_str     0x00000000      0x191 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+ .debug_frame   0x00000000       0x20 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
  .text          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
  .data          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
  .bss           0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
@@ -1206,8 +1221,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
  .data          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
  .bss           0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .text.FOC_voltage_loop
-                0x00000000       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
  .text          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
  .data          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
  .bss           0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
@@ -1217,13 +1230,15 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
  .data          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
  .bss           0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
- .text.FOC_scope_probe
-                0x00000000       0x2c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
+ .text.FOC_scope_probe_float
+                0x00000000       0x6c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
  .text          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
  .data          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
  .bss           0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
  .bss.FOC_pwm_frequency
                 0x00000000        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+ .data.lpf_velocity
+                0x00000000        0x8 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
  .text          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
  .data          0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
  .bss           0x00000000        0x0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
@@ -1610,6 +1625,7 @@ LOAD CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 LOAD CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 LOAD CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
 LOAD CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+LOAD CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
 LOAD CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
 LOAD CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
 LOAD CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
@@ -1637,7 +1653,7 @@ LOAD c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1
                 0x08000000                g_pfnVectors
                 0x08000188                . = ALIGN (0x4)
 
-.text           0x08000188     0x49d8
+.text           0x08000188     0x4d6c
                 0x08000188                . = ALIGN (0x4)
  *(.text)
  .text          0x08000188       0x40 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -1714,524 +1730,565 @@ LOAD c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1
  .text.SystemClock_Config
                 0x08000f8c       0xa8 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
                 0x08000f8c                SystemClock_Config
- .text.main     0x08001034       0x44 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
-                0x08001034                main
+ .text.SystemClock_EnableHSI
+                0x08001034       0x60 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
+                0x08001034                SystemClock_EnableHSI
+ .text.SystemClock_DisableHSI
+                0x08001094       0x24 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
+                0x08001094                SystemClock_DisableHSI
+ .text.main     0x080010b8       0x58 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
+                0x080010b8                main
  .text.HAL_MspInit
-                0x08001078       0x38 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x08001078                HAL_MspInit
+                0x08001110       0x38 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x08001110                HAL_MspInit
  .text.NMI_Handler
-                0x080010b0        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080010b0                NMI_Handler
+                0x08001148        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001148                NMI_Handler
  .text.HardFault_Handler
-                0x080010b2        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080010b2                HardFault_Handler
+                0x0800114a        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800114a                HardFault_Handler
  .text.MemManage_Handler
-                0x080010b4        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080010b4                MemManage_Handler
+                0x0800114c        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800114c                MemManage_Handler
  .text.BusFault_Handler
-                0x080010b6        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080010b6                BusFault_Handler
+                0x0800114e        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800114e                BusFault_Handler
  .text.UsageFault_Handler
-                0x080010b8        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080010b8                UsageFault_Handler
+                0x08001150        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001150                UsageFault_Handler
  .text.SVC_Handler
-                0x080010ba        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080010ba                SVC_Handler
+                0x08001152        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001152                SVC_Handler
  .text.DebugMon_Handler
-                0x080010bc        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080010bc                DebugMon_Handler
+                0x08001154        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001154                DebugMon_Handler
  .text.PendSV_Handler
-                0x080010be        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080010be                PendSV_Handler
+                0x08001156        0x2 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001156                PendSV_Handler
  .text.SysTick_Handler
-                0x080010c0        0x8 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080010c0                SysTick_Handler
+                0x08001158        0x8 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001158                SysTick_Handler
  .text.ADC_IRQHandler
-                0x080010c8       0x10 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080010c8                ADC_IRQHandler
+                0x08001160       0x10 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001160                ADC_IRQHandler
  .text.SystemInit
-                0x080010d8       0x14 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x080010d8                SystemInit
+                0x08001170       0x14 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x08001170                SystemInit
+ .text.MX_TIM2_Init
+                0x08001184       0x70 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
+                0x08001184                MX_TIM2_Init
  .text.HAL_TIM_Base_MspInit
-                0x080010ec       0x30 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
-                0x080010ec                HAL_TIM_Base_MspInit
+                0x080011f4       0x50 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
+                0x080011f4                HAL_TIM_Base_MspInit
  .text.HAL_TIM_MspPostInit
-                0x0800111c       0x84 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
-                0x0800111c                HAL_TIM_MspPostInit
+                0x08001244       0x84 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
+                0x08001244                HAL_TIM_MspPostInit
  .text.MX_TIM1_Init
-                0x080011a0      0x124 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
-                0x080011a0                MX_TIM1_Init
+                0x080012c8      0x124 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
+                0x080012c8                MX_TIM1_Init
  .text.Reset_Handler
-                0x080012c4       0x50 CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
-                0x080012c4                Reset_Handler
+                0x080013ec       0x50 CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
+                0x080013ec                Reset_Handler
  .text.Default_Handler
-                0x08001314        0x2 CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
-                0x08001314                RTC_Alarm_IRQHandler
-                0x08001314                HASH_RNG_IRQHandler
-                0x08001314                EXTI2_IRQHandler
-                0x08001314                TIM8_CC_IRQHandler
-                0x08001314                TIM1_CC_IRQHandler
-                0x08001314                DMA2_Stream5_IRQHandler
-                0x08001314                DMA1_Stream5_IRQHandler
-                0x08001314                PVD_IRQHandler
-                0x08001314                SDIO_IRQHandler
-                0x08001314                TAMP_STAMP_IRQHandler
-                0x08001314                CAN2_RX1_IRQHandler
-                0x08001314                EXTI3_IRQHandler
-                0x08001314                TIM8_TRG_COM_TIM14_IRQHandler
-                0x08001314                TIM1_UP_TIM10_IRQHandler
-                0x08001314                TIM8_UP_TIM13_IRQHandler
-                0x08001314                I2C3_ER_IRQHandler
-                0x08001314                EXTI0_IRQHandler
-                0x08001314                I2C2_EV_IRQHandler
-                0x08001314                DMA1_Stream2_IRQHandler
-                0x08001314                CAN1_RX0_IRQHandler
-                0x08001314                FPU_IRQHandler
-                0x08001314                OTG_HS_WKUP_IRQHandler
-                0x08001314                CAN2_SCE_IRQHandler
-                0x08001314                DMA2_Stream2_IRQHandler
-                0x08001314                SPI1_IRQHandler
-                0x08001314                TIM6_DAC_IRQHandler
-                0x08001314                TIM1_BRK_TIM9_IRQHandler
-                0x08001314                CAN2_RX0_IRQHandler
-                0x08001314                DMA2_Stream3_IRQHandler
-                0x08001314                USART6_IRQHandler
-                0x08001314                USART3_IRQHandler
-                0x08001314                CAN1_RX1_IRQHandler
-                0x08001314                UART5_IRQHandler
-                0x08001314                DMA2_Stream0_IRQHandler
-                0x08001314                TIM4_IRQHandler
-                0x08001314                I2C1_EV_IRQHandler
-                0x08001314                DMA1_Stream6_IRQHandler
-                0x08001314                DMA1_Stream1_IRQHandler
-                0x08001314                UART4_IRQHandler
-                0x08001314                TIM3_IRQHandler
-                0x08001314                RCC_IRQHandler
-                0x08001314                TIM8_BRK_TIM12_IRQHandler
-                0x08001314                Default_Handler
-                0x08001314                EXTI15_10_IRQHandler
-                0x08001314                DMA1_Stream7_IRQHandler
-                0x08001314                TIM7_IRQHandler
-                0x08001314                CAN2_TX_IRQHandler
-                0x08001314                TIM5_IRQHandler
-                0x08001314                DMA2_Stream7_IRQHandler
-                0x08001314                I2C3_EV_IRQHandler
-                0x08001314                EXTI9_5_IRQHandler
-                0x08001314                RTC_WKUP_IRQHandler
-                0x08001314                SPI2_IRQHandler
-                0x08001314                OTG_HS_EP1_IN_IRQHandler
-                0x08001314                DMA1_Stream0_IRQHandler
-                0x08001314                CAN1_TX_IRQHandler
-                0x08001314                EXTI4_IRQHandler
-                0x08001314                FSMC_IRQHandler
-                0x08001314                OTG_HS_EP1_OUT_IRQHandler
-                0x08001314                WWDG_IRQHandler
-                0x08001314                TIM2_IRQHandler
-                0x08001314                OTG_FS_WKUP_IRQHandler
-                0x08001314                TIM1_TRG_COM_TIM11_IRQHandler
-                0x08001314                OTG_HS_IRQHandler
-                0x08001314                EXTI1_IRQHandler
-                0x08001314                USART2_IRQHandler
-                0x08001314                I2C2_ER_IRQHandler
-                0x08001314                DMA2_Stream1_IRQHandler
-                0x08001314                CAN1_SCE_IRQHandler
-                0x08001314                FLASH_IRQHandler
-                0x08001314                DMA2_Stream4_IRQHandler
-                0x08001314                USART1_IRQHandler
-                0x08001314                OTG_FS_IRQHandler
-                0x08001314                SPI3_IRQHandler
-                0x08001314                DMA1_Stream4_IRQHandler
-                0x08001314                I2C1_ER_IRQHandler
-                0x08001314                DMA2_Stream6_IRQHandler
-                0x08001314                DMA1_Stream3_IRQHandler
- *fill*         0x08001316        0x2 
+                0x0800143c        0x2 CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
+                0x0800143c                RTC_Alarm_IRQHandler
+                0x0800143c                HASH_RNG_IRQHandler
+                0x0800143c                EXTI2_IRQHandler
+                0x0800143c                TIM8_CC_IRQHandler
+                0x0800143c                TIM1_CC_IRQHandler
+                0x0800143c                DMA2_Stream5_IRQHandler
+                0x0800143c                DMA1_Stream5_IRQHandler
+                0x0800143c                PVD_IRQHandler
+                0x0800143c                SDIO_IRQHandler
+                0x0800143c                TAMP_STAMP_IRQHandler
+                0x0800143c                CAN2_RX1_IRQHandler
+                0x0800143c                EXTI3_IRQHandler
+                0x0800143c                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0800143c                TIM1_UP_TIM10_IRQHandler
+                0x0800143c                TIM8_UP_TIM13_IRQHandler
+                0x0800143c                I2C3_ER_IRQHandler
+                0x0800143c                EXTI0_IRQHandler
+                0x0800143c                I2C2_EV_IRQHandler
+                0x0800143c                DMA1_Stream2_IRQHandler
+                0x0800143c                CAN1_RX0_IRQHandler
+                0x0800143c                FPU_IRQHandler
+                0x0800143c                OTG_HS_WKUP_IRQHandler
+                0x0800143c                CAN2_SCE_IRQHandler
+                0x0800143c                DMA2_Stream2_IRQHandler
+                0x0800143c                SPI1_IRQHandler
+                0x0800143c                TIM6_DAC_IRQHandler
+                0x0800143c                TIM1_BRK_TIM9_IRQHandler
+                0x0800143c                CAN2_RX0_IRQHandler
+                0x0800143c                DMA2_Stream3_IRQHandler
+                0x0800143c                USART6_IRQHandler
+                0x0800143c                USART3_IRQHandler
+                0x0800143c                CAN1_RX1_IRQHandler
+                0x0800143c                UART5_IRQHandler
+                0x0800143c                DMA2_Stream0_IRQHandler
+                0x0800143c                TIM4_IRQHandler
+                0x0800143c                I2C1_EV_IRQHandler
+                0x0800143c                DMA1_Stream6_IRQHandler
+                0x0800143c                DMA1_Stream1_IRQHandler
+                0x0800143c                UART4_IRQHandler
+                0x0800143c                TIM3_IRQHandler
+                0x0800143c                RCC_IRQHandler
+                0x0800143c                TIM8_BRK_TIM12_IRQHandler
+                0x0800143c                Default_Handler
+                0x0800143c                EXTI15_10_IRQHandler
+                0x0800143c                DMA1_Stream7_IRQHandler
+                0x0800143c                TIM7_IRQHandler
+                0x0800143c                CAN2_TX_IRQHandler
+                0x0800143c                TIM5_IRQHandler
+                0x0800143c                DMA2_Stream7_IRQHandler
+                0x0800143c                I2C3_EV_IRQHandler
+                0x0800143c                EXTI9_5_IRQHandler
+                0x0800143c                RTC_WKUP_IRQHandler
+                0x0800143c                SPI2_IRQHandler
+                0x0800143c                OTG_HS_EP1_IN_IRQHandler
+                0x0800143c                DMA1_Stream0_IRQHandler
+                0x0800143c                CAN1_TX_IRQHandler
+                0x0800143c                EXTI4_IRQHandler
+                0x0800143c                FSMC_IRQHandler
+                0x0800143c                OTG_HS_EP1_OUT_IRQHandler
+                0x0800143c                WWDG_IRQHandler
+                0x0800143c                TIM2_IRQHandler
+                0x0800143c                OTG_FS_WKUP_IRQHandler
+                0x0800143c                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0800143c                OTG_HS_IRQHandler
+                0x0800143c                EXTI1_IRQHandler
+                0x0800143c                USART2_IRQHandler
+                0x0800143c                I2C2_ER_IRQHandler
+                0x0800143c                DMA2_Stream1_IRQHandler
+                0x0800143c                CAN1_SCE_IRQHandler
+                0x0800143c                FLASH_IRQHandler
+                0x0800143c                DMA2_Stream4_IRQHandler
+                0x0800143c                USART1_IRQHandler
+                0x0800143c                OTG_FS_IRQHandler
+                0x0800143c                SPI3_IRQHandler
+                0x0800143c                DMA1_Stream4_IRQHandler
+                0x0800143c                I2C1_ER_IRQHandler
+                0x0800143c                DMA2_Stream6_IRQHandler
+                0x0800143c                DMA1_Stream3_IRQHandler
+ *fill*         0x0800143e        0x2 
  .text.HAL_InitTick
-                0x08001318       0x4c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08001318                HAL_InitTick
+                0x08001440       0x4c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08001440                HAL_InitTick
  .text.HAL_Init
-                0x08001364       0x34 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08001364                HAL_Init
+                0x0800148c       0x34 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0800148c                HAL_Init
  .text.HAL_IncTick
-                0x08001398       0x18 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08001398                HAL_IncTick
+                0x080014c0       0x18 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x080014c0                HAL_IncTick
  .text.HAL_GetTick
-                0x080013b0        0xc CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x080013b0                HAL_GetTick
+                0x080014d8        0xc CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x080014d8                HAL_GetTick
  .text.HAL_Delay
-                0x080013bc       0x28 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x080013bc                HAL_Delay
+                0x080014e4       0x28 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x080014e4                HAL_Delay
  .text.ADC_Init
-                0x080013e4      0x134 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x0800150c      0x134 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
  .text.HAL_ADC_Init
-                0x08001518       0x56 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x08001518                HAL_ADC_Init
+                0x08001640       0x56 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x08001640                HAL_ADC_Init
  .text.HAL_ADC_ConvCpltCallback
-                0x0800156e        0x2 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x0800156e                HAL_ADC_ConvCpltCallback
+                0x08001696        0x2 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x08001696                HAL_ADC_ConvCpltCallback
  .text.HAL_ADC_LevelOutOfWindowCallback
-                0x08001570        0x2 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x08001570                HAL_ADC_LevelOutOfWindowCallback
+                0x08001698        0x2 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x08001698                HAL_ADC_LevelOutOfWindowCallback
  .text.HAL_ADC_ErrorCallback
-                0x08001572        0x2 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x08001572                HAL_ADC_ErrorCallback
+                0x0800169a        0x2 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x0800169a                HAL_ADC_ErrorCallback
  .text.HAL_ADC_IRQHandler
-                0x08001574      0x142 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x08001574                HAL_ADC_IRQHandler
- *fill*         0x080016b6        0x2 
+                0x0800169c      0x142 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x0800169c                HAL_ADC_IRQHandler
+ *fill*         0x080017de        0x2 
  .text.HAL_ADC_ConfigChannel
-                0x080016b8      0x198 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x080016b8                HAL_ADC_ConfigChannel
+                0x080017e0      0x198 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x080017e0                HAL_ADC_ConfigChannel
  .text.HAL_ADCEx_InjectedStart_IT
-                0x08001850      0x10c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
-                0x08001850                HAL_ADCEx_InjectedStart_IT
+                0x08001978      0x10c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+                0x08001978                HAL_ADCEx_InjectedStart_IT
  .text.HAL_ADCEx_InjectedGetValue
-                0x0800195c       0x40 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
-                0x0800195c                HAL_ADCEx_InjectedGetValue
+                0x08001a84       0x40 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+                0x08001a84                HAL_ADCEx_InjectedGetValue
  .text.HAL_ADCEx_InjectedConfigChannel
-                0x0800199c      0x210 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
-                0x0800199c                HAL_ADCEx_InjectedConfigChannel
+                0x08001ac4      0x210 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+                0x08001ac4                HAL_ADCEx_InjectedConfigChannel
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08001bac       0x24 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08001bac                HAL_NVIC_SetPriorityGrouping
+                0x08001cd4       0x24 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08001cd4                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08001bd0       0x70 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08001bd0                HAL_NVIC_SetPriority
+                0x08001cf8       0x70 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08001cf8                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x08001c40       0x1c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08001c40                HAL_NVIC_EnableIRQ
+                0x08001d68       0x1c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08001d68                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x08001c5c       0x28 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08001c5c                HAL_SYSTICK_Config
+                0x08001d84       0x28 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08001d84                HAL_SYSTICK_Config
  .text.HAL_DAC_Init
-                0x08001c84       0x24 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
-                0x08001c84                HAL_DAC_Init
+                0x08001dac       0x24 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+                0x08001dac                HAL_DAC_Init
  .text.HAL_DAC_Start
-                0x08001ca8       0x68 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
-                0x08001ca8                HAL_DAC_Start
+                0x08001dd0       0x68 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+                0x08001dd0                HAL_DAC_Start
  .text.HAL_DAC_SetValue
-                0x08001d10       0x2e CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
-                0x08001d10                HAL_DAC_SetValue
+                0x08001e38       0x2e CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+                0x08001e38                HAL_DAC_SetValue
  .text.HAL_DAC_ConfigChannel
-                0x08001d3e       0x56 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
-                0x08001d3e                HAL_DAC_ConfigChannel
+                0x08001e66       0x56 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+                0x08001e66                HAL_DAC_ConfigChannel
  .text.HAL_GPIO_Init
-                0x08001d94      0x1e4 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08001d94                HAL_GPIO_Init
+                0x08001ebc      0x1e4 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x08001ebc                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x08001f78        0xc CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08001f78                HAL_GPIO_WritePin
+                0x080020a0        0xc CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x080020a0                HAL_GPIO_WritePin
  .text.HAL_GPIO_TogglePin
-                0x08001f84       0x12 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08001f84                HAL_GPIO_TogglePin
+                0x080020ac       0x12 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x080020ac                HAL_GPIO_TogglePin
  .text.I2C_IsAcknowledgeFailed
-                0x08001f96       0x32 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x080020be       0x32 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .text.I2C_WaitOnFlagUntilTimeout
-                0x08001fc8       0x7c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x080020f0       0x7c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .text.I2C_WaitOnMasterAddressFlagUntilTimeout
-                0x08002044       0xaa CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x0800216c       0xaa CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .text.I2C_WaitOnTXEFlagUntilTimeout
-                0x080020ee       0x54 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- *fill*         0x08002142        0x2 
+                0x08002216       0x54 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ *fill*         0x0800226a        0x2 
  .text.I2C_RequestMemoryWrite
-                0x08002144       0xd8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x0800226c       0xd8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .text.I2C_RequestMemoryRead
-                0x0800221c      0x154 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x08002344      0x154 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .text.I2C_WaitOnBTFFlagUntilTimeout
-                0x08002370       0x54 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x08002498       0x54 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .text.I2C_WaitOnRXNEFlagUntilTimeout
-                0x080023c4       0x6a CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- *fill*         0x0800242e        0x2 
+                0x080024ec       0x6a CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ *fill*         0x08002556        0x2 
  .text.HAL_I2C_Init
-                0x08002430      0x1bc CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
-                0x08002430                HAL_I2C_Init
+                0x08002558      0x1bc CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x08002558                HAL_I2C_Init
  .text.HAL_I2C_Mem_Write
-                0x080025ec      0x164 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
-                0x080025ec                HAL_I2C_Mem_Write
+                0x08002714      0x164 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x08002714                HAL_I2C_Mem_Write
  .text.HAL_I2C_Mem_Read
-                0x08002750      0x2e4 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
-                0x08002750                HAL_I2C_Mem_Read
+                0x08002878      0x2e4 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x08002878                HAL_I2C_Mem_Read
  .text.HAL_RCC_OscConfig
-                0x08002a34      0x3f8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08002a34                HAL_RCC_OscConfig
+                0x08002b5c      0x3f8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08002b5c                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08002e2c       0xd4 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08002e2c                HAL_RCC_GetSysClockFreq
+                0x08002f54       0xd4 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08002f54                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08002f00      0x160 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08002f00                HAL_RCC_ClockConfig
+                0x08003028      0x160 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08003028                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x08003060        0xc CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08003060                HAL_RCC_GetHCLKFreq
+                0x08003188        0xc CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08003188                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x0800306c       0x20 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0800306c                HAL_RCC_GetPCLK1Freq
+                0x08003194       0x20 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08003194                HAL_RCC_GetPCLK1Freq
  .text.TIM_OC1_SetConfig
-                0x0800308c       0x68 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080031b4       0x68 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_OC3_SetConfig
-                0x080030f4       0x70 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800321c       0x70 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_OC4_SetConfig
-                0x08003164       0x50 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800328c       0x50 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_TI1_ConfigInputStage
-                0x080031b4       0x26 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080032dc       0x26 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_TI2_ConfigInputStage
-                0x080031da       0x28 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003302       0x28 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_ITRx_SetConfig
-                0x08003202       0x10 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800332a       0x10 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ *fill*         0x0800333a        0x2 
+ .text.HAL_TIM_Base_Start
+                0x0800333c       0x7c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800333c                HAL_TIM_Base_Start
  .text.HAL_TIM_PWM_MspInit
-                0x08003212        0x2 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x08003212                HAL_TIM_PWM_MspInit
+                0x080033b8        0x2 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080033b8                HAL_TIM_PWM_MspInit
+ *fill*         0x080033ba        0x2 
  .text.TIM_Base_SetConfig
-                0x08003214       0xc8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x08003214                TIM_Base_SetConfig
+                0x080033bc       0xc8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080033bc                TIM_Base_SetConfig
  .text.HAL_TIM_Base_Init
-                0x080032dc       0x58 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080032dc                HAL_TIM_Base_Init
+                0x08003484       0x58 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003484                HAL_TIM_Base_Init
  .text.HAL_TIM_PWM_Init
-                0x08003334       0x58 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x08003334                HAL_TIM_PWM_Init
+                0x080034dc       0x58 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080034dc                HAL_TIM_PWM_Init
  .text.TIM_OC2_SetConfig
-                0x0800338c       0x70 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800338c                TIM_OC2_SetConfig
+                0x08003534       0x70 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003534                TIM_OC2_SetConfig
  .text.HAL_TIM_PWM_ConfigChannel
-                0x080033fc       0xdc CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080033fc                HAL_TIM_PWM_ConfigChannel
+                0x080035a4       0xdc CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080035a4                HAL_TIM_PWM_ConfigChannel
  .text.TIM_ETR_SetConfig
-                0x080034d8       0x1a CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080034d8                TIM_ETR_SetConfig
+                0x08003680       0x1a CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003680                TIM_ETR_SetConfig
  .text.HAL_TIM_ConfigClockSource
-                0x080034f2       0xfe CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080034f2                HAL_TIM_ConfigClockSource
+                0x0800369a       0xfe CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800369a                HAL_TIM_ConfigClockSource
  .text.TIM_CCxChannelCmd
-                0x080035f0       0x1e CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080035f0                TIM_CCxChannelCmd
- *fill*         0x0800360e        0x2 
+                0x08003798       0x1e CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003798                TIM_CCxChannelCmd
+ *fill*         0x080037b6        0x2 
  .text.HAL_TIM_PWM_Start
-                0x08003610      0x104 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x08003610                HAL_TIM_PWM_Start
+                0x080037b8      0x104 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080037b8                HAL_TIM_PWM_Start
  .text.TIM_CCxNChannelCmd
-                0x08003714       0x1e CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- *fill*         0x08003732        0x2 
+                0x080038bc       0x1e CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ *fill*         0x080038da        0x2 
  .text.HAL_TIMEx_OCN_Start
-                0x08003734       0xf8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x08003734                HAL_TIMEx_OCN_Start
+                0x080038dc       0xf8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x080038dc                HAL_TIMEx_OCN_Start
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x0800382c       0x8c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x0800382c                HAL_TIMEx_MasterConfigSynchronization
+                0x080039d4       0x8c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x080039d4                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_ConfigBreakDeadTime
-                0x080038b8       0x52 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x080038b8                HAL_TIMEx_ConfigBreakDeadTime
- *fill*         0x0800390a        0x2 
+                0x08003a60       0x52 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x08003a60                HAL_TIMEx_ConfigBreakDeadTime
+ *fill*         0x08003ab2        0x2 
  .text.AS5600_init
-                0x0800390c       0x2c CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
-                0x0800390c                AS5600_init
+                0x08003ab4       0x34 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+                0x08003ab4                AS5600_init
  .text.AS5600_detectMagnet
-                0x08003938       0x40 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
-                0x08003938                AS5600_detectMagnet
+                0x08003ae8       0x40 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+                0x08003ae8                AS5600_detectMagnet
  .text.AS5600_ReadSensorRawData
-                0x08003978       0x54 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
-                0x08003978                AS5600_ReadSensorRawData
+                0x08003b28       0x54 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+                0x08003b28                AS5600_ReadSensorRawData
  .text.FOC_PID_get_u
-                0x080039cc       0xf4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
-                0x080039cc                FOC_PID_get_u
+                0x08003b7c       0xf4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
+                0x08003b7c                FOC_PID_get_u
  .text.FOC_set_duty_cycle
-                0x08003ac0       0x90 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
-                0x08003ac0                FOC_set_duty_cycle
+                0x08003c70       0x90 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
+                0x08003c70                FOC_set_duty_cycle
  .text.FOC_tim_init
-                0x08003b50       0x54 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
-                0x08003b50                FOC_tim_init
+                0x08003d00       0x54 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
+                0x08003d00                FOC_tim_init
  .text.FOC_SVPWM
-                0x08003ba4      0x2d4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
-                0x08003ba4                FOC_SVPWM
+                0x08003d54      0x2d4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+                0x08003d54                FOC_SVPWM
  .text.FOC_calibrate
-                0x08003e78       0x50 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
-                0x08003e78                FOC_calibrate
+                0x08004028       0x18 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+                0x08004028                FOC_calibrate
  .text.FOC_Clarke_Transform
-                0x08003ec8       0x60 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
-                0x08003ec8                FOC_Clarke_Transform
+                0x08004040       0x60 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+                0x08004040                FOC_Clarke_Transform
  .text.FOC_Park_Transform
-                0x08003f28       0x64 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
-                0x08003f28                FOC_Park_Transform
+                0x080040a0       0x64 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+                0x080040a0                FOC_Park_Transform
+ .text.FOC_voltage_loop
+                0x08004104       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+                0x08004104                FOC_voltage_loop
  .text.FOC_current_loop
-                0x08003f8c       0xf0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
-                0x08003f8c                FOC_current_loop
+                0x08004134       0xc0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+                0x08004134                FOC_current_loop
+ .text.FOC_velocity_loop
+                0x080041f4       0x38 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+                0x080041f4                FOC_velocity_loop
+ .text.FOC_position_loop
+                0x0800422c       0xa8 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+                0x0800422c                FOC_position_loop
+ .text.FOC_main_loop
+                0x080042d4       0x4c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+                0x080042d4                FOC_main_loop
+ .text.FOC_current_callback
+                0x08004320       0x24 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+                0x08004320                FOC_current_callback
  .text.FOC_cs_init
-                0x0800407c       0x28 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
-                0x0800407c                FOC_cs_init
+                0x08004344       0x28 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
+                0x08004344                FOC_cs_init
  .text.HAL_ADCEx_InjectedConvCpltCallback
-                0x080040a4       0x4c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
-                0x080040a4                HAL_ADCEx_InjectedConvCpltCallback
+                0x0800436c       0x58 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
+                0x0800436c                HAL_ADCEx_InjectedConvCpltCallback
  .text.FOC_cs_read_current
-                0x080040f0       0xb8 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
-                0x080040f0                FOC_cs_read_current
+                0x080043c4       0xc0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
+                0x080043c4                FOC_cs_read_current
  .text.FOC_encoder_read_raw_data
-                0x080041a8       0x18 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
-                0x080041a8                FOC_encoder_read_raw_data
+                0x08004484       0x18 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+                0x08004484                FOC_encoder_read_raw_data
  .text.FOC_encoder_read_mechanical_angle
-                0x080041c0       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
-                0x080041c0                FOC_encoder_read_mechanical_angle
+                0x0800449c       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+                0x0800449c                FOC_encoder_read_mechanical_angle
+ .text.FOC_encoder_init
+                0x080044cc       0x14 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+                0x080044cc                FOC_encoder_init
  .text.FOC_encoder_compute_electrical_angle
-                0x080041f0       0x3c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
-                0x080041f0                FOC_encoder_compute_electrical_angle
+                0x080044e0       0x4c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+                0x080044e0                FOC_encoder_compute_electrical_angle
+ .text.FOC_encoder_compute_velocity
+                0x0800452c       0xac CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+                0x0800452c                FOC_encoder_compute_velocity
  .text.FOC_scope_init
-                0x0800422c       0x1c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
-                0x0800422c                FOC_scope_init
- .text.FOC_scope_probe_float
-                0x08004248       0x6c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
-                0x08004248                FOC_scope_probe_float
+                0x080045d8       0x1c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
+                0x080045d8                FOC_scope_init
+ .text.FOC_scope_probe
+                0x080045f4       0x2c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
+                0x080045f4                FOC_scope_probe
+ .text.FOC_utility_init
+                0x08004620       0x10 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
+                0x08004620                FOC_utility_init
  .text._checkRange
-                0x080042b4       0x20 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
-                0x080042b4                _checkRange
+                0x08004630       0x20 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
+                0x08004630                _checkRange
  .text._normalizeAngle
-                0x080042d4       0x24 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
-                0x080042d4                _normalizeAngle
+                0x08004650       0x24 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
+                0x08004650                _normalizeAngle
+ .text._spanMicro
+                0x08004674       0x18 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
+                0x08004674                _spanMicro
  .text.arm_sin_f32
-                0x080042f8       0x8c D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
-                0x080042f8                arm_sin_f32
+                0x0800468c       0x8c D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
+                0x0800468c                arm_sin_f32
  .text.arm_cos_f32
-                0x08004384       0x94 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
-                0x08004384                arm_cos_f32
- .text.__errno  0x08004418        0xc c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
-                0x08004418                __errno
+                0x08004718       0x94 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
+                0x08004718                arm_cos_f32
+ .text.__errno  0x080047ac        0xc c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
+                0x080047ac                __errno
  .text.__libc_init_array
-                0x08004424       0x48 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-init.o)
-                0x08004424                __libc_init_array
- .text.memset   0x0800446c       0xa4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memset.o)
-                0x0800446c                memset
+                0x080047b8       0x48 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-init.o)
+                0x080047b8                __libc_init_array
+ .text.memset   0x08004800       0xa4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memset.o)
+                0x08004800                memset
  .text.startup.register_fini
-                0x08004510       0x14 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x08004524        0xc c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-atexit.o)
-                0x08004524                atexit
+                0x080048a4       0x14 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x080048b8        0xc c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-atexit.o)
+                0x080048b8                atexit
  .text.__libc_fini_array
-                0x08004530       0x2c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-fini.o)
-                0x08004530                __libc_fini_array
+                0x080048c4       0x2c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-fini.o)
+                0x080048c4                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x0800455c        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
-                0x0800455c                __retarget_lock_acquire_recursive
+                0x080048f0        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
+                0x080048f0                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08004560        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
-                0x08004560                __retarget_lock_release_recursive
+                0x080048f4        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
+                0x080048f4                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x08004564       0x8c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__atexit.o)
-                0x08004564                __register_exitproc
- .text.floorf   0x080045f0       0x8c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-sf_floor.o)
-                0x080045f0                floorf
- .text.atan2f   0x0800467c        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_atan2.o)
-                0x0800467c                atan2f
- .text.fmodf    0x08004680       0x48 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_fmod.o)
-                0x08004680                fmodf
- .text.sqrtf    0x080046c8       0x44 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_sqrt.o)
-                0x080046c8                sqrtf
+                0x080048f8       0x8c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__atexit.o)
+                0x080048f8                __register_exitproc
+ .text.floorf   0x08004984       0x8c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-sf_floor.o)
+                0x08004984                floorf
+ .text.atan2f   0x08004a10        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_atan2.o)
+                0x08004a10                atan2f
+ .text.fmodf    0x08004a14       0x48 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_fmod.o)
+                0x08004a14                fmodf
+ .text.sqrtf    0x08004a5c       0x44 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_sqrt.o)
+                0x08004a5c                sqrtf
  .text.__ieee754_atan2f
-                0x0800470c      0x150 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_atan2.o)
-                0x0800470c                __ieee754_atan2f
+                0x08004aa0      0x150 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_atan2.o)
+                0x08004aa0                __ieee754_atan2f
  .text.__ieee754_fmodf
-                0x0800485c      0x120 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_fmod.o)
-                0x0800485c                __ieee754_fmodf
+                0x08004bf0      0x120 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_fmod.o)
+                0x08004bf0                __ieee754_fmodf
  .text.__ieee754_sqrtf
-                0x0800497c        0x8 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_sqrt.o)
-                0x0800497c                __ieee754_sqrtf
- .text.atanf    0x08004984      0x1b4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-sf_atan.o)
-                0x08004984                atanf
- .text.fabsf    0x08004b38       0x10 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-sf_fabs.o)
-                0x08004b38                fabsf
+                0x08004d10        0x8 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_sqrt.o)
+                0x08004d10                __ieee754_sqrtf
+ .text.atanf    0x08004d18      0x1b4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-sf_atan.o)
+                0x08004d18                atanf
+ .text.fabsf    0x08004ecc       0x10 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-sf_fabs.o)
+                0x08004ecc                fabsf
  *(.glue_7)
- .glue_7        0x08004b48        0x0 linker stubs
+ .glue_7        0x08004edc        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08004b48        0x0 linker stubs
+ .glue_7t       0x08004edc        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08004b48        0x0 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x08004edc        0x0 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x08004b48        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08004b48                _init
- .init          0x08004b4c        0x8 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x08004edc        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08004edc                _init
+ .init          0x08004ee0        0x8 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x08004b54        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08004b54                _fini
- .fini          0x08004b58        0x8 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x08004b60                . = ALIGN (0x4)
-                0x08004b60                _etext = .
+ .fini          0x08004ee8        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08004ee8                _fini
+ .fini          0x08004eec        0x8 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x08004ef4                . = ALIGN (0x4)
+                0x08004ef4                _etext = .
 
-.vfp11_veneer   0x08004b60        0x0
- .vfp11_veneer  0x08004b60        0x0 linker stubs
+.vfp11_veneer   0x08004ef4        0x0
+ .vfp11_veneer  0x08004ef4        0x0 linker stubs
 
-.v4_bx          0x08004b60        0x0
- .v4_bx         0x08004b60        0x0 linker stubs
+.v4_bx          0x08004ef4        0x0
+ .v4_bx         0x08004ef4        0x0 linker stubs
 
-.iplt           0x08004b60        0x0
- .iplt          0x08004b60        0x0 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x08004ef4        0x0
+ .iplt          0x08004ef4        0x0 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x08004b60      0x860
-                0x08004b60                . = ALIGN (0x4)
+.rodata         0x08004ef4      0x860
+                0x08004ef4                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x08004b60       0x10 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x08004b60                AHBPrescTable
+                0x08004ef4       0x10 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x08004ef4                AHBPrescTable
  .rodata.APBPrescTable
-                0x08004b70        0x8 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x08004b70                APBPrescTable
+                0x08004f04        0x8 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x08004f04                APBPrescTable
  .rodata.sinTable_f32
-                0x08004b78      0x804 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
-                0x08004b78                sinTable_f32
+                0x08004f0c      0x804 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
+                0x08004f0c                sinTable_f32
  .rodata._global_impure_ptr
-                0x0800537c        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-impure.o)
-                0x0800537c                _global_impure_ptr
+                0x08005710        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-impure.o)
+                0x08005710                _global_impure_ptr
  .rodata.CSWTCH.8
-                0x08005380        0xc c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_atan2.o)
+                0x08005714        0xc c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_atan2.o)
  .rodata.CSWTCH.9
-                0x0800538c        0xc c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_atan2.o)
- .rodata.Zero   0x08005398        0x8 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_fmod.o)
+                0x08005720        0xc c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_atan2.o)
+ .rodata.Zero   0x0800572c        0x8 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_fmod.o)
  .rodata.atanhi
-                0x080053a0       0x10 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-sf_atan.o)
+                0x08005734       0x10 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-sf_atan.o)
  .rodata.atanlo
-                0x080053b0       0x10 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-sf_atan.o)
-                0x080053c0                . = ALIGN (0x4)
+                0x08005744       0x10 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-sf_atan.o)
+                0x08005754                . = ALIGN (0x4)
 
-.ARM.extab      0x080053c0        0x0
-                0x080053c0                . = ALIGN (0x4)
+.ARM.extab      0x08005754        0x0
+                0x08005754                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080053c0                . = ALIGN (0x4)
+                0x08005754                . = ALIGN (0x4)
 
-.ARM            0x080053c0        0x8
-                0x080053c0                . = ALIGN (0x4)
-                0x080053c0                __exidx_start = .
+.ARM            0x08005754        0x8
+                0x08005754                . = ALIGN (0x4)
+                0x08005754                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x080053c0        0x8 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
-                0x080053c8                __exidx_end = .
-                0x080053c8                . = ALIGN (0x4)
+ .ARM.exidx     0x08005754        0x8 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+                0x0800575c                __exidx_end = .
+                0x0800575c                . = ALIGN (0x4)
 
-.rel.dyn        0x080053c8        0x0
- .rel.iplt      0x080053c8        0x0 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x0800575c        0x0
+ .rel.iplt      0x0800575c        0x0 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.preinit_array  0x080053c8        0x0
-                0x080053c8                . = ALIGN (0x4)
-                0x080053c8                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0800575c        0x0
+                0x0800575c                . = ALIGN (0x4)
+                0x0800575c                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x080053c8                PROVIDE (__preinit_array_end = .)
-                0x080053c8                . = ALIGN (0x4)
+                0x0800575c                PROVIDE (__preinit_array_end = .)
+                0x0800575c                . = ALIGN (0x4)
 
-.init_array     0x080053c8        0x8
-                0x080053c8                . = ALIGN (0x4)
-                0x080053c8                PROVIDE (__init_array_start = .)
+.init_array     0x0800575c        0x8
+                0x0800575c                . = ALIGN (0x4)
+                0x0800575c                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x080053c8        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
+                0x0800575c        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x080053cc        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x080053d0                PROVIDE (__init_array_end = .)
-                0x080053d0                . = ALIGN (0x4)
+ .init_array    0x08005760        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08005764                PROVIDE (__init_array_end = .)
+                0x08005764                . = ALIGN (0x4)
 
-.fini_array     0x080053d0        0x4
-                0x080053d0                . = ALIGN (0x4)
-                0x080053d0                PROVIDE (__fini_array_start = .)
+.fini_array     0x08005764        0x4
+                0x08005764                . = ALIGN (0x4)
+                0x08005764                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080053d0        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x080053d4                PROVIDE (__fini_array_end = .)
-                0x080053d4                . = ALIGN (0x4)
-                0x080053d4                _sidata = LOADADDR (.data)
+ .fini_array    0x08005764        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08005768                PROVIDE (__fini_array_end = .)
+                0x08005768                . = ALIGN (0x4)
+                0x08005768                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x4b4 load address 0x080053d4
+.data           0x20000000      0x524 load address 0x08005768
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -2249,58 +2306,81 @@ LOAD c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1
  .data.FOC_INA_gain
                 0x2000000c        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
                 0x2000000c                FOC_INA_gain
+ .data.FOC_encoder_direction
+                0x20000010        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x20000010                FOC_encoder_direction
  .data.FOC_encoder_type
-                0x20000010        0x1 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
-                0x20000010                FOC_encoder_type
- *fill*         0x20000011        0x3 
- .data.FOC_pole_pairs
-                0x20000014        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
-                0x20000014                FOC_pole_pairs
- .data.FOC_pwm_max
+                0x20000014        0x1 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x20000014                FOC_encoder_type
+ *fill*         0x20000015        0x3 
+ .data.FOC_mechanical_angle_offset
                 0x20000018        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
-                0x20000018                FOC_pwm_max
- .data.FOC_sample_duty_cycle
-                0x2000001c        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
-                0x2000001c                FOC_sample_duty_cycle
- .data.FOC_sample_max
+                0x20000018                FOC_mechanical_angle_offset
+ .data.FOC_mode
+                0x2000001c        0x1 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x2000001c                FOC_mode
+ *fill*         0x2000001d        0x3 
+ .data.FOC_pole_pairs
                 0x20000020        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
-                0x20000020                FOC_sample_max
- .data.FOC_sample_mid
+                0x20000020                FOC_pole_pairs
+ .data.FOC_pwm_max
                 0x20000024        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
-                0x20000024                FOC_sample_mid
- .data.FOC_sample_ref_voltage
+                0x20000024                FOC_pwm_max
+ .data.FOC_sample_duty_cycle
                 0x20000028        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
-                0x20000028                FOC_sample_ref_voltage
- .data.FOC_shunt_resistance
+                0x20000028                FOC_sample_duty_cycle
+ .data.FOC_sample_max
                 0x2000002c        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
-                0x2000002c                FOC_shunt_resistance
- .data.FOC_supply_voltage
+                0x2000002c                FOC_sample_max
+ .data.FOC_sample_mid
                 0x20000030        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
-                0x20000030                FOC_supply_voltage
+                0x20000030                FOC_sample_mid
+ .data.FOC_sample_offset
+                0x20000034        0xc CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x20000034                FOC_sample_offset
+ .data.FOC_sample_ref_voltage
+                0x20000040        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x20000040                FOC_sample_ref_voltage
+ .data.FOC_shunt_resistance
+                0x20000044        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x20000044                FOC_shunt_resistance
+ .data.FOC_supply_voltage
+                0x20000048        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x20000048                FOC_supply_voltage
+ .data.FOC_target_position
+                0x2000004c        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x2000004c                FOC_target_position
  .data.pid_current_d
-                0x20000034       0x28 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
-                0x20000034                pid_current_d
+                0x20000050       0x28 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x20000050                pid_current_d
  .data.pid_current_q
-                0x2000005c       0x28 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
-                0x2000005c                pid_current_q
+                0x20000078       0x28 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x20000078                pid_current_q
+ .data.pid_position
+                0x200000a0       0x28 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x200000a0                pid_position
+ .data.pid_velocity
+                0x200000c8       0x28 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x200000c8                pid_velocity
  .data._impure_ptr
-                0x20000084        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-impure.o)
-                0x20000084                _impure_ptr
+                0x200000f0        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-impure.o)
+                0x200000f0                _impure_ptr
+ *fill*         0x200000f4        0x4 
  .data.impure_data
-                0x20000088      0x428 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-impure.o)
+                0x200000f8      0x428 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-impure.o)
  .data.__atexit_recursive_mutex
-                0x200004b0        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
-                0x200004b0                __atexit_recursive_mutex
+                0x20000520        0x4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
+                0x20000520                __atexit_recursive_mutex
  *(.RamFunc)
  *(.RamFunc*)
-                0x200004b4                . = ALIGN (0x4)
-                0x200004b4                _edata = .
-                0x08005888                _siccmram = LOADADDR (.ccmram)
+                0x20000524                . = ALIGN (0x4)
+                0x20000524                _edata = .
+                0x08005c8c                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x200004b4        0x0 load address 0x08005888
- .igot.plt      0x200004b4        0x0 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.igot.plt       0x20000524        0x0 load address 0x08005c8c
+ .igot.plt      0x20000524        0x0 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.ccmram         0x10000000        0x0 load address 0x08005888
+.ccmram         0x10000000        0x0 load address 0x08005c8c
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _sccmram = .
  *(.ccmram)
@@ -2309,80 +2389,101 @@ LOAD c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1
                 0x10000000                _eccmram = .
                 0x10000000                . = ALIGN (0x4)
 
-.bss            0x200004b4      0x190
-                0x200004b4                _sbss = .
-                0x200004b4                __bss_start__ = _sbss
+.bss            0x20000524      0x1fc
+                0x20000524                _sbss = .
+                0x20000524                __bss_start__ = _sbss
  *(.bss)
- .bss           0x200004b4       0x1c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x20000524       0x1c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
- .bss.hadc1     0x200004d0       0x48 CMakeFiles/FOCModule.elf.dir/Core/Src/adc.c.obj
-                0x200004d0                hadc1
- .bss.hdac      0x20000518       0x14 CMakeFiles/FOCModule.elf.dir/Core/Src/dac.c.obj
-                0x20000518                hdac
- .bss.hi2c1     0x2000052c       0x54 CMakeFiles/FOCModule.elf.dir/Core/Src/i2c.c.obj
-                0x2000052c                hi2c1
- .bss.htim1     0x20000580       0x48 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
-                0x20000580                htim1
- .bss.uwTick    0x200005c8        0x4 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x200005c8                uwTick
- .bss.data.0    0x200005cc        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+ .bss.hadc1     0x20000540       0x48 CMakeFiles/FOCModule.elf.dir/Core/Src/adc.c.obj
+                0x20000540                hadc1
+ .bss.hdac      0x20000588       0x14 CMakeFiles/FOCModule.elf.dir/Core/Src/dac.c.obj
+                0x20000588                hdac
+ .bss.hi2c1     0x2000059c       0x54 CMakeFiles/FOCModule.elf.dir/Core/Src/i2c.c.obj
+                0x2000059c                hi2c1
+ .bss.htim1     0x200005f0       0x48 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
+                0x200005f0                htim1
+ .bss.htim2     0x20000638       0x48 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
+                0x20000638                htim2
+ .bss.uwTick    0x20000680        0x4 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x20000680                uwTick
+ .bss.data.0    0x20000684        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
  .bss.raw_data.1
-                0x200005d0        0x2 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
- *fill*         0x200005d2        0x2 
- .bss.Ia.8      0x200005d4        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.Ialpha.5  0x200005d8        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.Ib.7      0x200005dc        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.Ibeta.4   0x200005e0        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.Ic.6      0x200005e4        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.Id.3      0x200005e8        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.Iq.2      0x200005ec        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.T0.17     0x200005f0        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.T1.19     0x200005f4        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.T2.18     0x200005f8        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.Ta.16     0x200005fc        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.Tb.15     0x20000600        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.Tc.14     0x20000604        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.Ud.1      0x20000608        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.Uout.20   0x2000060c        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.Uq.0      0x20000610        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.a.12      0x20000614        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.b.11      0x20000618        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.ct.10     0x2000061c        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.mid.13    0x20000620        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .bss.st.9      0x20000624        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+                0x20000688        0x2 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+ *fill*         0x2000068a        0x2 
+ .bss.Ia.10     0x2000068c        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.Ialpha.7  0x20000690        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.Ib.9      0x20000694        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.Ibeta.6   0x20000698        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.Ic.8      0x2000069c        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.Id.5      0x200006a0        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.Iq.4      0x200006a4        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.T0.19     0x200006a8        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.T1.21     0x200006ac        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.T2.20     0x200006b0        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.Ta.18     0x200006b4        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.Tb.17     0x200006b8        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.Tc.16     0x200006bc        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.Ud.3      0x200006c0        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.Uout.22   0x200006c4        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.Uq.2      0x200006c8        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.a.14      0x200006cc        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.angle_error.1
+                0x200006d0        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.b.13      0x200006d4        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.ct.12     0x200006d8        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.mid.15    0x200006dc        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.st.11     0x200006e0        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .bss.target_velocity.0
+                0x200006e4        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
  .bss.ADC_value
-                0x20000628        0x6 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
- *fill*         0x2000062e        0x2 
- .bss.ratio.0   0x20000630        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
+                0x200006e8        0x6 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
+ *fill*         0x200006ee        0x2 
+ .bss.ratio.0   0x200006f0        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
  .bss.FOC_electrical_angle
-                0x20000634        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
-                0x20000634                FOC_electrical_angle
+                0x200006f4        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+                0x200006f4                FOC_electrical_angle
+ .bss.FOC_last_mechanical_angle
+                0x200006f8        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+                0x200006f8                FOC_last_mechanical_angle
  .bss.FOC_mechanical_angle
-                0x20000638        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
-                0x20000638                FOC_mechanical_angle
- .bss.FOC_mechanical_angle_offset
-                0x2000063c        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
-                0x2000063c                FOC_mechanical_angle_offset
+                0x200006fc        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+                0x200006fc                FOC_mechanical_angle
+ .bss.FOC_velocity
+                0x20000700        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+                0x20000700                FOC_velocity
+ .bss.delta_angle.0
+                0x20000704        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+ .bss.dt.1      0x20000708        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+ .bss.FOC_target_current
+                0x2000070c        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x2000070c                FOC_target_current
+ .bss.FOC_target_velocity
+                0x20000710        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x20000710                FOC_target_velocity
+ .bss.FOC_target_voltage
+                0x20000714        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x20000714                FOC_target_voltage
+ .bss.count.0   0x20000718        0x4 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
  .bss.__lock___atexit_recursive_mutex
-                0x20000640        0x1 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
-                0x20000640                __lock___atexit_recursive_mutex
+                0x2000071c        0x1 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
+                0x2000071c                __lock___atexit_recursive_mutex
  *(COMMON)
-                0x20000644                . = ALIGN (0x4)
- *fill*         0x20000641        0x3 
-                0x20000644                _ebss = .
-                0x20000644                __bss_end__ = _ebss
+                0x20000720                . = ALIGN (0x4)
+ *fill*         0x2000071d        0x3 
+                0x20000720                _ebss = .
+                0x20000720                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000644     0x1004
-                0x20000648                . = ALIGN (0x8)
- *fill*         0x20000644        0x4 
+                0x20000720     0x1000
+                0x20000720                . = ALIGN (0x8)
                 [!provide]                PROVIDE (end = .)
-                0x20000648                PROVIDE (_end = .)
-                0x20000e48                . = (. + _Min_Heap_Size)
- *fill*         0x20000648      0x800 
-                0x20001648                . = (. + _Min_Stack_Size)
- *fill*         0x20000e48      0x800 
-                0x20001648                . = ALIGN (0x8)
+                0x20000720                PROVIDE (_end = .)
+                0x20000f20                . = (. + _Min_Heap_Size)
+ *fill*         0x20000720      0x800 
+                0x20001720                . = (. + _Min_Stack_Size)
+ *fill*         0x20000f20      0x800 
+                0x20001720                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -2500,41 +2601,41 @@ LOAD c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1
 LOAD c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x00000000    0x1aa0b
+.debug_info     0x00000000    0x1b665
  .debug_info    0x00000000      0xe27 CMakeFiles/FOCModule.elf.dir/Core/Src/adc.c.obj
  .debug_info    0x00000e27      0x996 CMakeFiles/FOCModule.elf.dir/Core/Src/dac.c.obj
  .debug_info    0x000017bd      0x475 CMakeFiles/FOCModule.elf.dir/Core/Src/gpio.c.obj
  .debug_info    0x00001c32      0xa52 CMakeFiles/FOCModule.elf.dir/Core/Src/i2c.c.obj
- .debug_info    0x00002684      0x732 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00002db6      0x2a4 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x0000305a      0x66a CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_info    0x000036c4      0x538 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_info    0x00003bfc      0xe77 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
- .debug_info    0x00004a73       0x22 CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
- .debug_info    0x00004a95      0x9de CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_info    0x00005473      0xee1 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_info    0x00006354      0xcaa CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
- .debug_info    0x00006ffe     0x1086 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_info    0x00008084      0xb31 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
- .debug_info    0x00008bb5      0x7b0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_info    0x00009365     0x3944 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- .debug_info    0x0000cca9      0xb03 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_info    0x0000d7ac     0x3d5b CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_info    0x00011507     0x1ade CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_info    0x00012fe5      0x8cc CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
- .debug_info    0x000138b1      0x244 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
- .debug_info    0x00013af5      0x88d CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
- .debug_info    0x00014382      0x827 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .debug_info    0x00014ba9      0xb98 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
- .debug_info    0x00015741      0x18e CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
- .debug_info    0x000158cf      0x67c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
- .debug_info    0x00015f4b      0x260 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
- .debug_info    0x000161ab      0x1b8 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
- .debug_info    0x00016363     0x1612 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
- .debug_info    0x00017975     0x1612 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
- .debug_info    0x00018f87     0x1a84 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
+ .debug_info    0x00002684      0x867 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00002eeb      0x2a4 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x0000318f      0x66a CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_info    0x000037f9      0x538 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_info    0x00003d31      0xf4f CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
+ .debug_info    0x00004c80       0x22 CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
+ .debug_info    0x00004ca2      0x9de CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_info    0x00005680      0xee1 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_info    0x00006561      0xcaa CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+ .debug_info    0x0000720b     0x1086 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_info    0x00008291      0xb31 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+ .debug_info    0x00008dc2      0x7b0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_info    0x00009572     0x3944 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ .debug_info    0x0000ceb6      0xb03 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_info    0x0000d9b9     0x3d5b CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_info    0x00011714     0x1ade CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_info    0x000131f2      0x8ec CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+ .debug_info    0x00013ade      0x244 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
+ .debug_info    0x00013d22      0x88d CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
+ .debug_info    0x000145af      0x930 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .debug_info    0x00014edf      0xbf6 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
+ .debug_info    0x00015ad5      0x254 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+ .debug_info    0x00015d29      0x67c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
+ .debug_info    0x000163a5      0x41c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+ .debug_info    0x000167c1      0x7fc CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
+ .debug_info    0x00016fbd     0x1612 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
+ .debug_info    0x000185cf     0x1612 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
+ .debug_info    0x00019be1     0x1a84 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
 
-.debug_abbrev   0x00000000     0x3847
+.debug_abbrev   0x00000000     0x39d5
  .debug_abbrev  0x00000000      0x1ed CMakeFiles/FOCModule.elf.dir/Core/Src/adc.c.obj
  .debug_abbrev  0x000001ed      0x1d3 CMakeFiles/FOCModule.elf.dir/Core/Src/dac.c.obj
  .debug_abbrev  0x000003c0      0x14e CMakeFiles/FOCModule.elf.dir/Core/Src/gpio.c.obj
@@ -2555,20 +2656,20 @@ LOAD c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1
  .debug_abbrev  0x00001e99      0x28a CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_abbrev  0x00002123      0x22b CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .debug_abbrev  0x0000234e      0x241 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_abbrev  0x0000258f      0x1dd CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
- .debug_abbrev  0x0000276c       0xf9 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
- .debug_abbrev  0x00002865      0x1bb CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
- .debug_abbrev  0x00002a20      0x22d CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .debug_abbrev  0x00002c4d      0x1f7 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
- .debug_abbrev  0x00002e44       0xcb CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
- .debug_abbrev  0x00002f0f      0x194 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
- .debug_abbrev  0x000030a3       0x99 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
- .debug_abbrev  0x0000313c       0xd6 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
- .debug_abbrev  0x00003212      0x22c D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
- .debug_abbrev  0x0000343e      0x22c D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
- .debug_abbrev  0x0000366a      0x1dd D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
+ .debug_abbrev  0x0000258f      0x1fd CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+ .debug_abbrev  0x0000278c       0xf9 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
+ .debug_abbrev  0x00002885      0x1bb CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
+ .debug_abbrev  0x00002a40      0x22d CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .debug_abbrev  0x00002c6d      0x1f7 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
+ .debug_abbrev  0x00002e64       0xed CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+ .debug_abbrev  0x00002f51      0x194 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
+ .debug_abbrev  0x000030e5       0xc3 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+ .debug_abbrev  0x000031a8      0x1f8 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
+ .debug_abbrev  0x000033a0      0x22c D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
+ .debug_abbrev  0x000035cc      0x22c D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
+ .debug_abbrev  0x000037f8      0x1dd D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
 
-.debug_loc      0x00000000     0xed5d
+.debug_loc      0x00000000     0xedc5
  .debug_loc     0x00000000       0x84 CMakeFiles/FOCModule.elf.dir/Core/Src/adc.c.obj
  .debug_loc     0x00000084       0x84 CMakeFiles/FOCModule.elf.dir/Core/Src/dac.c.obj
  .debug_loc     0x00000108       0x67 CMakeFiles/FOCModule.elf.dir/Core/Src/i2c.c.obj
@@ -2587,14 +2688,14 @@ LOAD c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1
  .debug_loc     0x0000e2e5      0x10a CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
  .debug_loc     0x0000e3ef      0x105 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
  .debug_loc     0x0000e4f4       0xde CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
- .debug_loc     0x0000e5d2      0x36e CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .debug_loc     0x0000e940       0x32 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
- .debug_loc     0x0000e972      0x127 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
- .debug_loc     0x0000ea99       0xd0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
- .debug_loc     0x0000eb69       0xfa D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
- .debug_loc     0x0000ec63       0xfa D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
+ .debug_loc     0x0000e5d2      0x3d6 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .debug_loc     0x0000e9a8       0x32 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
+ .debug_loc     0x0000e9da      0x127 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
+ .debug_loc     0x0000eb01       0xd0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
+ .debug_loc     0x0000ebd1       0xfa D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
+ .debug_loc     0x0000eccb       0xfa D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
 
-.debug_aranges  0x00000000     0x1078
+.debug_aranges  0x00000000     0x10d0
  .debug_aranges
                 0x00000000       0x30 CMakeFiles/FOCModule.elf.dir/Core/Src/adc.c.obj
  .debug_aranges
@@ -2604,129 +2705,129 @@ LOAD c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1
  .debug_aranges
                 0x00000080       0x30 CMakeFiles/FOCModule.elf.dir/Core/Src/i2c.c.obj
  .debug_aranges
-                0x000000b0       0x30 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
+                0x000000b0       0x40 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
  .debug_aranges
-                0x000000e0       0x20 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x000000f0       0x20 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .debug_aranges
-                0x00000100       0x68 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x00000110       0x68 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
  .debug_aranges
-                0x00000168       0x28 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x00000178       0x28 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .debug_aranges
-                0x00000190       0x38 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
+                0x000001a0       0x40 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
  .debug_aranges
-                0x000001c8       0x28 CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
+                0x000001e0       0x28 CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
  .debug_aranges
-                0x000001f0       0xf0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x00000208       0xf0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_aranges
-                0x000002e0       0xe8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x000002f8       0xe8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
  .debug_aranges
-                0x000003c8       0x90 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+                0x000003e0       0x90 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
  .debug_aranges
-                0x00000458       0xa8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x00000470       0xa8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_aranges
-                0x00000500       0xc0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+                0x00000518       0xc0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
  .debug_aranges
-                0x000005c0       0x58 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x000005d8       0x58 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000618      0x2a0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x00000630      0x2a0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .debug_aranges
-                0x000008b8       0x88 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x000008d0       0x88 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_aranges
-                0x00000940      0x3d0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000958      0x3d0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .debug_aranges
-                0x00000d10      0x168 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x00000d28      0x168 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .debug_aranges
-                0x00000e78       0x40 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+                0x00000e90       0x40 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
  .debug_aranges
-                0x00000eb8       0x20 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
+                0x00000ed0       0x20 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
  .debug_aranges
-                0x00000ed8       0x28 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
+                0x00000ef0       0x28 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
  .debug_aranges
-                0x00000f00       0x48 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+                0x00000f18       0x68 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
  .debug_aranges
-                0x00000f48       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
+                0x00000f80       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
  .debug_aranges
-                0x00000f78       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+                0x00000fb0       0x40 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
  .debug_aranges
-                0x00000fa8       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
+                0x00000ff0       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
  .debug_aranges
-                0x00000fd8       0x18 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                0x00001020       0x18 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
  .debug_aranges
-                0x00000ff0       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
+                0x00001038       0x40 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
  .debug_aranges
-                0x00001020       0x20 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
+                0x00001078       0x20 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
  .debug_aranges
-                0x00001040       0x20 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
+                0x00001098       0x20 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
  .debug_aranges
-                0x00001060       0x18 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
+                0x000010b8       0x18 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
 
-.debug_ranges   0x00000000      0xf18
+.debug_ranges   0x00000000      0xf70
  .debug_ranges  0x00000000       0x20 CMakeFiles/FOCModule.elf.dir/Core/Src/adc.c.obj
  .debug_ranges  0x00000020       0x20 CMakeFiles/FOCModule.elf.dir/Core/Src/dac.c.obj
  .debug_ranges  0x00000040       0x10 CMakeFiles/FOCModule.elf.dir/Core/Src/gpio.c.obj
  .debug_ranges  0x00000050       0x20 CMakeFiles/FOCModule.elf.dir/Core/Src/i2c.c.obj
- .debug_ranges  0x00000070       0x20 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
- .debug_ranges  0x00000090       0x10 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_ranges  0x000000a0       0x58 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_ranges  0x000000f8       0x18 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_ranges  0x00000110       0x28 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
- .debug_ranges  0x00000138       0x20 CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
- .debug_ranges  0x00000158       0xe0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_ranges  0x00000238       0xd8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_ranges  0x00000310       0x80 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
- .debug_ranges  0x00000390       0xf8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_ranges  0x00000488       0xb0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
- .debug_ranges  0x00000538       0x48 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_ranges  0x00000580      0x2a8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- .debug_ranges  0x00000828       0x90 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_ranges  0x000008b8      0x3c0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_ranges  0x00000c78      0x158 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_ranges  0x00000dd0       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
- .debug_ranges  0x00000e00       0x10 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
- .debug_ranges  0x00000e10       0x18 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
- .debug_ranges  0x00000e28       0x50 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .debug_ranges  0x00000e78       0x20 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
- .debug_ranges  0x00000e98       0x20 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
- .debug_ranges  0x00000eb8       0x20 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
- .debug_ranges  0x00000ed8       0x20 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
- .debug_ranges  0x00000ef8       0x10 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
- .debug_ranges  0x00000f08       0x10 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
+ .debug_ranges  0x00000070       0x30 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
+ .debug_ranges  0x000000a0       0x10 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_ranges  0x000000b0       0x58 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_ranges  0x00000108       0x18 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_ranges  0x00000120       0x30 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
+ .debug_ranges  0x00000150       0x20 CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
+ .debug_ranges  0x00000170       0xe0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_ranges  0x00000250       0xd8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_ranges  0x00000328       0x80 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+ .debug_ranges  0x000003a8       0xf8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_ranges  0x000004a0       0xb0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+ .debug_ranges  0x00000550       0x48 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_ranges  0x00000598      0x2a8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ .debug_ranges  0x00000840       0x90 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_ranges  0x000008d0      0x3c0 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_ranges  0x00000c90      0x158 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_ranges  0x00000de8       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+ .debug_ranges  0x00000e18       0x10 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
+ .debug_ranges  0x00000e28       0x18 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
+ .debug_ranges  0x00000e40       0x70 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .debug_ranges  0x00000eb0       0x20 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
+ .debug_ranges  0x00000ed0       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+ .debug_ranges  0x00000f00       0x20 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
+ .debug_ranges  0x00000f20       0x30 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
+ .debug_ranges  0x00000f50       0x10 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
+ .debug_ranges  0x00000f60       0x10 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
 
-.debug_line     0x00000000    0x1423a
+.debug_line     0x00000000    0x146dd
  .debug_line    0x00000000      0x47d CMakeFiles/FOCModule.elf.dir/Core/Src/adc.c.obj
  .debug_line    0x0000047d      0x337 CMakeFiles/FOCModule.elf.dir/Core/Src/dac.c.obj
  .debug_line    0x000007b4      0x23c CMakeFiles/FOCModule.elf.dir/Core/Src/gpio.c.obj
  .debug_line    0x000009f0      0x354 CMakeFiles/FOCModule.elf.dir/Core/Src/i2c.c.obj
- .debug_line    0x00000d44      0x4ce CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
- .debug_line    0x00001212      0x196 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x000013a8      0x343 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x000016eb      0x2b5 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_line    0x000019a0      0x4c5 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
- .debug_line    0x00001e65       0xae CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
- .debug_line    0x00001f13      0x5f3 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x00002506     0x1116 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_line    0x0000361c      0xcc9 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
- .debug_line    0x000042e5      0x806 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x00004aeb      0x888 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
- .debug_line    0x00005373      0x746 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x00005ab9     0x53c8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- .debug_line    0x0000ae81      0xb75 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x0000b9f6     0x4b07 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_line    0x000104fd     0x1d2b CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_line    0x00012228      0x379 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
- .debug_line    0x000125a1      0x150 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
- .debug_line    0x000126f1      0x30e CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
- .debug_line    0x000129ff      0x5d8 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .debug_line    0x00012fd7      0x3c0 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
- .debug_line    0x00013397      0x182 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
- .debug_line    0x00013519      0x30c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
- .debug_line    0x00013825       0xbf CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
- .debug_line    0x000138e4      0x170 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
- .debug_line    0x00013a54      0x2d0 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
- .debug_line    0x00013d24      0x2d3 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
- .debug_line    0x00013ff7      0x243 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
+ .debug_line    0x00000d44      0x56a CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000012ae      0x196 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x00001444      0x343 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x00001787      0x2b5 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_line    0x00001a3c      0x586 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
+ .debug_line    0x00001fc2       0xae CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
+ .debug_line    0x00002070      0x5f3 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x00002663     0x1116 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_line    0x00003779      0xcc9 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+ .debug_line    0x00004442      0x806 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x00004c48      0x888 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+ .debug_line    0x000054d0      0x746 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x00005c16     0x53c8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ .debug_line    0x0000afde      0xb75 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x0000bb53     0x4b07 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_line    0x0001065a     0x1d2b CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_line    0x00012385      0x38d CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+ .debug_line    0x00012712      0x150 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
+ .debug_line    0x00012862      0x30e CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
+ .debug_line    0x00012b70      0x640 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .debug_line    0x000131b0      0x3db CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
+ .debug_line    0x0001358b      0x20f CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+ .debug_line    0x0001379a      0x30c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
+ .debug_line    0x00013aa6       0xcc CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+ .debug_line    0x00013b72      0x385 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
+ .debug_line    0x00013ef7      0x2d0 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
+ .debug_line    0x000141c7      0x2d3 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
+ .debug_line    0x0001449a      0x243 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
 
-.debug_str      0x00000000     0x5ecd
+.debug_str      0x00000000     0x60d2
  .debug_str     0x00000000      0xd7c CMakeFiles/FOCModule.elf.dir/Core/Src/adc.c.obj
                                 0xe50 (size before relaxing)
  .debug_str     0x00000d7c      0x1d3 CMakeFiles/FOCModule.elf.dir/Core/Src/dac.c.obj
@@ -2735,61 +2836,61 @@ LOAD c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1
                                 0x3bf (size before relaxing)
  .debug_str     0x00000fc3      0x301 CMakeFiles/FOCModule.elf.dir/Core/Src/i2c.c.obj
                                 0x8eb (size before relaxing)
- .debug_str     0x000012c4      0x22f CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
-                                0x5c8 (size before relaxing)
- .debug_str     0x000014f3       0x52 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_str     0x000012c4      0x274 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
+                                0x60d (size before relaxing)
+ .debug_str     0x00001538       0x52 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
                                 0x30e (size before relaxing)
- .debug_str     0x00001545       0xf0 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_str     0x0000158a       0xf0 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
                                 0x690 (size before relaxing)
- .debug_str     0x00001635      0x101 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_str     0x0000167a      0x101 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
                                 0x3c8 (size before relaxing)
- .debug_str     0x00001736      0x55b CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
-                                0xbaf (size before relaxing)
- .debug_str     0x00001c91       0x5c CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
+ .debug_str     0x0000177b      0x561 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
+                                0xbc2 (size before relaxing)
+ .debug_str     0x00001cdc       0x5c CMakeFiles/FOCModule.elf.dir/Core/Startup/startup_stm32f405rgtx.s.obj
                                  0x97 (size before relaxing)
- .debug_str     0x00001ced      0x378 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_str     0x00001d38      0x378 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
                                 0xb8c (size before relaxing)
- .debug_str     0x00002065      0x2e3 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_str     0x000020b0      0x2e3 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
                                 0x9b5 (size before relaxing)
- .debug_str     0x00002348      0x204 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+ .debug_str     0x00002393      0x204 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
                                 0xa09 (size before relaxing)
- .debug_str     0x0000254c      0x451 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_str     0x00002597      0x451 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
                                 0xc5e (size before relaxing)
- .debug_str     0x0000299d      0x1e1 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+ .debug_str     0x000029e8      0x1e1 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
                                 0x800 (size before relaxing)
- .debug_str     0x00002b7e      0x13b CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_str     0x00002bc9      0x13b CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
                                 0x533 (size before relaxing)
- .debug_str     0x00002cb9      0x8f2 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ .debug_str     0x00002d04      0x8f2 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
                                0x1083 (size before relaxing)
- .debug_str     0x000035ab      0x1aa CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_str     0x000035f6      0x1aa CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
                                 0x759 (size before relaxing)
- .debug_str     0x00003755      0xdf7 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_str     0x000037a0      0xdf7 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
                                0x170c (size before relaxing)
- .debug_str     0x0000454c      0x498 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_str     0x00004597      0x498 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
                                 0xf0d (size before relaxing)
- .debug_str     0x000049e4      0x14d CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
-                                0x850 (size before relaxing)
- .debug_str     0x00004b31       0xfa CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
+ .debug_str     0x00004a2f      0x14d CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+                                0x85a (size before relaxing)
+ .debug_str     0x00004b7c       0xfa CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
                                 0x2c0 (size before relaxing)
- .debug_str     0x00004c2b       0xa8 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
+ .debug_str     0x00004c76       0xa8 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
                                 0x7c1 (size before relaxing)
- .debug_str     0x00004cd3      0x29b CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
-                                0x51f (size before relaxing)
- .debug_str     0x00004f6e       0xc2 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
-                                0xa37 (size before relaxing)
- .debug_str     0x00005030       0xe9 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
-                                0x335 (size before relaxing)
- .debug_str     0x00005119       0x68 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
+ .debug_str     0x00004d1e      0x36a CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+                                0x60b (size before relaxing)
+ .debug_str     0x00005088      0x111 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
+                                0xa8a (size before relaxing)
+ .debug_str     0x00005199      0x159 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+                                0x3c3 (size before relaxing)
+ .debug_str     0x000052f2       0x6e CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
                                 0x618 (size before relaxing)
- .debug_str     0x00005181       0x51 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
-                                0x30a (size before relaxing)
- .debug_str     0x000051d2       0x70 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
-                                0x26a (size before relaxing)
- .debug_str     0x00005242      0xc29 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
+ .debug_str     0x00005360       0x77 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj
+                                0x4a5 (size before relaxing)
+ .debug_str     0x000053d7       0x70 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
+                                0x7da (size before relaxing)
+ .debug_str     0x00005447      0xc29 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
                                 0xd42 (size before relaxing)
- .debug_str     0x00005e6b       0x34 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
+ .debug_str     0x00006070       0x34 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
                                 0xd42 (size before relaxing)
- .debug_str     0x00005e9f       0x2e D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
+ .debug_str     0x000060a4       0x2e D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
                                 0xd1d (size before relaxing)
 
 .comment        0x00000000       0xbe
@@ -2827,47 +2928,47 @@ LOAD c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1
  .comment       0x000000be       0x76 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
  .comment       0x000000be       0x76 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
 
-.debug_frame    0x00000000     0x2f84
+.debug_frame    0x00000000     0x30b4
  .debug_frame   0x00000000       0x6c CMakeFiles/FOCModule.elf.dir/Core/Src/adc.c.obj
  .debug_frame   0x0000006c       0x68 CMakeFiles/FOCModule.elf.dir/Core/Src/dac.c.obj
  .debug_frame   0x000000d4       0x34 CMakeFiles/FOCModule.elf.dir/Core/Src/gpio.c.obj
  .debug_frame   0x00000108       0x64 CMakeFiles/FOCModule.elf.dir/Core/Src/i2c.c.obj
- .debug_frame   0x0000016c       0x58 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
- .debug_frame   0x000001c4       0x28 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_frame   0x000001ec       0xc0 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_frame   0x000002ac       0x30 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_frame   0x000002dc       0x80 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
- .debug_frame   0x0000035c      0x1ec CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_frame   0x00000548      0x268 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_frame   0x000007b0      0x18c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
- .debug_frame   0x0000093c      0x148 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_frame   0x00000a84      0x1e8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
- .debug_frame   0x00000c6c       0xd8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_frame   0x00000d44      0x970 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- .debug_frame   0x000016b4      0x16c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_frame   0x00001820      0xb0c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_frame   0x0000232c      0x40c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_frame   0x00002738       0xa0 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
- .debug_frame   0x000027d8       0x44 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
- .debug_frame   0x0000281c       0x5c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
- .debug_frame   0x00002878      0x124 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
- .debug_frame   0x0000299c       0x60 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
- .debug_frame   0x000029fc       0x58 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
- .debug_frame   0x00002a54       0x6c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
- .debug_frame   0x00002ac0       0x48 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
- .debug_frame   0x00002b08       0x20 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
- .debug_frame   0x00002b28       0x20 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
- .debug_frame   0x00002b48       0x30 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
- .debug_frame   0x00002b78       0xac c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x00002c24       0xc4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x00002ce8       0x24 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_truncdfsf2.o)
- .debug_frame   0x00002d0c       0x2c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00002d38       0x34 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x00002d6c       0x20 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
- .debug_frame   0x00002d8c       0x2c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-init.o)
- .debug_frame   0x00002db8       0x2c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memset.o)
- .debug_frame   0x00002de4       0x68 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x00002e4c       0x20 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-atexit.o)
- .debug_frame   0x00002e6c       0x34 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-fini.o)
- .debug_frame   0x00002ea0       0xb0 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
- .debug_frame   0x00002f50       0x34 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__atexit.o)
+ .debug_frame   0x0000016c       0x98 CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj
+ .debug_frame   0x00000204       0x28 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_frame   0x0000022c       0xc0 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_frame   0x000002ec       0x30 CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_frame   0x0000031c       0xa4 CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj
+ .debug_frame   0x000003c0      0x1ec CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_frame   0x000005ac      0x268 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_frame   0x00000814      0x18c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+ .debug_frame   0x000009a0      0x148 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_frame   0x00000ae8      0x1e8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+ .debug_frame   0x00000cd0       0xd8 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_frame   0x00000da8      0x970 CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ .debug_frame   0x00001718      0x16c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_frame   0x00001884      0xb0c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_frame   0x00002390      0x40c CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_frame   0x0000279c       0xa0 CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj
+ .debug_frame   0x0000283c       0x44 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj
+ .debug_frame   0x00002880       0x5c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj
+ .debug_frame   0x000028dc      0x198 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj
+ .debug_frame   0x00002a74       0x60 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj
+ .debug_frame   0x00002ad4       0x88 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj
+ .debug_frame   0x00002b5c       0x6c CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj
+ .debug_frame   0x00002bc8       0x70 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj
+ .debug_frame   0x00002c38       0x20 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_sin_f32.o)
+ .debug_frame   0x00002c58       0x20 D:\Projects\FOCModule\Firmware\FOCModule\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a(arm_cos_f32.o)
+ .debug_frame   0x00002c78       0x30 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
+ .debug_frame   0x00002ca8       0xac c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00002d54       0xc4 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x00002e18       0x24 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x00002e3c       0x2c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00002e68       0x34 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00002e9c       0x20 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
+ .debug_frame   0x00002ebc       0x2c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-init.o)
+ .debug_frame   0x00002ee8       0x2c c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memset.o)
+ .debug_frame   0x00002f14       0x68 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00002f7c       0x20 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00002f9c       0x34 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-fini.o)
+ .debug_frame   0x00002fd0       0xb0 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
+ .debug_frame   0x00003080       0x34 c:/tools/gcc-arm-none-eabi-10.3-2021.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__atexit.o)

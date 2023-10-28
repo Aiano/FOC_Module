@@ -4,6 +4,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj: \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_setting.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_encoder.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_PID.h \
+ D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_LPF.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_core.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_encoder.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_scope.h \

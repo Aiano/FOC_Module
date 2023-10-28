@@ -14,6 +14,7 @@
 #include "FOC_PWM.h"
 #include "FOC_scope.h"
 #include "FOC_PID.h"
+#include "FOC_LPF.h"
 #include "main.h"
 #include "math.h"
 #include "arm_math.h"
@@ -23,10 +24,10 @@
  * @details 获取机械零度角等
  */
 void FOC_calibrate() {
-    FOC_SVPWM(0, 0.5f, 0);
-    HAL_Delay(400);
-    FOC_mechanical_angle_offset = FOC_encoder_read_mechanical_angle();
-    HAL_Delay(100);
+//    FOC_SVPWM(0, 0.5f, 0);
+//    HAL_Delay(400);
+//    FOC_mechanical_angle_offset = FOC_encoder_read_mechanical_angle();
+//    HAL_Delay(100);
     FOC_SVPWM(0, 0, 0);
 }
 
@@ -149,6 +150,11 @@ void FOC_voltage_loop(float target_voltage) {
     FOC_SVPWM(target_voltage, 0, FOC_electrical_angle);
 }
 
+/**
+ * @brief 电流环
+ * @details 在ADC转换完成中断中调用本函数
+ * @param target_current
+ */
 void FOC_current_loop(float target_current) {
     static float Ia, Ib, Ic;
     static float Ialpha, Ibeta;
@@ -171,6 +177,76 @@ void FOC_current_loop(float target_current) {
     FOC_SVPWM(Uq, Ud, FOC_electrical_angle);
 
     // 探测变量
-    FOC_scope_probe_float(0.1f * Id + 0.5f, FOC_SCOPE_DAC1);
-    FOC_scope_probe_float(0.1f * Iq + 0.5f, FOC_SCOPE_DAC2);
+//    FOC_scope_probe_float(0.1f * Id + 0.5f, FOC_SCOPE_DAC1);
+//    FOC_scope_probe_float(0.1f * Iq + 0.5f, FOC_SCOPE_DAC2);
+}
+
+/**
+ * @brief 速度环
+ * @param target_velocity
+ */
+void FOC_velocity_loop(float target_velocity) {
+    // TODO: 提高速度环频率，频率越高振动越小
+    FOC_encoder_compute_velocity(); // 计算速度
+
+//    FOC_velocity = FOC_LPF_output(&lpf_velocity, FOC_velocity);
+
+    FOC_target_current = FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
+}
+
+/**
+ * @brief 位置环
+ * @param target_position
+ */
+void FOC_position_loop(float target_position) {
+    static float target_velocity;
+    static float angle_error;
+
+    FOC_encoder_compute_velocity(); // 计算速度，同时获得机械角度和电角度
+
+    FOC_mechanical_angle = _normalizeAngle(FOC_mechanical_angle);
+
+    angle_error = target_position - FOC_mechanical_angle;
+    if (angle_error < -_PI) target_position += _2PI;
+    else if (angle_error > _PI) target_position -= _2PI;
+
+    target_velocity = FOC_PID_get_u(&pid_position, target_position, FOC_mechanical_angle);
+    FOC_target_current = FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
+}
+
+/**
+ * @brief 主循环
+ * @details 在主循环中调用本函数
+ */
+void FOC_main_loop() {
+    switch (FOC_mode) {
+        case FOC_MODE_VOLTAGE:
+            FOC_voltage_loop(FOC_target_voltage);
+            break;
+        case FOC_MODE_CURRENT:
+            FOC_encoder_compute_electrical_angle();
+            break;
+        case FOC_MODE_VELOCITY:
+            FOC_velocity_loop(FOC_target_velocity);
+            break;
+        case FOC_MODE_POSITION:
+            FOC_position_loop(FOC_target_position);
+            break;
+    }
+}
+
+/**
+ * @brief 电流中断回调函数
+ * @details 在ADC转换完成回调函数中调用本函数
+ */
+void FOC_current_callback() {
+    switch (FOC_mode) {
+        case FOC_MODE_VOLTAGE: // 电压环无需采样电流
+            break;
+        case FOC_MODE_CURRENT: // 电流环、速度环和位置环都基于电流环
+        case FOC_MODE_VELOCITY:
+        case FOC_MODE_POSITION:
+            FOC_current_loop(FOC_target_current);
+            break;
+    }
 }

@@ -8,6 +8,12 @@
 
 #include "FOC_utility.h"
 #include "math.h"
+#include "tim.h"
+
+void FOC_utility_init()
+{
+    HAL_TIM_Base_Start(&htim2);
+}
 
 /**
  * @brief 检查范围
@@ -53,4 +59,16 @@ float _sqrtApprox(float number) {//low in fat
 float _normalizeAngle(float angle) {
     float a = fmodf(angle, _2PI);
     return a >= 0 ? a : (a + _2PI);
+}
+
+/**
+ * @brief 获取两次调用之间的时间跨度，单位微秒
+ * @return 时间跨度，32位无符号
+ */
+uint32_t _spanMicro() {
+    static uint32_t count;
+    count = __HAL_TIM_GET_COUNTER(&htim2);
+    __HAL_TIM_SET_COUNTER(&htim2, 0);
+
+    return count;
 }

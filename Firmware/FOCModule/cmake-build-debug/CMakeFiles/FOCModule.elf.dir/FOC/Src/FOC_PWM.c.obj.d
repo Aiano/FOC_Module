@@ -48,5 +48,6 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj: \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_setting.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_encoder.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_PID.h \
+ D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_LPF.h \
  D:\Projects\FOCModule\Firmware\FOCModule\Core\Inc/tim.h \
  D:\Projects\FOCModule\Firmware\FOCModule\Core\Inc/main.h

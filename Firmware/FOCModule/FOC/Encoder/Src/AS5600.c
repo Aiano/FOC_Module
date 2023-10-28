@@ -3,6 +3,8 @@
 
 void AS5600_init() {
     uint8_t data = 0x03;
+
+    HAL_Delay(100);
     HAL_I2C_Mem_Write(&hi2c1, I2C_ADDRESS, _conf_hi, I2C_MEMADD_SIZE_8BIT, &data, 1, 0xff);
 
     return;

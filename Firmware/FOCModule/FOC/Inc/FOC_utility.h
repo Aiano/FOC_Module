@@ -1,6 +1,8 @@
 #ifndef FOCMODULE_FOC_UTILITY_H
 #define FOCMODULE_FOC_UTILITY_H
 
+#include "main.h"
+
 // utility defines
 #define _2_SQRT3 1.15470053838f
 #define _SQRT3 1.73205080757f
@@ -26,7 +28,9 @@ typedef enum{
     FOC_OK
 }FOC_STATE;
 
+void FOC_utility_init();
 FOC_STATE _checkRange(float value, float upper_limit, float lower_limit);
 float _normalizeAngle(float angle);
+uint32_t _spanMicro();
 
 #endif //FOCMODULE_FOC_UTILITY_H

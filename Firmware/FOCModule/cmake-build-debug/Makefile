@@ -952,6 +952,30 @@ FOC/Encoder/Src/AS5600.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.s
 .PHONY : FOC/Encoder/Src/AS5600.c.s
 
+FOC/Src/FOC_LPF.obj: FOC/Src/FOC_LPF.c.obj
+.PHONY : FOC/Src/FOC_LPF.obj
+
+# target to build an object file
+FOC/Src/FOC_LPF.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj
+.PHONY : FOC/Src/FOC_LPF.c.obj
+
+FOC/Src/FOC_LPF.i: FOC/Src/FOC_LPF.c.i
+.PHONY : FOC/Src/FOC_LPF.i
+
+# target to preprocess a source file
+FOC/Src/FOC_LPF.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.i
+.PHONY : FOC/Src/FOC_LPF.c.i
+
+FOC/Src/FOC_LPF.s: FOC/Src/FOC_LPF.c.s
+.PHONY : FOC/Src/FOC_LPF.s
+
+# target to generate assembly for a file
+FOC/Src/FOC_LPF.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.s
+.PHONY : FOC/Src/FOC_LPF.c.s
+
 FOC/Src/FOC_PID.obj: FOC/Src/FOC_PID.c.obj
 .PHONY : FOC/Src/FOC_PID.obj
 
@@ -1256,6 +1280,9 @@ help:
 	@echo ... FOC/Encoder/Src/AS5600.obj
 	@echo ... FOC/Encoder/Src/AS5600.i
 	@echo ... FOC/Encoder/Src/AS5600.s
+	@echo ... FOC/Src/FOC_LPF.obj
+	@echo ... FOC/Src/FOC_LPF.i
+	@echo ... FOC/Src/FOC_LPF.s
 	@echo ... FOC/Src/FOC_PID.obj
 	@echo ... FOC/Src/FOC_PID.i
 	@echo ... FOC/Src/FOC_PID.s

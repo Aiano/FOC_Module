@@ -68,6 +68,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj.d"
   "CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj"
   "CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj.d"
+  "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj"
+  "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj.d"
   "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj"
   "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj.d"
   "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj"

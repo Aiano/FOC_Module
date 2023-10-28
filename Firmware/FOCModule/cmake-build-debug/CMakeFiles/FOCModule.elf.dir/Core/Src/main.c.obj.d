@@ -56,5 +56,6 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj: \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_setting.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_encoder.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_PID.h \
+ D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_LPF.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Inc/FOC_scope.h \
  D:\Projects\FOCModule\Firmware\FOCModule\FOC\Encoder\Inc/AS5600.h

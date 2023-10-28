@@ -47,3 +47,5 @@ STM32F4系列单片机**只有硬件单精度浮点**，**只能用float类型�
 > [STM32 DSP库的快速添加 基于cubemx 调用，使用DSP库_#include "arm_const_structs.h"怎么添加_四臂西瓜的博客-CSDN博客](https://blog.csdn.net/qq_34022877/article/details/117855263)
 >
 > [如何使用CLion添加STM32F4xx的DSP库 - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv19024271/?spm_id_from=333.999.0.0)
+
+USB虚拟串口收发

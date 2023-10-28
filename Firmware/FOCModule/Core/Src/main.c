@@ -57,7 +57,8 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
-
+void SystemClock_EnableHSI(void);
+void SystemClock_DisableHSI(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -81,14 +82,14 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+    SystemClock_EnableHSI();
   /* USER CODE END Init */
 
   /* Configure the system clock */
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
+    SystemClock_DisableHSI();
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
@@ -97,23 +98,22 @@ int main(void)
   MX_ADC1_Init();
   MX_DAC_Init();
   MX_I2C1_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
     AS5600_init();
     FOC_tim_init();
     FOC_calibrate();
     FOC_cs_init();
     FOC_scope_init();
+    FOC_utility_init();
+    FOC_encoder_init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
     while (1) {
-//        FOC_voltage_loop(1);
-//        FOC_current_loop(0.5f);
-        // 读取角度
-        FOC_encoder_compute_electrical_angle();
+        FOC_main_loop();
         HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
-        //HAL_Delay(1);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -168,6 +168,31 @@ void SystemClock_Config(void)
 
 /* USER CODE BEGIN 4 */
 
+void SystemClock_EnableHSI(void)
+{
+    RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+
+    __HAL_RCC_PWR_CLK_ENABLE();
+    __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
+
+    RCC_ClkInitStruct.ClockType    = RCC_CLOCKTYPE_SYSCLK;
+    RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
+    if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_5) != HAL_OK) {
+        Error_Handler();
+    }
+}
+
+void SystemClock_DisableHSI(void)
+{
+    RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+
+    RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+    RCC_OscInitStruct.HSIState       = RCC_HSI_OFF;
+    RCC_OscInitStruct.PLL.PLLState   = RCC_PLL_NONE;
+    if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK) {
+        Error_Handler();
+    }
+}
 /* USER CODE END 4 */
 
 /**
