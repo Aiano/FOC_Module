@@ -80,6 +80,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj.d"
   "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj"
   "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj.d"
+  "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_comm.c.obj"
+  "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_comm.c.obj.d"
   "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj"
   "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj.d"
   "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj"

@@ -18,6 +18,7 @@
 #include "main.h"
 #include "math.h"
 #include "arm_math.h"
+#include "usbd_cdc_if.h"
 
 /**
  * @brief 校准
@@ -127,16 +128,16 @@ void FOC_Clarke_Transform(float Ia, float Ib, float Ic, float *Ialpha, float *Ib
  * @param Ialpha
  * @param Ibeta
  * @param angle
- * @param Id
- * @param Iq
+ * @param _Id
+ * @param _Iq
  */
-void FOC_Park_Transform(float Ialpha, float Ibeta, float angle, float *Id, float *Iq) {
+void FOC_Park_Transform(float Ialpha, float Ibeta, float angle, float *_Id, float *_Iq) {
     static float ct, st;
 
     ct = arm_cos_f32(angle);
     st = arm_sin_f32(angle);
-    *Id = Ialpha * ct + Ibeta * st;
-    *Iq = Ibeta * ct - Ialpha * st;
+    *_Id = Ialpha * ct + Ibeta * st;
+    *_Iq = Ibeta * ct - Ialpha * st;
 }
 
 /**
@@ -156,10 +157,7 @@ void FOC_voltage_loop(float target_voltage) {
  * @param target_current
  */
 void FOC_current_loop(float target_current) {
-    static float Ia, Ib, Ic;
     static float Ialpha, Ibeta;
-    static float Id, Iq;
-    static float Uq, Ud;
 
 //    // 读取角度
 //    FOC_encoder_compute_electrical_angle();
@@ -188,10 +186,11 @@ void FOC_current_loop(float target_current) {
 void FOC_velocity_loop(float target_velocity) {
     // TODO: 提高速度环频率，频率越高振动越小
     FOC_encoder_compute_velocity(); // 计算速度
-
-//    FOC_velocity = FOC_LPF_output(&lpf_velocity, FOC_velocity);
+    FOC_velocity = FOC_LPF_output(&lpf_velocity, FOC_velocity);
 
     FOC_target_current = FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
+
+    //CDC_printf("%.3f,%.3f,%.3f\n", FOC_velocity, target_velocity, FOC_target_current);
 }
 
 /**
@@ -203,6 +202,7 @@ void FOC_position_loop(float target_position) {
     static float angle_error;
 
     FOC_encoder_compute_velocity(); // 计算速度，同时获得机械角度和电角度
+    FOC_velocity = FOC_LPF_output(&lpf_velocity, FOC_velocity);
 
     FOC_mechanical_angle = _normalizeAngle(FOC_mechanical_angle);
 
@@ -212,6 +212,8 @@ void FOC_position_loop(float target_position) {
 
     target_velocity = FOC_PID_get_u(&pid_position, target_position, FOC_mechanical_angle);
     FOC_target_current = FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
+
+    //CDC_printf("%.3f,%.3f,%.3f\n", FOC_velocity, target_velocity, FOC_target_current);
 }
 
 /**
@@ -219,6 +221,7 @@ void FOC_position_loop(float target_position) {
  * @details 在主循环中调用本函数
  */
 void FOC_main_loop() {
+    // 模式选择
     switch (FOC_mode) {
         case FOC_MODE_VOLTAGE:
             FOC_voltage_loop(FOC_target_voltage);
@@ -233,6 +236,11 @@ void FOC_main_loop() {
             FOC_position_loop(FOC_target_position);
             break;
     }
+
+    // 参数输出
+    // Ia, Ib, Ic, Id, Iq, target_Id, target_Iq, Ud, Uq, velocity, target_velocity, position, target_position
+    //CDC_printf("%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f", Ia, Ib, Ic, Id, Iq, 0.0f, FOC_target_current);
+    //CDC_printf("%.2f,%.2f\n", FOC_velocity ,FOC_target_velocity);
 }
 
 /**

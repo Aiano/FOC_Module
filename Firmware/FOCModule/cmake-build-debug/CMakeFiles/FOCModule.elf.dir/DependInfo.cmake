@@ -81,6 +81,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_LPF.c" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj" "gcc" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_LPF.c.obj.d"
   "D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_PID.c" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj" "gcc" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PID.c.obj.d"
   "D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_PWM.c" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj" "gcc" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj.d"
+  "D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_comm.c" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_comm.c.obj" "gcc" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_comm.c.obj.d"
   "D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_core.c" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj" "gcc" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj.d"
   "D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_current_sense.c" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj" "gcc" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj.d"
   "D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_encoder.c" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj" "gcc" "CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj.d"

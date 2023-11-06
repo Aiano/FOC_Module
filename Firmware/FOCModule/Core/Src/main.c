@@ -123,6 +123,7 @@ int main(void)
         FOC_main_loop();
         //CDC_printf("FOC Module: Test loop count %d.\n", cnt++);
         HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+        //HAL_Delay(0);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

@@ -1096,6 +1096,30 @@ FOC/Src/FOC_PWM.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.s
 .PHONY : FOC/Src/FOC_PWM.c.s
 
+FOC/Src/FOC_comm.obj: FOC/Src/FOC_comm.c.obj
+.PHONY : FOC/Src/FOC_comm.obj
+
+# target to build an object file
+FOC/Src/FOC_comm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_comm.c.obj
+.PHONY : FOC/Src/FOC_comm.c.obj
+
+FOC/Src/FOC_comm.i: FOC/Src/FOC_comm.c.i
+.PHONY : FOC/Src/FOC_comm.i
+
+# target to preprocess a source file
+FOC/Src/FOC_comm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_comm.c.i
+.PHONY : FOC/Src/FOC_comm.c.i
+
+FOC/Src/FOC_comm.s: FOC/Src/FOC_comm.c.s
+.PHONY : FOC/Src/FOC_comm.s
+
+# target to generate assembly for a file
+FOC/Src/FOC_comm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_comm.c.s
+.PHONY : FOC/Src/FOC_comm.c.s
+
 FOC/Src/FOC_core.obj: FOC/Src/FOC_core.c.obj
 .PHONY : FOC/Src/FOC_core.obj
 
@@ -1562,6 +1586,9 @@ help:
 	@echo ... FOC/Src/FOC_PWM.obj
 	@echo ... FOC/Src/FOC_PWM.i
 	@echo ... FOC/Src/FOC_PWM.s
+	@echo ... FOC/Src/FOC_comm.obj
+	@echo ... FOC/Src/FOC_comm.i
+	@echo ... FOC/Src/FOC_comm.s
 	@echo ... FOC/Src/FOC_core.obj
 	@echo ... FOC/Src/FOC_core.i
 	@echo ... FOC/Src/FOC_core.s

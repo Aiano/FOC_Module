@@ -1818,6 +1818,99 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj: D:/Projects/FOCModule/Firmwa
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h
 
+CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_comm.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_comm.c \
+  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_comm.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/stm32f4xx_hal_conf.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/core_cm4.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_default_types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/features.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_newlib_version.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_intsup.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_stdint.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/string.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_ansi.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/newlib.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/config.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/ieeefp.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/reent.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_ansi.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/lock.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/cdefs.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_locale.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/strings.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/string.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usbd_cdc_if.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/Target/usbd_conf.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdio.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/endian.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_endian.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/select.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_sigset.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_timeval.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/timespec.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_timespec.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_pthreadtypes.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/sched.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/stdio.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdlib.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/stdlib.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/alloca.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_setting.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PID.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_LPF.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_utility.h
+
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_core.c \
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_core.h \
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_utility.h \
@@ -1893,7 +1986,32 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj: D:/Projects/FOCModule/Firmw
   C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/string.h \
   C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_locale.h \
   C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/strings.h \
-  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/string.h
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/string.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usbd_cdc_if.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/Target/usbd_conf.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdio.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/endian.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_endian.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/select.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_sigset.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_timeval.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/timespec.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_timespec.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_pthreadtypes.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/sched.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/stdio.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdlib.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/stdlib.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/alloca.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
 
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_current_sense.c \
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_current_sense.h \
@@ -2019,7 +2137,36 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj: D:/Projects/FOCModule/Fi
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Encoder/Inc/AS5600.h
+  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Encoder/Inc/AS5600.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usbd_cdc_if.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/Target/usbd_conf.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdio.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/endian.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_endian.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/select.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_sigset.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_timeval.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/timespec.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_timespec.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_pthreadtypes.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/sched.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/stdio.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdlib.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/stdlib.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/alloca.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/string.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_locale.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/strings.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/string.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
 
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_scope.c \
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_scope.h \
@@ -2707,7 +2854,8 @@ CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: D:/Projects/FOCMo
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+  D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_comm.h
 
 CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usbd_desc.c \
   D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
@@ -3035,6 +3183,8 @@ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/cdefs.h:
 
 C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
 
+D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_comm.h:
+
 C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/reent.h:
 
 C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/signal.h:
@@ -3188,6 +3338,8 @@ D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_PID.c:
 C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/math.h:
 
 D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_PWM.c:
+
+D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_comm.c:
 
 D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_core.c:
 

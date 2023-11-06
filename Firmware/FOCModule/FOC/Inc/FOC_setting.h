@@ -54,4 +54,9 @@ extern float FOC_target_current;
 extern float FOC_target_velocity;
 extern float FOC_target_position;
 
+/* 运行参数 */
+extern float Ia, Ib, Ic;
+extern float Id, Iq;
+extern float Uq, Ud;
+
 #endif //FOCMODULE_FOC_SETTINGS_H

@@ -11,6 +11,7 @@
 #include "FOC_setting.h"
 #include "FOC_utility.h"
 #include "AS5600.h"
+#include "usbd_cdc_if.h"
 
 float FOC_mechanical_angle; // 机械角度
 float FOC_last_mechanical_angle; // 上一次的机械角度
@@ -50,7 +51,7 @@ float FOC_encoder_read_mechanical_angle() {
         case FOC_ENCODER_NONE:
             break;
         case FOC_ENCODER_AS5600:
-            return FOC_encoder_read_raw_data()  / 4096 * _2PI;
+            return FOC_encoder_read_raw_data() * _2PI / 4096 ;
         case FOC_ENCODER_AS5047:
             break;
         case FOC_ENCODER_AS5048:
@@ -91,4 +92,6 @@ void FOC_encoder_compute_velocity() {
     }
 
     FOC_velocity = 0.5f * delta_angle / dt; // 计算速度
+
+//    CDC_printf("%.4f,%.4f,%.4f\n",dt,delta_angle,FOC_velocity);
 }

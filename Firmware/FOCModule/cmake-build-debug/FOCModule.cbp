@@ -466,6 +466,9 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_PWM.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_comm.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_core.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>

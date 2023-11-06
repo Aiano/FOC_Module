@@ -38,11 +38,11 @@ float FOC_encoder_direction = 1; // 编码器方向，只能为1或-1
 /* PID参数 */
 FOC_PID_TYPE pid_current_d = {0.15f, 0.0000f, 0, 0, 0, 100, -100, 5, -5, 0};
 FOC_PID_TYPE pid_current_q = {0.15f, 0.0000f, 0, 0, 0, 100, -100, 5, -5, 0};
-FOC_PID_TYPE pid_velocity = {0.3f, 0.01f, 0,0,0,300,-300,1.0f, -1.0f, 0.0f};
+FOC_PID_TYPE pid_velocity = {0.05f, 0.005f, 0,0,0,300,-300,1.0f, -1.0f, 0.0f};
 FOC_PID_TYPE pid_position = {2.0f, 0, 0, 0, 0, 100, -100, 5.0f, -5.0f, 0};
 
 /* LPF参数 */
-FOC_LPF_TYPE lpf_velocity = {0.5f, 0};
+FOC_LPF_TYPE lpf_velocity = {0.1f, 0};
 
 /* 运行模式 */
 FOC_MODE_TYPE FOC_mode = FOC_MODE_POSITION;
@@ -50,5 +50,10 @@ FOC_MODE_TYPE FOC_mode = FOC_MODE_POSITION;
 /* 目标参数 */
 float FOC_target_voltage = 0; // 目标电压
 float FOC_target_current = 0; // 目标电流
-float FOC_target_velocity = 0.0f; // 目标速度
+float FOC_target_velocity = 3.0f; // 目标速度
 float FOC_target_position = _PI; // 目标位置
+
+/* 运行参数 */
+float Ia, Ib, Ic;
+float Id, Iq;
+float Uq, Ud;
