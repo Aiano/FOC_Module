@@ -36,7 +36,7 @@ void FOC_comm_parse_command(uint8_t *buf, uint32_t *len) {
     seperated_str_num = seperated_str_index - 1;
 
     /* 协议解析 */
-    if (strcmp(seperated_str[0], "angle") == 0) // 设置目标角度
+    if (strcmp(seperated_str[0], "position") == 0) // 设置目标角度
     {
         char  *end;
         float temp;
@@ -45,9 +45,9 @@ void FOC_comm_parse_command(uint8_t *buf, uint32_t *len) {
         if (seperated_str[1] != end && temp >= 0 && temp <= 2 * _PI) // 解析成功
         {
             FOC_target_position = temp;
-            CDC_printf("Target angle: %.2f\n", FOC_target_position);
+            CDC_printf("Target position: %.2f\n", FOC_target_position);
         } else { // 解析失败
-            CDC_printf("Invalid input: angle must be within [0 - 2Pi] and float type.\n");
+            CDC_printf("Invalid input: position must be within [0 - 2Pi] and float type.\n");
         }
     } else if (strcmp(seperated_str[0], "velocity") == 0) { // 设置目标速度
         char  *end;
@@ -82,17 +82,17 @@ void FOC_comm_parse_command(uint8_t *buf, uint32_t *len) {
         if (strcmp(seperated_str[1], "current") == 0) // 电流环
         {
             FOC_mode = FOC_MODE_CURRENT;
-            FOC_target_current = 0;
+            // FOC_target_current = 0;
             CDC_printf("Mode: current.\n");
         } else if (strcmp(seperated_str[1], "velocity") == 0) // 速度环
         {
             FOC_mode = FOC_MODE_VELOCITY;
-            FOC_target_velocity = 0;
+            // FOC_target_velocity = 0;
             CDC_printf("Mode: velocity\n");
         } else if (strcmp(seperated_str[1], "position") == 0) // 位置环
         {
             FOC_mode = FOC_MODE_POSITION;
-            FOC_target_position = 0;
+            // FOC_target_position = 0;
             CDC_printf("Mode: position\n");
         }
     }

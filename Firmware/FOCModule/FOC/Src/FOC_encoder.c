@@ -20,7 +20,7 @@ float FOC_velocity; // 速度
 
 void FOC_encoder_init()
 {
-    FOC_last_mechanical_angle = FOC_encoder_read_mechanical_angle();
+    FOC_last_mechanical_angle = FOC_encoder_read_mechanical_angle() - FOC_mechanical_angle_offset;
 }
 
 /**
@@ -91,7 +91,7 @@ void FOC_encoder_compute_velocity() {
         }
     }
 
-    FOC_velocity = 0.5f * delta_angle / dt; // 计算速度
+    FOC_velocity = - 0.5f * delta_angle / dt; // 计算速度
 
 //    CDC_printf("%.4f,%.4f,%.4f\n",dt,delta_angle,FOC_velocity);
 }

@@ -172,7 +172,7 @@ void FOC_current_loop(float target_current) {
     Uq = FOC_PID_get_u(&pid_current_q, target_current, Iq);
 
     // SVPWM
-    FOC_SVPWM(Uq, Ud, FOC_electrical_angle);
+    FOC_SVPWM(-Uq, -Ud, FOC_electrical_angle);
 
     // 探测变量
 //    FOC_scope_probe_float(0.1f * Id + 0.5f, FOC_SCOPE_DAC1);
@@ -190,7 +190,7 @@ void FOC_velocity_loop(float target_velocity) {
 
     FOC_target_current = FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
 
-    //CDC_printf("%.3f,%.3f,%.3f\n", FOC_velocity, target_velocity, FOC_target_current);
+    CDC_printf("%.3f,%.3f,%.3f\n", FOC_velocity, target_velocity, FOC_target_current);
 }
 
 /**
@@ -210,10 +210,10 @@ void FOC_position_loop(float target_position) {
     if (angle_error < -_PI) target_position += _2PI;
     else if (angle_error > _PI) target_position -= _2PI;
 
-    target_velocity = FOC_PID_get_u(&pid_position, target_position, FOC_mechanical_angle);
+    target_velocity    = -FOC_PID_get_u(&pid_position, target_position, FOC_mechanical_angle);
     FOC_target_current = FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
 
-    //CDC_printf("%.3f,%.3f,%.3f\n", FOC_velocity, target_velocity, FOC_target_current);
+    CDC_printf("%.2f,%.2f,%.2f\n", target_position, FOC_mechanical_angle, target_velocity);
 }
 
 /**
@@ -228,6 +228,7 @@ void FOC_main_loop() {
             break;
         case FOC_MODE_CURRENT:
             FOC_encoder_compute_electrical_angle();
+            //CDC_printf("%.2f,%.2f,%.2f,%.2f,%.2f\n", FOC_target_current, Id, Iq, Ud, Uq);
             break;
         case FOC_MODE_VELOCITY:
             FOC_velocity_loop(FOC_target_velocity);

@@ -36,13 +36,13 @@ float            FOC_mechanical_angle_offset = 3.91318512f; // 机械角度偏�
 float            FOC_encoder_direction       = 1; // 编码器方向，只能为1或-1
 
 /* PID参数 */
-FOC_PID_TYPE pid_current_d = {0.15f, 0.0000f, 0, 0, 0, 100, -100, 5, -5, 0};
-FOC_PID_TYPE pid_current_q = {0.15f, 0.0000f, 0, 0, 0, 100, -100, 5, -5, 0};
-FOC_PID_TYPE pid_velocity  = {0.05f, 0.005f, 0, 0, 0, 300, -300, 5.0f, -5.0f, 0.0f};
-FOC_PID_TYPE pid_position  = {2.0f, 0, 0, 0, 0, 100, -100, 5.0f, -5.0f, 0};
+FOC_PID_TYPE pid_current_d = {0.15f, 0.0005f, 0, 0, 0, 4500, -4500, 6, -6, 0};
+FOC_PID_TYPE pid_current_q = {0.15f, 0.0005f, 0, 0, 0, 4500, -4500, 6, -6, 0};
+FOC_PID_TYPE pid_velocity  = {2.0f, 0.002f, -0.01f, 0, 0, 2000, -2000, 6.0f, -6.0f, 0.0f};
+FOC_PID_TYPE pid_position  = {10.0f, 0, -0.1f, 0, 0, 100, -100, 5.0f, -5.0f, 0};
 
 /* LPF参数 */
-FOC_LPF_TYPE lpf_velocity = {0.1f, 0};
+FOC_LPF_TYPE lpf_velocity = {0.03f, 0};
 
 /* 运行模式 */
 FOC_MODE_TYPE FOC_mode = FOC_MODE_POSITION;
@@ -54,10 +54,10 @@ float FOC_target_velocity = 0.0f; // 目标速度
 float FOC_target_position = 0.0f; // 目标位置
 
 /* 范围限制 */
-float FOC_target_velocity_upper_limit = 30.0f; // 目标速度上限
-float FOC_target_velocity_lower_limit = -30.0f; // 目标速度下限
-float FOC_target_current_upper_limit  = 5.0f; // 目标电流上限
-float FOC_target_current_lower_limit  = -5.0f; // 目标电流下限
+float FOC_target_velocity_upper_limit = 200.0f; // 目标速度上限
+float FOC_target_velocity_lower_limit = -200.0f; // 目标速度下限
+float FOC_target_current_upper_limit  = 10.0f; // 目标电流上限
+float FOC_target_current_lower_limit  = -10.0f; // 目标电流下限
 
 /* 运行参数 */
 float Ia, Ib, Ic;
