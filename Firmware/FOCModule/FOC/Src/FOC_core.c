@@ -188,9 +188,9 @@ void FOC_velocity_loop(float target_velocity) {
     FOC_encoder_compute_velocity(); // 计算速度
     FOC_velocity = FOC_LPF_output(&lpf_velocity, FOC_velocity);
 
-    FOC_target_current = FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
+    FOC_target_current = - FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
 
-    CDC_printf("%.3f,%.3f,%.3f\n", FOC_velocity, target_velocity, FOC_target_current);
+//    CDC_printf("%.3f,%.3f,%.3f\n", FOC_velocity, target_velocity, FOC_target_current);
 }
 
 /**
@@ -210,10 +210,10 @@ void FOC_position_loop(float target_position) {
     if (angle_error < -_PI) target_position += _2PI;
     else if (angle_error > _PI) target_position -= _2PI;
 
-    target_velocity    = -FOC_PID_get_u(&pid_position, target_position, FOC_mechanical_angle);
-    FOC_target_current = FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
+    target_velocity    = FOC_PID_get_u(&pid_position, target_position, FOC_mechanical_angle);
+    FOC_target_current = - FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
 
-    CDC_printf("%.2f,%.2f,%.2f\n", target_position, FOC_mechanical_angle, target_velocity);
+//    CDC_printf("%.2f,%.2f,%.2f\n", target_position, FOC_mechanical_angle, target_velocity);
 }
 
 /**
@@ -228,7 +228,8 @@ void FOC_main_loop() {
             break;
         case FOC_MODE_CURRENT:
             FOC_encoder_compute_electrical_angle();
-            //CDC_printf("%.2f,%.2f,%.2f,%.2f,%.2f\n", FOC_target_current, Id, Iq, Ud, Uq);
+//            CDC_printf("%.2f,%.2f,%.2f,%.2f,%.2f\n", FOC_target_current, Id, Iq, Ud, Uq);
+//            CDC_printf("%.2f,%.2f,%.2f,%.2f,%.2f,%.2f\n", FOC_electrical_angle, Ia, Ib, Ic, Id, Iq);
             break;
         case FOC_MODE_VELOCITY:
             FOC_velocity_loop(FOC_target_velocity);
@@ -240,8 +241,7 @@ void FOC_main_loop() {
 
     // 参数输出
     // Ia, Ib, Ic, Id, Iq, target_Id, target_Iq, Ud, Uq, velocity, target_velocity, position, target_position
-    //CDC_printf("%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f", Ia, Ib, Ic, Id, Iq, 0.0f, FOC_target_current);
-    //CDC_printf("%.2f,%.2f\n", FOC_velocity ,FOC_target_velocity);
+    CDC_printf("%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f\n", Ia, Ib, Ic, Id, Iq, 0.0f, FOC_target_current, Ud, Uq, FOC_velocity, FOC_target_velocity, FOC_mechanical_angle, FOC_target_position);
 }
 
 /**

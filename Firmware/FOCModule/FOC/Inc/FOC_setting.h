@@ -17,6 +17,7 @@ extern float FOC_pwm_frequency;
 extern float FOC_pwm_max;
 
 /* 电流采样参数 */
+extern float FOC_sample_direction;
 extern float FOC_sample_duty_cycle;
 extern float FOC_sample_max;
 extern float FOC_sample_offset[3];

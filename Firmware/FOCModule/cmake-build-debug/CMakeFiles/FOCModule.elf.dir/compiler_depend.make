@@ -35,6 +35,7 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/adc.c.obj: D:/Projects/FOCModule/Firmware/
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -44,8 +45,62 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/adc.c.obj: D:/Projects/FOCModule/Firmware/
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+
+CMakeFiles/FOCModule.elf.dir/Core/Src/can.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/can.c \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/can.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/stm32f4xx_hal_conf.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/core_cm4.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_default_types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/features.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_newlib_version.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_intsup.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_stdint.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -84,6 +139,7 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/dac.c.obj: D:/Projects/FOCModule/Firmware/
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -93,8 +149,10 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/dac.c.obj: D:/Projects/FOCModule/Firmware/
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -133,6 +191,7 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/gpio.c.obj: D:/Projects/FOCModule/Firmware
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -142,8 +201,10 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/gpio.c.obj: D:/Projects/FOCModule/Firmware
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -182,6 +243,7 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/i2c.c.obj: D:/Projects/FOCModule/Firmware/
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -191,8 +253,10 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/i2c.c.obj: D:/Projects/FOCModule/Firmware/
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -230,6 +294,7 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj: D:/Projects/FOCModule/Firmware
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -239,16 +304,21 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj: D:/Projects/FOCModule/Firmware
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/i2c.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/tim.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/usart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usb_device.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
   D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/Target/usbd_conf.h \
@@ -302,6 +372,58 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/main.c.obj: D:/Projects/FOCModule/Firmware
   D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
 
+CMakeFiles/FOCModule.elf.dir/Core/Src/spi.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/spi.c \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/spi.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/stm32f4xx_hal_conf.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/core_cm4.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_default_types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/features.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_newlib_version.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_intsup.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_stdint.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+
 CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/stm32f4xx_hal_msp.c \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -335,6 +457,7 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/Projects/FOCMo
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -344,8 +467,10 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/Projects/FOCMo
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -383,6 +508,7 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/Projects/FOCModule/
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -392,8 +518,10 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/Projects/FOCModule/
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -496,6 +624,7 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj: D:/Projects/FOCMod
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -505,8 +634,10 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/system_stm32f4xx.c.obj: D:/Projects/FOCMod
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -545,6 +676,7 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj: D:/Projects/FOCModule/Firmware/
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -554,8 +686,62 @@ CMakeFiles/FOCModule.elf.dir/Core/Src/tim.c.obj: D:/Projects/FOCModule/Firmware/
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+
+CMakeFiles/FOCModule.elf.dir/Core/Src/usart.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/usart.c \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/usart.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/stm32f4xx_hal_conf.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/core_cm4.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_default_types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/features.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_newlib_version.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_intsup.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_stdint.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -592,6 +778,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.ob
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -601,8 +788,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.ob
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -639,6 +828,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -648,8 +838,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -686,6 +878,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -695,8 +888,60 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/stm32f4xx_hal_conf.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/core_cm4.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_default_types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/features.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_newlib_version.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_intsup.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_stdint.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -733,6 +978,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cort
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -742,8 +988,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cort
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -780,6 +1028,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -789,8 +1038,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -827,6 +1078,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -836,8 +1088,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -874,6 +1128,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -883,8 +1138,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -921,6 +1178,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -930,8 +1188,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -968,6 +1228,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -977,8 +1238,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1015,6 +1278,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1024,8 +1288,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1062,6 +1328,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1071,8 +1338,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1109,6 +1378,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1118,8 +1388,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1156,6 +1428,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1165,8 +1438,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1203,6 +1478,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1212,8 +1488,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1250,6 +1528,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1259,8 +1538,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1297,6 +1578,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1306,8 +1588,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1344,6 +1628,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1353,8 +1638,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1391,6 +1678,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1400,8 +1688,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1438,6 +1728,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1447,8 +1738,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1485,6 +1778,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1494,8 +1788,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1532,6 +1828,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1541,8 +1838,60 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/stm32f4xx_hal_conf.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/core_cm4.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_default_types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/features.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_newlib_version.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_intsup.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_stdint.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1579,6 +1928,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1588,8 +1938,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1626,6 +1978,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1635,8 +1988,60 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+
+CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/stm32f4xx_hal_conf.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/core_cm4.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdint.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_default_types.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/features.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_newlib_version.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_intsup.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_stdint.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1675,6 +2080,7 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1684,8 +2090,10 @@ CMakeFiles/FOCModule.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -1724,6 +2132,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj: D:/Projects/FOCModule
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1733,8 +2142,10 @@ CMakeFiles/FOCModule.elf.dir/FOC/Encoder/Src/AS5600.c.obj: D:/Projects/FOCModule
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -1796,6 +2207,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj: D:/Projects/FOCModule/Firmwa
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1805,8 +2217,10 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_PWM.c.obj: D:/Projects/FOCModule/Firmwa
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -1852,6 +2266,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_comm.c.obj: D:/Projects/FOCModule/Firmw
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1861,8 +2276,10 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_comm.c.obj: D:/Projects/FOCModule/Firmw
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -1946,6 +2363,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj: D:/Projects/FOCModule/Firmw
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -1955,8 +2373,10 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_core.c.obj: D:/Projects/FOCModule/Firmw
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -2054,6 +2474,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj: D:/Projects/FOCMod
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -2063,8 +2484,10 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj: D:/Projects/FOCMod
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -2123,6 +2546,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj: D:/Projects/FOCModule/Fi
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -2132,8 +2556,10 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj: D:/Projects/FOCModule/Fi
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -2202,6 +2628,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj: D:/Projects/FOCModule/Firm
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -2211,8 +2638,10 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_scope.c.obj: D:/Projects/FOCModule/Firm
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -2258,6 +2687,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj: D:/Projects/FOCModule/Fi
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -2267,8 +2697,10 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj: D:/Projects/FOCModule/Fi
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
@@ -2307,6 +2739,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj: D:/Projects/FOCModule/Fi
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -2316,8 +2749,10 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_utility.c.obj: D:/Projects/FOCModule/Fi
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -2403,6 +2838,7 @@ CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/S
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -2412,8 +2848,10 @@ CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/S
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -2488,6 +2926,7 @@ CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/us
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -2497,8 +2936,10 @@ CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/us
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -2574,6 +3015,7 @@ CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/us
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -2583,8 +3025,10 @@ CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/us
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -2660,6 +3104,7 @@ CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/us
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -2669,8 +3114,10 @@ CMakeFiles/FOCModule.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/us
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -2711,6 +3158,7 @@ CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usb_device.c.obj: D:/Projects/FOCMod
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -2720,8 +3168,10 @@ CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usb_device.c.obj: D:/Projects/FOCMod
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -2838,6 +3288,7 @@ CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: D:/Projects/FOCMo
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -2847,8 +3298,10 @@ CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: D:/Projects/FOCMo
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -2923,6 +3376,7 @@ CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: D:/Projects/FOCModu
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -2932,8 +3386,10 @@ CMakeFiles/FOCModule.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: D:/Projects/FOCModu
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -2976,6 +3432,7 @@ CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: D:/Projects/FOCM
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
@@ -2985,8 +3442,10 @@ CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: D:/Projects/FOCM
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
@@ -3035,6 +3494,8 @@ CMakeFiles/FOCModule.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: D:/Projects/FOCM
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
 
+D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/can.c:
+
 D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/adc.c:
@@ -3063,9 +3524,9 @@ D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h:
 
-C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
-
 C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_ansi.h:
+
+C:/tools/gcc-arm-none-eabi-10.3-2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/CMSIS/Include/core_cm4.h:
 
@@ -3079,6 +3540,8 @@ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdint.h:
 
 C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/_default_types.h:
 
+D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:
+
 C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/features.h:
 
 C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/_newlib_version.h:
@@ -3090,8 +3553,6 @@ C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_intsup.h:
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h:
 
 C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/_stdint.h:
-
-C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/ieeefp.h:
 
 D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_current_sense.h:
 
@@ -3115,6 +3576,8 @@ D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usbd_cdc_if.h:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:
 
+D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/usart.h:
+
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:
@@ -3133,11 +3596,13 @@ D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h:
 
-D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/Target/usbd_conf.h:
-
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h:
+
+D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/i2c.c:
+
+D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h:
 
@@ -3153,9 +3618,15 @@ D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 
+D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
+
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h:
+
+D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/main.c:
+
+D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/can.h:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/dac.c:
 
@@ -3165,19 +3636,21 @@ D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/dac.h:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/gpio.c:
 
-C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdio.h:
-
-D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/i2c.c:
-
 D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/i2c.h:
 
-D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/main.c:
-
-C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/config.h:
+D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/spi.h:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
 
+D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/Target/usbd_conf.h:
+
+C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/stdio.h:
+
 C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/newlib.h:
+
+C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/config.h:
+
+C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/machine/ieeefp.h:
 
 C:/tools/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/sys/cdefs.h:
 
@@ -3257,6 +3730,8 @@ D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library
 
 D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
 
+D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/spi.c:
+
 D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/stm32f4xx_hal_msp.c:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/stm32f4xx_it.h:
@@ -3285,6 +3760,8 @@ D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/system_stm32f4xx.c:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/tim.c:
 
+D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/usart.c:
+
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c:
@@ -3292,6 +3769,8 @@ D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 D:/Projects/FOCModule/Firmware/FOCModule/FOC/Encoder/Src/AS5600.c:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c:
+
+D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:
 
@@ -3325,9 +3804,13 @@ D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:
 
+D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:
+
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:
+
+D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:
 
 D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c:
 

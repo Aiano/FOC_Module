@@ -50,7 +50,7 @@ void HAL_ADCEx_InjectedConvCpltCallback(ADC_HandleTypeDef* hadc)
 void FOC_cs_read_current(float *Ia, float *Ib, float *Ic)
 {
     static float ratio;
-    ratio = FOC_sample_ref_voltage / FOC_sample_max / FOC_INA_gain / FOC_shunt_resistance;
+    ratio = FOC_sample_direction * FOC_sample_ref_voltage / FOC_sample_max / FOC_INA_gain / FOC_shunt_resistance;
     FOC_sample_mid = (float)(ADC_value[0] + ADC_value[1] + ADC_value[2]) / 3;
 
     *Ia = ((float)ADC_value[0] - FOC_sample_offset[0]) * ratio;

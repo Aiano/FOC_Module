@@ -121,6 +121,9 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/adc.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/can.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/dac.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
@@ -133,6 +136,9 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/spi.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/stm32f4xx_hal_conf.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
@@ -142,7 +148,13 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/tim.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/usart.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/adc.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/can.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/dac.c">
@@ -155,6 +167,9 @@
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/main.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/spi.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/stm32f4xx_hal_msp.c">
@@ -173,6 +188,9 @@
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/tim.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/usart.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Startup/startup_stm32f405rgtx.s">
@@ -268,6 +286,9 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
@@ -328,10 +349,16 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
@@ -370,6 +397,9 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
@@ -386,6 +416,9 @@
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
@@ -442,10 +475,16 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">

@@ -63,8 +63,8 @@ float FOC_encoder_read_mechanical_angle() {
  * @brief 计算电角度
  */
 void FOC_encoder_compute_electrical_angle() {
-    FOC_mechanical_angle = FOC_encoder_read_mechanical_angle() - FOC_mechanical_angle_offset;
-    FOC_electrical_angle = _normalizeAngle(FOC_encoder_direction * FOC_mechanical_angle * FOC_pole_pairs);
+    FOC_mechanical_angle = FOC_encoder_direction * (FOC_encoder_read_mechanical_angle() - FOC_mechanical_angle_offset);
+    FOC_electrical_angle = _normalizeAngle(FOC_mechanical_angle * FOC_pole_pairs);
 }
 
 /**
@@ -91,7 +91,7 @@ void FOC_encoder_compute_velocity() {
         }
     }
 
-    FOC_velocity = - 0.5f * delta_angle / dt; // 计算速度
+    FOC_velocity = 0.5f * delta_angle / dt; // 计算速度
 
 //    CDC_printf("%.4f,%.4f,%.4f\n",dt,delta_angle,FOC_velocity);
 }

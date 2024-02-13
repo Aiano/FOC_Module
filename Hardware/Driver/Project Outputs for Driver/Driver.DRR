@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Driver.PcbDoc   2023/9/14  17:27:39
+NCDrill File Report For: Driver.PcbDoc   2023/12/19  22:01:57
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,10 +7,10 @@ ASCII RoundHoles File : Driver.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             305       PTH        723.40mm (28.48inch)
-T2      0.9mm (35mil)                                             Round             40        PTH        177.29mm (6.98inch)
-T3      2.05mm (81mil)                                            Round             4         PTH        138.40mm (5.45inch)
+T1      0.3mm (12mil)                                             Round             158       PTH        367.93mm (14.49inch)
+T2      0.8mm (31mil)                                             Round             40        PTH        119.61mm (4.71inch)
+T3      2.05mm (81mil)                                            Round             4         PTH        92.02mm (3.62inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              349
+Totals                                                                              202
 
 Total Processing Time (hh:mm:ss) : 00:00:00
