@@ -84,6 +84,58 @@ STM32F4系列单片机**只有硬件单精度浮点**，**只能用float类型�
 
 ### 电流环
 
+## CAN
+
+> [CAN详解--协议详解_can协议完全讲解-CSDN博客](https://blog.csdn.net/qq_38880380/article/details/84573821)
+
+## 中断
+
+### IRQ
+
+> [什么是IRQ（中断） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/598570224)
+
+IRQ的全称是“Interrupt ReQuest”，即“中断请求”
+
+### 中断与事件的区别
+
+> [STM32---中断与事件的区别_中断和事件的区别-CSDN博客](https://blog.csdn.net/liangweibeijing/article/details/95219626)
+>
+> [stm32—外部中断、中断和事件的区别-CSDN博客](https://blog.csdn.net/m0_46573394/article/details/112691572)
+
+- 事件就是一件事发生了，比如EXTI检测到边沿；中断就是打断CPU，进入中断处理函数
+- 事件能触发中断，流入其他外设，是硬件级的；中断会调用中断处理函数，是软件级的
+- 事件是中断的触发源，只要开启相应的中断屏蔽位
+
+### on the fly 的含义
+
+> [On the fly - Wikipedia](https://en.wikipedia.org/wiki/On_the_fly)
+>
+> [(5 封私信 / 80 条消息) 如何优雅的翻译 on the fly ？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/21136587)
+
+on the fly 是指在做一件事的时候，无需打断前置的事；
+
+比如开飞机的时候更换飞机引擎，而无需降落；安装一个驱动，而无需重启电脑。
+
+## 温度传感
+
+> [0402贴片热敏电阻 10KΩ ±1% B:3380 SDNT1005X103F3380FTF 50只-淘宝网 (taobao.com)](https://item.taobao.com/item.htm?_u=m20ci6tpvfc6b9&id=560131297850&spm=a1z09.8149145.0.0.43f33fb8XeRSUQ)
+>
+> [NTC热敏电阻-阻值温度计算 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/409548358)
+
+### NTC阻值-温度计算法
+
+常用的计算方法是**温度系数B计算法**：
+$$
+R_1=R_2e^{B\left( \frac{1}{T_1}-\frac{1}{T_2} \right)}
+\\
+T_1=\frac{1}{\frac{1}{B}\ln \frac{R_1}{R_2}+\frac{1}{T_2}}
+$$
+其中：
+
+- 温度T的单位是开尔文（K），T(K) = 273.15 + T(℃)
+- R1是热敏电阻在T1温度下的阻值
+- R2是热敏电阻在T2温度下的标称阻值，T2通常取25℃，即298.15K
+
 ## Debug
 
 ### 使用USB CDC虚拟串口时，出现偶发性卡死

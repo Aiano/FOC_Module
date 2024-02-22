@@ -200,6 +200,30 @@ Core/Src/dac.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/Core/Src/dac.c.s
 .PHONY : Core/Src/dac.c.s
 
+Core/Src/dma.obj: Core/Src/dma.c.obj
+.PHONY : Core/Src/dma.obj
+
+# target to build an object file
+Core/Src/dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/Core/Src/dma.c.obj
+.PHONY : Core/Src/dma.c.obj
+
+Core/Src/dma.i: Core/Src/dma.c.i
+.PHONY : Core/Src/dma.i
+
+# target to preprocess a source file
+Core/Src/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/Core/Src/dma.c.i
+.PHONY : Core/Src/dma.c.i
+
+Core/Src/dma.s: Core/Src/dma.c.s
+.PHONY : Core/Src/dma.s
+
+# target to generate assembly for a file
+Core/Src/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/Core/Src/dma.c.s
+.PHONY : Core/Src/dma.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -1384,6 +1408,30 @@ FOC/Src/FOC_setting.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.s
 .PHONY : FOC/Src/FOC_setting.c.s
 
+FOC/Src/FOC_status.obj: FOC/Src/FOC_status.c.obj
+.PHONY : FOC/Src/FOC_status.obj
+
+# target to build an object file
+FOC/Src/FOC_status.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_status.c.obj
+.PHONY : FOC/Src/FOC_status.c.obj
+
+FOC/Src/FOC_status.i: FOC/Src/FOC_status.c.i
+.PHONY : FOC/Src/FOC_status.i
+
+# target to preprocess a source file
+FOC/Src/FOC_status.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_status.c.i
+.PHONY : FOC/Src/FOC_status.c.i
+
+FOC/Src/FOC_status.s: FOC/Src/FOC_status.c.s
+.PHONY : FOC/Src/FOC_status.s
+
+# target to generate assembly for a file
+FOC/Src/FOC_status.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCModule.elf.dir\build.make CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_status.c.s
+.PHONY : FOC/Src/FOC_status.c.s
+
 FOC/Src/FOC_utility.obj: FOC/Src/FOC_utility.c.obj
 .PHONY : FOC/Src/FOC_utility.obj
 
@@ -1618,6 +1666,9 @@ help:
 	@echo ... Core/Src/dac.obj
 	@echo ... Core/Src/dac.i
 	@echo ... Core/Src/dac.s
+	@echo ... Core/Src/dma.obj
+	@echo ... Core/Src/dma.i
+	@echo ... Core/Src/dma.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
@@ -1766,6 +1817,9 @@ help:
 	@echo ... FOC/Src/FOC_setting.obj
 	@echo ... FOC/Src/FOC_setting.i
 	@echo ... FOC/Src/FOC_setting.s
+	@echo ... FOC/Src/FOC_status.obj
+	@echo ... FOC/Src/FOC_status.i
+	@echo ... FOC/Src/FOC_status.s
 	@echo ... FOC/Src/FOC_utility.obj
 	@echo ... FOC/Src/FOC_utility.i
 	@echo ... FOC/Src/FOC_utility.s

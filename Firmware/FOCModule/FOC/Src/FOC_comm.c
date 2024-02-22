@@ -7,6 +7,8 @@
  */
 
 #include "FOC_comm.h"
+#include "can.h"
+#include "tim.h"
 #include "string.h"
 #include "usbd_cdc_if.h"
 #include "FOC_setting.h"
@@ -15,7 +17,43 @@
 #define SEPERATED_STR_NUM 5
 #define BUF_LEN 10
 
+// USB CDC
 char seperated_str[SEPERATED_STR_NUM][BUF_LEN];
+
+// CAN
+CAN_TxHeaderTypeDef CAN_txHeader = {
+        .RTR = CAN_RTR_DATA, // Remote Transmission Request
+        .IDE = CAN_ID_STD, // Identifier Extension
+        .StdId = 0x601,
+        .DLC = 8, // Data Length Code (Byte)
+        .TransmitGlobalTime = DISABLE
+};
+
+// 不配置滤波器无法接收数据
+// 以下是可以通过任意ID的滤波器
+CAN_FilterTypeDef CAN_filterConfig = {
+        .FilterBank = 0,
+        .FilterMode = CAN_FILTERMODE_IDMASK,
+        .FilterScale = CAN_FILTERSCALE_16BIT,
+        .FilterIdHigh = 0x0000,
+        .FilterIdLow = 0x0000,
+        .FilterMaskIdHigh = 0x0000,
+        .FilterMaskIdLow = 0x0000,
+        .FilterFIFOAssignment = CAN_RX_FIFO0,
+        .FilterActivation = ENABLE,
+        .SlaveStartFilterBank = 14
+};
+
+uint8_t CAN_txData[8] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+uint32_t CAN_txMailbox = CAN_TX_MAILBOX0;
+
+void FOC_comm_init(){
+    HAL_TIM_Base_Start_IT(&htim4);
+
+    HAL_CAN_ConfigFilter(&hcan1, &CAN_filterConfig);
+    HAL_CAN_Start(&hcan1);
+    HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
+}
 
 void FOC_comm_parse_command(uint8_t *buf, uint32_t *len) {
     static uint16_t seperated_str_index; // 字符串分割遍历变量
@@ -95,5 +133,38 @@ void FOC_comm_parse_command(uint8_t *buf, uint32_t *len) {
             FOC_target_position = 0;
 //            CDC_printf("Mode: position\n");
         }
+    }
+}
+
+void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
+{
+    CAN_RxHeaderTypeDef rxHeader;
+    uint8_t rxData[8];
+
+    if(HAL_CAN_GetRxMessage(&hcan1, CAN_RX_FIFO0, &rxHeader, rxData) == HAL_OK)
+    {
+//        HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+
+        memcpy(CAN_txData, rxData, sizeof(CAN_txData));
+
+        if(HAL_CAN_AddTxMessage(&hcan1, &CAN_txHeader, CAN_txData, &CAN_txMailbox)){
+            Error_Handler();
+        }
+    }
+}
+
+/**
+ * @brief 定时器中断回调函数
+ * @details 产生1kHz的时基，用于发送CAN消息
+ * @param htim
+ */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+    if(htim->Instance == TIM4){
+        if(HAL_CAN_AddTxMessage(&hcan1, &CAN_txHeader, CAN_txData, &CAN_txMailbox)){
+            Error_Handler();
+        }
+
+
     }
 }

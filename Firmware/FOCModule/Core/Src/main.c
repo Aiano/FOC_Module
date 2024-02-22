@@ -21,6 +21,7 @@
 #include "adc.h"
 #include "can.h"
 #include "dac.h"
+#include "dma.h"
 #include "i2c.h"
 #include "spi.h"
 #include "tim.h"
@@ -35,6 +36,8 @@
 #include "FOC_current_sense.h"
 #include "FOC_setting.h"
 #include "FOC_scope.h"
+#include "FOC_comm.h"
+#include "FOC_status.h"
 #include "AS5600.h"
 #include "usbd_cdc_if.h"
 /* USER CODE END Includes */
@@ -63,6 +66,7 @@
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
 void SystemClock_EnableHSI(void);
+
 void SystemClock_DisableHSI(void);
 /* USER CODE END PFP */
 
@@ -99,16 +103,19 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_TIM1_Init();
   MX_ADC1_Init();
   MX_DAC_Init();
   MX_I2C1_Init();
-  MX_TIM2_Init();
   MX_USB_DEVICE_Init();
   MX_CAN1_Init();
   MX_SPI1_Init();
   MX_UART4_Init();
   MX_ADC2_Init();
+  MX_TIM3_Init();
+  MX_TIM2_Init();
+  MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
     CDC_printf("FOC Module: Start initializing.\n");
 
@@ -119,6 +126,8 @@ int main(void)
     FOC_scope_init();
     FOC_utility_init();
     FOC_encoder_init();
+    FOC_comm_init();
+    FOC_status_init();
 
     CDC_printf("FOC Module: Initialization finished.\n");
   /* USER CODE END 2 */
@@ -126,7 +135,7 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
     while (1) {
-        static uint8_t cnt = 0;
+//        static uint8_t cnt = 0;
         FOC_main_loop();
         //CDC_printf("FOC Module: Test loop count %d.\n", cnt++);
         HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
@@ -185,8 +194,7 @@ void SystemClock_Config(void)
 
 /* USER CODE BEGIN 4 */
 
-void SystemClock_EnableHSI(void)
-{
+void SystemClock_EnableHSI(void) {
     RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
 
     __HAL_RCC_PWR_CLK_ENABLE();
@@ -199,8 +207,7 @@ void SystemClock_EnableHSI(void)
     }
 }
 
-void SystemClock_DisableHSI(void)
-{
+void SystemClock_DisableHSI(void) {
     RCC_OscInitTypeDef RCC_OscInitStruct = {0};
 
     RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
@@ -222,6 +229,8 @@ void Error_Handler(void)
     /* User can add his own implementation to report the HAL error return state */
     __disable_irq();
     while (1) {
+        HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+        HAL_Delay(500);
     }
   /* USER CODE END Error_Handler_Debug */
 }

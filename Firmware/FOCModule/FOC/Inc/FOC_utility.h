@@ -32,5 +32,6 @@ void FOC_utility_init();
 FOC_STATE _checkRange(float value, float upper_limit, float lower_limit);
 float _normalizeAngle(float angle);
 uint32_t _spanMicro();
+float _NTCTemp(float B, float R1, float R2, float T2);
 
 #endif //FOCMODULE_FOC_UTILITY_H

@@ -25,6 +25,14 @@ float FOC_sample_ref_voltage = 3.3f;
 float FOC_INA_gain           = 20;
 float FOC_shunt_resistance   = 0.005f;
 
+/* 温度监测 */
+float FOC_temp_B = 3380;
+float FOC_temp_R2 = 10000;
+float FOC_temp_T2 = 25;
+float FOC_temp_upper_R = 10000;
+float FOC_temp_sample_max = 4096;
+float FOC_PCB_temp = 25;
+
 /* 电源参数 */
 float FOC_supply_voltage = 12; // 供电电压，单位：V
 

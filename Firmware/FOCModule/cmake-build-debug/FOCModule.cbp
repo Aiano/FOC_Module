@@ -127,6 +127,9 @@
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/dac.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/dma.h">
+			<Option target="FOCModule.elf"/>
+		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/gpio.h">
 			<Option target="FOCModule.elf"/>
 		</Unit>
@@ -158,6 +161,9 @@
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/dac.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/dma.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/Core/Src/gpio.c">
@@ -521,6 +527,9 @@
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_setting.c">
+			<Option target="FOCModule.elf"/>
+		</Unit>
+		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_status.c">
 			<Option target="FOCModule.elf"/>
 		</Unit>
 		<Unit filename="D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_utility.c">

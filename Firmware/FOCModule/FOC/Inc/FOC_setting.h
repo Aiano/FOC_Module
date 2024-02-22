@@ -26,6 +26,14 @@ extern float FOC_sample_ref_voltage;
 extern float FOC_INA_gain;
 extern float FOC_shunt_resistance;
 
+/* 温度监测 */
+extern float FOC_temp_B;
+extern float FOC_temp_R2;
+extern float FOC_temp_T2;
+extern float FOC_temp_upper_R;
+extern float FOC_temp_sample_max;
+extern float FOC_PCB_temp;
+
 /* 电源参数 */
 extern float FOC_supply_voltage;
 

@@ -13,6 +13,7 @@
 #include "FOC_encoder.h"
 #include "FOC_PWM.h"
 #include "FOC_scope.h"
+#include "FOC_status.h"
 #include "FOC_PID.h"
 #include "FOC_LPF.h"
 #include "main.h"
@@ -239,9 +240,12 @@ void FOC_main_loop() {
             break;
     }
 
+    // 状态处理
+    FOC_status_process();
+
     // 参数输出
-    // Ia, Ib, Ic, Id, Iq, target_Id, target_Iq, Ud, Uq, velocity, target_velocity, position, target_position
-    CDC_printf("%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f\n", Ia, Ib, Ic, Id, Iq, 0.0f, FOC_target_current, Ud, Uq, FOC_velocity, FOC_target_velocity, FOC_mechanical_angle, FOC_target_position);
+    // Ia, Ib, Ic, Id, Iq, target_Id, target_Iq, Ud, Uq, velocity, target_velocity, position, target_position, PCB_temp
+    CDC_printf("%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f\n", Ia, Ib, Ic, Id, Iq, 0.0f, FOC_target_current, Ud, Uq, FOC_velocity, FOC_target_velocity, FOC_mechanical_angle, FOC_target_position, FOC_PCB_temp);
 }
 
 /**

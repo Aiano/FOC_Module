@@ -72,3 +72,15 @@ uint32_t _spanMicro() {
 
     return count;
 }
+
+/**
+ * @brief 获取NTC热敏电阻温度
+ * @param B
+ * @param R1 Ω
+ * @param R2 Ω
+ * @param T2 ℃
+ * @return T1 ℃
+ */
+float _NTCTemp(float B, float R1, float R2, float T2){
+    return 1.0f / ( 1.0f / B * logf( R1 / R2 ) + 1.0f / ( T2 + 273.15f)) - 273.15f;
+}
