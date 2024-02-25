@@ -115,6 +115,19 @@ void FOC_comm_parse_command(uint8_t *buf, uint32_t *len) {
 //            CDC_printf("Invalid input: current must be within [%.2f - %.2f] and float type.\n",
 //                       FOC_target_current_lower_limit, FOC_target_current_upper_limit);
         }
+    } else if (strcmp(seperated_str[0], "voltage") == 0){ // 设置目标电压
+        char  *end;
+        float temp;
+
+        temp = strtof(seperated_str[1], &end);
+        if (seperated_str[1] != end &&
+            _checkRange(temp, FOC_target_voltage_upper_limit, FOC_target_voltage_lower_limit)) // 解析成功
+        {
+            FOC_target_voltage = temp;
+
+        } else { // 解析失败
+
+        }
     } else if (strcmp(seperated_str[0], "mode") == 0) // 设置模式
     {
         if (strcmp(seperated_str[1], "current") == 0) // 电流环
@@ -132,6 +145,10 @@ void FOC_comm_parse_command(uint8_t *buf, uint32_t *len) {
             FOC_mode = FOC_MODE_POSITION;
             FOC_target_position = 0;
 //            CDC_printf("Mode: position\n");
+        } else if (strcmp(seperated_str[1], "voltage") == 0) // 电压环
+        {
+            FOC_mode = FOC_MODE_VOLTAGE;
+            FOC_target_voltage = 0;
         }
     }
 }

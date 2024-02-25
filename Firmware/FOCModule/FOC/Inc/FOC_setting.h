@@ -68,6 +68,8 @@ extern float FOC_target_velocity_upper_limit; // 目标速度上限
 extern float FOC_target_velocity_lower_limit; // 目标速度下限
 extern float FOC_target_current_upper_limit; // 目标电流上限
 extern float FOC_target_current_lower_limit; // 目标电流下限
+extern float FOC_target_voltage_upper_limit; // 目标电压上限
+extern float FOC_target_voltage_lower_limit; // 目标电压下限
 
 /* 运行参数 */
 extern float Ia, Ib, Ic;
