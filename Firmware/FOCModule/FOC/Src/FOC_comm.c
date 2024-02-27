@@ -24,7 +24,7 @@ char seperated_str[SEPERATED_STR_NUM][BUF_LEN];
 CAN_TxHeaderTypeDef CAN_txHeader = {
         .RTR = CAN_RTR_DATA, // Remote Transmission Request
         .IDE = CAN_ID_STD, // Identifier Extension
-        .StdId = 0x601,
+        .StdId = 0x201,
         .DLC = 8, // Data Length Code (Byte)
         .TransmitGlobalTime = DISABLE
 };
@@ -44,10 +44,10 @@ CAN_FilterTypeDef CAN_filterConfig = {
         .SlaveStartFilterBank = 14
 };
 
-uint8_t CAN_txData[8] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+uint8_t  CAN_txData[8] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 uint32_t CAN_txMailbox = CAN_TX_MAILBOX0;
 
-void FOC_comm_init(){
+void FOC_comm_init() {
     HAL_TIM_Base_Start_IT(&htim4);
 
     HAL_CAN_ConfigFilter(&hcan1, &CAN_filterConfig);
@@ -115,7 +115,7 @@ void FOC_comm_parse_command(uint8_t *buf, uint32_t *len) {
 //            CDC_printf("Invalid input: current must be within [%.2f - %.2f] and float type.\n",
 //                       FOC_target_current_lower_limit, FOC_target_current_upper_limit);
         }
-    } else if (strcmp(seperated_str[0], "voltage") == 0){ // 设置目标电压
+    } else if (strcmp(seperated_str[0], "voltage") == 0) { // 设置目标电压
         char  *end;
         float temp;
 
@@ -132,41 +132,87 @@ void FOC_comm_parse_command(uint8_t *buf, uint32_t *len) {
     {
         if (strcmp(seperated_str[1], "current") == 0) // 电流环
         {
-            FOC_mode = FOC_MODE_CURRENT;
+            FOC_mode           = FOC_MODE_CURRENT;
             FOC_target_current = 0;
 //            CDC_printf("Mode: current.\n");
         } else if (strcmp(seperated_str[1], "velocity") == 0) // 速度环
         {
-            FOC_mode = FOC_MODE_VELOCITY;
+            FOC_mode            = FOC_MODE_VELOCITY;
             FOC_target_velocity = 0;
 //            CDC_printf("Mode: velocity\n");
         } else if (strcmp(seperated_str[1], "position") == 0) // 位置环
         {
-            FOC_mode = FOC_MODE_POSITION;
+            FOC_mode            = FOC_MODE_POSITION;
             FOC_target_position = 0;
 //            CDC_printf("Mode: position\n");
         } else if (strcmp(seperated_str[1], "voltage") == 0) // 电压环
         {
-            FOC_mode = FOC_MODE_VOLTAGE;
+            FOC_mode           = FOC_MODE_VOLTAGE;
             FOC_target_voltage = 0;
         }
     }
 }
 
-void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
-{
+void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
     CAN_RxHeaderTypeDef rxHeader;
-    uint8_t rxData[8];
+    uint8_t             rxData[8];
 
-    if(HAL_CAN_GetRxMessage(&hcan1, CAN_RX_FIFO0, &rxHeader, rxData) == HAL_OK)
-    {
+    if (HAL_CAN_GetRxMessage(&hcan1, CAN_RX_FIFO0, &rxHeader, rxData) == HAL_OK) {
 //        HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
 
-        memcpy(CAN_txData, rxData, sizeof(CAN_txData));
+//        memcpy(CAN_txData, rxData, sizeof(CAN_txData));
+//
+//        if (HAL_CAN_AddTxMessage(&hcan1, &CAN_txHeader, CAN_txData, &CAN_txMailbox)) {
+//            Error_Handler();
+//        }
+    }
+}
 
-        if(HAL_CAN_AddTxMessage(&hcan1, &CAN_txHeader, CAN_txData, &CAN_txMailbox)){
-            Error_Handler();
-        }
+/**
+ * @brief CAN反馈电机报文
+ */
+void CAN_send_message() {
+    static uint16_t angle;
+    static int16_t  speed;
+    static int16_t  current;
+    static int8_t   temperature;
+    static int8_t   voltage;
+
+    /* 报文 */
+
+    // 机械角度范围 0 ~ 4095
+    // DATA[0] 机械角度高8位
+    // DATA[1] 机械角度低8位
+    angle = (uint16_t) (FOC_mechanical_angle * 4096 / _2PI);
+    CAN_txData[0] = (angle >> 8) & 0xFF;
+    CAN_txData[1] = angle & 0xFF;
+
+    // 转速单位 rpm
+    // DATA[2] 转速高8位
+    // DATA[3] 转速低8位
+    speed = (int16_t) (FOC_velocity * 60 / _2PI);
+    CAN_txData[2] = (speed >> 8) & 0xFF;
+    CAN_txData[3] = speed & 0xFF;
+
+    // 转矩电流 -10000 ~ 10000 对应 -10A ~ 10A
+    // DATA[4] 转矩电流高8位
+    // DATA[5] 转矩电流低8位
+    current = (int16_t) (Iq * 1000);
+    CAN_txData[4] = (current >> 8) & 0xFF;
+    CAN_txData[5] = current & 0xFF;
+
+    // PCB温度
+    temperature = (int8_t) FOC_PCB_temp;
+    CAN_txData[6] = temperature & 0xFF;
+
+    // 输入电压
+    CAN_txData[7] = 0x00;
+
+    /* ID */
+    CAN_txHeader.StdId = 0x200 + FOC_CAN_driver_ID;
+
+    if (HAL_CAN_AddTxMessage(&hcan1, &CAN_txHeader, CAN_txData, &CAN_txMailbox)) {
+        Error_Handler();
     }
 }
 
@@ -175,13 +221,8 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
  * @details 产生1kHz的时基，用于发送CAN消息
  * @param htim
  */
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-{
-    if(htim->Instance == TIM4){
-        if(HAL_CAN_AddTxMessage(&hcan1, &CAN_txHeader, CAN_txData, &CAN_txMailbox)){
-            Error_Handler();
-        }
-
-
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
+    if (htim->Instance == TIM4) {
+        CAN_send_message();
     }
 }

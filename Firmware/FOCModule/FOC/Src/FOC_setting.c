@@ -44,6 +44,9 @@ FOC_ENCODER_TYPE FOC_encoder_type            = FOC_ENCODER_AS5600; // 角度编�
 float            FOC_mechanical_angle_offset = 3.91318512f; // 机械角度偏移
 float            FOC_encoder_direction       = -1; // 编码器方向，只能为1或-1
 
+/* 三相线序 */
+float FOC_line_direction = 1; // 三相线序，修改线序后需要重新校准
+
 /* PID参数 */
 FOC_PID_TYPE pid_current_d = {0.15f, 0.001f, 0, 0, 0, 2000, -2000, 6, -6, 0};
 FOC_PID_TYPE pid_current_q = {0.15f, 0.001f, 0, 0, 0, 2000, -2000, 6, -6, 0};
@@ -54,7 +57,7 @@ FOC_PID_TYPE pid_position  = {20.0f, 0, 0, 0, 0, 100, -100, 3.0f, -3.0f, 0};
 FOC_LPF_TYPE lpf_velocity = {0.2f, 0};
 
 /* 运行模式 */
-FOC_MODE_TYPE FOC_mode = FOC_MODE_POSITION;
+FOC_MODE_TYPE FOC_mode = FOC_MODE_VOLTAGE;
 
 /* 目标参数 */
 float FOC_target_voltage  = 0; // 目标电压
@@ -74,3 +77,6 @@ float FOC_target_voltage_lower_limit = -10; // 目标电压下限
 float Ia, Ib, Ic;
 float Id, Iq;
 float Uq, Ud;
+
+/* 通信参数 */
+uint8_t FOC_CAN_driver_ID = 1;

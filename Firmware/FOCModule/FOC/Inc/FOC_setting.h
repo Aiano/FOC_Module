@@ -4,6 +4,7 @@
 #include "FOC_encoder.h"
 #include "FOC_PID.h"
 #include "FOC_LPF.h"
+#include "main.h"
 
 typedef enum{
     FOC_MODE_VOLTAGE = 0,
@@ -75,5 +76,8 @@ extern float FOC_target_voltage_lower_limit; // 目标电压下限
 extern float Ia, Ib, Ic;
 extern float Id, Iq;
 extern float Uq, Ud;
+
+/* 通信参数 */
+extern uint8_t FOC_CAN_driver_ID;
 
 #endif //FOCMODULE_FOC_SETTINGS_H

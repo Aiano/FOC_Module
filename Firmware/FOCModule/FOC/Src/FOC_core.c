@@ -26,10 +26,10 @@
  * @details 获取机械零度角等
  */
 void FOC_calibrate() {
-//    FOC_SVPWM(0, 0.5f, 0);
-//    HAL_Delay(400);
-//    FOC_mechanical_angle_offset = FOC_encoder_read_mechanical_angle();
-//    HAL_Delay(100);
+    FOC_SVPWM(0, 0.5f, 0);
+    HAL_Delay(400);
+    FOC_mechanical_angle_offset = FOC_encoder_read_mechanical_angle();
+    HAL_Delay(100);
     FOC_SVPWM(0, 0, 0);
 }
 
@@ -163,12 +163,16 @@ void FOC_current_loop(float target_current) {
     FOC_Clarke_Transform(Ia, Ib, Ic, &Ialpha, &Ibeta);
     FOC_Park_Transform(Ialpha, Ibeta, FOC_electrical_angle, &Id, &Iq);
 
+    // 采样电流方向
+    Id = FOC_sample_direction * Id;
+    Iq = FOC_sample_direction * Iq;
+
     // PID
     Ud = FOC_PID_get_u(&pid_current_d, 0, Id);
     Uq = FOC_PID_get_u(&pid_current_q, target_current, Iq);
 
     // SVPWM
-    FOC_SVPWM(-Uq, -Ud, FOC_electrical_angle);
+    FOC_SVPWM(Uq, Ud, FOC_electrical_angle);
 
     // 探测变量
 //    FOC_scope_probe_float(0.1f * Id + 0.5f, FOC_SCOPE_DAC1);
@@ -181,7 +185,7 @@ void FOC_current_loop(float target_current) {
  */
 void FOC_velocity_loop(float target_velocity) {
     // TODO: 提高速度环频率，频率越高振动越小
-    FOC_target_current = - FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
+    FOC_target_current = FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
 }
 
 /**
@@ -197,7 +201,7 @@ void FOC_position_loop(float target_position) {
     else if (angle_error > _PI) target_position -= _2PI;
 
     target_velocity    = FOC_PID_get_u(&pid_position, target_position, FOC_mechanical_angle);
-    FOC_target_current = - FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
+    FOC_target_current = FOC_PID_get_u(&pid_velocity, target_velocity, FOC_velocity);
 }
 
 /**
