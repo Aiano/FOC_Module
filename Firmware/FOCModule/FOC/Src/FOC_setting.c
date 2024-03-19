@@ -79,4 +79,4 @@ float Id, Iq;
 float Uq, Ud;
 
 /* 通信参数 */
-uint8_t FOC_CAN_driver_ID = 1;
+uint8_t FOC_CAN_driver_ID = 1; // 驱动器编号 1~4

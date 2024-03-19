@@ -2498,9 +2498,6 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj: D:/Projects/FOCMod
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h \
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PID.h \
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_LPF.h \
-  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_core.h \
-  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h \
-  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_scope.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/stm32f4xx_hal_conf.h \
@@ -2550,6 +2547,9 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_current_sense.c.obj: D:/Projects/FOCMod
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_core.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_scope.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/adc.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/tim.h \
@@ -2576,7 +2576,6 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj: D:/Projects/FOCModule/Fi
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h \
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PID.h \
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_LPF.h \
-  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_utility.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/stm32f4xx_hal_conf.h \
@@ -2622,6 +2621,7 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_encoder.c.obj: D:/Projects/FOCModule/Fi
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_utility.h \
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Encoder/Inc/AS5600.h \
   D:/Projects/FOCModule/Firmware/FOCModule/USB_DEVICE/App/usbd_cdc_if.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
@@ -2713,7 +2713,6 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj: D:/Projects/FOCModule/Fi
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_encoder.h \
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_PID.h \
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_LPF.h \
-  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_utility.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/main.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Core/Inc/stm32f4xx_hal_conf.h \
@@ -2762,7 +2761,8 @@ CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_setting.c.obj: D:/Projects/FOCModule/Fi
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
-  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+  D:/Projects/FOCModule/Firmware/FOCModule/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_utility.h
 
 CMakeFiles/FOCModule.elf.dir/FOC/Src/FOC_status.c.obj: D:/Projects/FOCModule/Firmware/FOCModule/FOC/Src/FOC_status.c \
   D:/Projects/FOCModule/Firmware/FOCModule/FOC/Inc/FOC_status.h \

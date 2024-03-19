@@ -154,17 +154,64 @@ void FOC_comm_parse_command(uint8_t *buf, uint32_t *len) {
 }
 
 void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
-    CAN_RxHeaderTypeDef rxHeader;
-    uint8_t             rxData[8];
+    static CAN_RxHeaderTypeDef rxHeader;
+    static uint8_t             rxData[8];
+    static int16_t             voltage, current, speed, angle;
+    static float               target_voltage, target_current, target_speed, target_angle;
 
-    if (HAL_CAN_GetRxMessage(&hcan1, CAN_RX_FIFO0, &rxHeader, rxData) == HAL_OK) {
-//        HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
-
-//        memcpy(CAN_txData, rxData, sizeof(CAN_txData));
-//
-//        if (HAL_CAN_AddTxMessage(&hcan1, &CAN_txHeader, CAN_txData, &CAN_txMailbox)) {
-//            Error_Handler();
-//        }
+    if (HAL_CAN_GetRxMessage(&hcan1, CAN_RX_FIFO0, &rxHeader, rxData) == HAL_OK &&
+        rxHeader.DLC == 8 && // 数据长度为8字节
+        rxHeader.IDE == 0 && // 标准帧
+        rxHeader.RTR == 0) { // 数据帧
+        switch (rxHeader.StdId) {
+            case 0x1FF: // 电压控制 1~4号驱动器 -25000 ~ 25000 对应 -48V ~ 48V
+                if (_checkRange(FOC_CAN_driver_ID, 4, 1)) {
+                    voltage        = (int16_t) ((rxData[FOC_CAN_driver_ID * 2 - 2] << 8) |
+                                                rxData[FOC_CAN_driver_ID * 2 - 1]);
+                    target_voltage = (float) voltage * 48 / 25000;
+                    if (_checkRange(target_voltage, FOC_target_voltage_upper_limit,
+                                    FOC_target_voltage_lower_limit)) { // 设置的电压不允许超过供电电压
+                        FOC_mode           = FOC_MODE_VOLTAGE;
+                        FOC_target_voltage = target_voltage;
+                    }
+                }
+                break;
+            case 0x1FE: // 电流控制 1~4号驱动器 -10000 ~ 10000 对应 -10A ~ 10A
+                if (_checkRange(FOC_CAN_driver_ID, 4, 1)) {
+                    current        = (int16_t) ((rxData[FOC_CAN_driver_ID * 2 - 2] << 8) |
+                                                rxData[FOC_CAN_driver_ID * 2 - 1]);
+                    target_current = (float) current / 1000;
+                    if (_checkRange(target_current, FOC_target_current_upper_limit, FOC_target_current_lower_limit)) {
+                        FOC_mode           = FOC_MODE_CURRENT;
+                        FOC_target_current = target_current;
+                    }
+                }
+                break;
+            case 0x1FD: // 速度控制 1~4号驱动器 转速单位 rpm
+                if (_checkRange(FOC_CAN_driver_ID, 4, 1)) {
+                    speed        = (int16_t) ((rxData[FOC_CAN_driver_ID * 2 - 2] << 8) |
+                                              rxData[FOC_CAN_driver_ID * 2 - 1]);
+                    target_speed = (float) speed * _2PI / 60;
+                    if (_checkRange(target_speed, FOC_target_velocity_upper_limit, FOC_target_velocity_lower_limit)) {
+                        FOC_mode           = FOC_MODE_VELOCITY;
+                        FOC_target_velocity = target_speed;
+                    }
+                }
+                break;
+            case 0x1FC: // 位置控制 1~4号驱动器 机械角度范围 0 ~ 4095
+                if (_checkRange(FOC_CAN_driver_ID, 4, 1)) {
+                    angle        = (int16_t) ((rxData[FOC_CAN_driver_ID * 2 - 2] << 8) |
+                                              rxData[FOC_CAN_driver_ID * 2 - 1]);
+                    target_angle = (float) angle * _2PI / 4096;
+                    if (_checkRange(target_angle, _2PI, 0)) {
+                        FOC_mode           = FOC_MODE_POSITION;
+                        FOC_target_position = target_angle;
+                    }
+                }
+                break;
+            default:
+                break;
+        }
     }
 }
 
