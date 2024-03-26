@@ -212,7 +212,7 @@ void FOC_main_loop() {
     FOC_encoder_compute_velocity(); // 计算速度，同时获得机械角度和电角度
     FOC_velocity = FOC_LPF_output(&lpf_velocity, FOC_velocity);
 
-    FOC_mechanical_angle = _normalizeAngle(FOC_mechanical_angle);
+    FOC_mechanical_angle = _normalizeAngle(FOC_mechanical_angle - FOC_mechanical_angle_zero); // 设置机械角度零点
 
     // 模式选择
     switch (FOC_mode) {
@@ -234,7 +234,7 @@ void FOC_main_loop() {
 
     // 参数输出
     // Ia, Ib, Ic, Id, Iq, target_Id, target_Iq, Ud, Uq, velocity, target_velocity, position, target_position, PCB_temp
-    CDC_printf("%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.2f,%.1f,%.1f\n", Ia, Ib, Ic, Id, Iq, 0.0f, FOC_target_current, Ud, Uq, FOC_velocity, FOC_target_velocity, FOC_mechanical_angle, FOC_target_position, FOC_PCB_temp);
+    CDC_printf("%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.1f,%.2f,%.2f,%.1f\n", Ia, Ib, Ic, Id, Iq, 0.0f, FOC_target_current, Ud, Uq, FOC_velocity, FOC_target_velocity, FOC_mechanical_angle, FOC_target_position, FOC_PCB_temp);
 }
 
 /**

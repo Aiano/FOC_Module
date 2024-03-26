@@ -6,12 +6,12 @@
 #include "FOC_LPF.h"
 #include "main.h"
 
-typedef enum{
+typedef enum {
     FOC_MODE_VOLTAGE = 0,
     FOC_MODE_CURRENT,
     FOC_MODE_VELOCITY,
     FOC_MODE_POSITION
-}FOC_MODE_TYPE;
+} FOC_MODE_TYPE;
 
 /* PWM 参数 */
 extern float FOC_pwm_frequency;
@@ -43,8 +43,9 @@ extern float FOC_pole_pairs;
 
 /* 角度编码器 */
 extern FOC_ENCODER_TYPE FOC_encoder_type;
-extern float FOC_mechanical_angle_offset;
-extern float FOC_encoder_direction;
+extern float            FOC_mechanical_angle_offset;
+extern float            FOC_mechanical_angle_zero;
+extern float            FOC_encoder_direction;
 
 /* PID参数 */
 extern FOC_PID_TYPE pid_current_q;
